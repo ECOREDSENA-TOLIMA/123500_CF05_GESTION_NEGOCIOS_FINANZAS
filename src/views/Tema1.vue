@@ -32,10 +32,14 @@
         .titulo-sexto.color-acento-contenido.mb-0(data-aos="fade-right")
           h5 Figura 1
           span Métodos de análisis
-      .col-12
+      .col-12.desktop
         figure(data-aos="zoom-in")
           img(src='@/assets/curso/temas/tema1/img03.svg')
-          figcaption.text-center Nota. Tomada de Calvo (2019).
+          figcaption Nota. Tomada de Calvo (2019).
+      .col-12.movil
+        figure(data-aos="zoom-in")
+          img(src='@/assets/curso/temas/tema1/img03_1.svg')
+          figcaption Nota. Tomada de Calvo (2019).
       
     p.mb-5 El análisis financiero no tiene un procedimiento predeterminado, este se realiza teniendo en cuenta el cálculo de  los valores porcentuales y hallando la variación absoluta y relativa, para utilizar tantos indicadores sea necesario, de esta manera se da a conocer las etapas para un análisis financiero:
 
@@ -84,126 +88,126 @@
       .col-md-6(data-aos="fade-left")
         p En este tipo de análisis financiero se encuentran las ventajas y desventajas que la organización posee al realizar un análisis con números relativos, su desventaja radica en que al realizar análisis en porcentajes se puede caer en errores si se pierde de vista el valor en pesos o en la moneda correspondiente.
         p A continuación, se presenta un ejemplo de este análisis donde se compara cada rubro con el total de su correspondencia, en efecto, se refiere a que se compara el efectivo con el total del activo circulante y el activo total, este parámetro debe ser definido para realizar el análisis y al presentar el informe de la interpretación de esta información:
-
-    .titulo-sexto.color-acento-contenido.mb-4(data-aos="fade-right")
-      h5 Tabla 1
-      span Métodos de porcientos o análisis vertical
-    
-    .tabla-a.color-acento-contenido.mb-0(data-aos="fade-left")
-      table
-        thead
-          tr
-            td(style="font-size: 18px; background-color: #3AE3FE;").text-center.text-bold Saloan 
-              p.text-bold.mb-0 Estado de situación financiera del 1 de enero de 2021 a 31 de diciembre de 2021 
-              p.text-bold valores en pesos ($)
-    table.mb-4(data-aos="fade-right")
-      tr
-        th(style="background-color: #F6F6F6;") Activo <br>Circulante
-        th(style="background-color: #F6F6F6;").text-end 207.500.000,00 <br> 11.000.000
-        th(style="background-color: #E1EFE3;").text-end 100,00 <br> 5,30
-        th(style="background-color: #F6F6F6;") Pasivo <br>Corriente
-        th(style="background-color: #F6F6F6;").text-end 114.500.000,00 <br>44.500.000
-        th(style="background-color: #FFDDBC;").text-end 100,00 <br>38,86
-      tr
-        td Efectivo
-        td.text-end 5.000.000
-        td(style="background-color: #FEF5E5;").text-end 45,45
-        td Obligaciones financieras
-        td.text-end 25.000.000
-        td(style="background-color: #E1FBFF;").text-end 56,18
-      tr
-        td Cuentas por cobrar
-        td.text-end 3.500.000
-        td(style="background-color: #FEF5E5;").text-end 31,82
-        td Proveedores
-        td.text-end 5.000.000
-        td(style="background-color: #E1FBFF;").text-end 11,24
-      tr
-        td Inventario
-        td.text-end 2.500.000
-        td(style="background-color: #FEF5E5;").text-end 22,73
-        td Acreedores
-        td.text-end 12.000.000
-        td(style="background-color: #E1FBFF;").text-end 26,97
-      tr
-        th Total activo circulante
-        th
-        th(style="background-color: #FEF5E5;").text-end 100,00
-        td Pasivos por impuestos
-        td.text-end 2.500.000
-        td(style="background-color: #E1FBFF;").text-end 5,62
-      tr
-        td(colspan="3")
-        th Total pasivo corriente
-        th.text-end 44.500.000
-        th(style="background-color: #E1FBFF;").text-end 100,00
+    .row.justify-content-center.align-items-center.mb-5      
+      .titulo-sexto.color-acento-contenido.mb-4(data-aos="fade-right")
+        h5 Tabla 1
+        span Métodos de porcientos o análisis vertical
       
-      tr
-        th(style="background-color: #F6F6F6;") Propiedad, planta y <br>equipo
-        th(style="background-color: #F6F6F6;").text-end 196.500.000
-        th(style="background-color: #E1EFE3;").text-end 94,70
-        th(style="background-color: #F6F6F6;") Pasivo <br>no corriente
-        th(style="background-color: #F6F6F6;").text-end 70.000.000
-        th(style="background-color: #FFDDBC;").text-end 61,14
-      tr
-        td Terrenos
-        td.text-end 76.000.000
-        td(style="background-color: #E1FBFF;").text-end 38,68
-        td Obligaciones financieras
-        td.text-end 50.000.000
-        td(style="background-color: #E1EFE3;").text-end 71,43
-      tr
-        td Edificios
-        td.text-end 100.000.000
-        td(style="background-color: #E1FBFF;").text-end 50,89
-        td Dividendos por pagar
-        td.text-end 20.000.000
-        td(style="background-color: #E1EFE3;").text-end 28,57
-      tr
-        td Mobiliario
-        td.text-end 23.000.000
-        td(style="background-color: #E1FBFF;").text-end 11,70
-        th Total pasivo corriente
-        th.text-end 70.000.000
-        th(style="background-color: #E1EFE3;").text-end 100,00
-      tr
-        td Inversiones
-        td.text-end 9.500.000
-        td(style="background-color: #E1FBFF;").text-end 4,83
-        th(colspan="3")
-      tr
-        td Depreciación
-        td.text-end 12.000.000
-        td(style="background-color: #E1FBFF;").text-end -6,11
-        th(style="background-color: #F6F6F6;") Patrimonio
-        th.text-end(style="background-color: #F6F6F6;") 93.000.000,00 
-        th.text-end(style="background-color: #F6F6F6;")
-      tr
-        td(colspan="2")
-        td(style="background-color: #E1FBFF;").text-end 100,00
-        th Capital
-        th.text-end 24.000.000,00 
-        th.text-end(style="background-color: #FDE5FF;") 25,81
-      tr
-        td(colspan="3")
-        th Reservas legales
-        th.text-end 4.000.000,00 
-        th.text-end(style="background-color: #FDE5FF;") 4,30
-      tr
-        td(colspan="3")
-        th Utilidad del ejercicio
-        th.text-end 40.000.000,00 
-        th.text-end(style="background-color: #FDE5FF;") 43,01
-      tr
-        td(colspan="3")
-        th Utilidades acumuladas
-        th.text-end 25.000.000,00 
-        th.text-end(style="background-color: #FDE5FF;") 26,88
-      tr
-        td(colspan="3")
-        td Total pasivo + patrimonio
-        td.text-end 207.500.000,00  
-        td.text-end(style="background-color: #FDE5FF;") 100,00
+      .tabla-a.color-acento-contenido.mb-0(data-aos="fade-left")
+        table
+          thead
+            tr
+              td(colspan=6)(style="font-size: 18px; background-color: #3AE3FE;").text-center.text-bold Saloan 
+                p.text-bold.mb-0 Estado de situación financiera del 1 de enero de 2021 a 31 de diciembre de 2021 
+                p.text-bold valores en pesos ($)
+          tbody    
+            tr
+              th(style="background-color: #F6F6F6;") Activo <br>Circulante
+              th(style="background-color: #F6F6F6;").text-end 207.500.000,00 <br> 11.000.000
+              th(style="background-color: #E1EFE3;").text-end 100,00 <br> 5,30
+              th(style="background-color: #F6F6F6;") Pasivo <br>Corriente
+              th(style="background-color: #F6F6F6;").text-end 114.500.000,00 <br>44.500.000
+              th(style="background-color: #FFDDBC;").text-end 100,00 <br>38,86
+            tr
+              td Efectivo
+              td.text-end 5.000.000
+              td(style="background-color: #FEF5E5;").text-end 45,45
+              td Obligaciones financieras
+              td.text-end 25.000.000
+              td(style="background-color: #E1FBFF;").text-end 56,18
+            tr
+              td Cuentas por cobrar
+              td.text-end 3.500.000
+              td(style="background-color: #FEF5E5;").text-end 31,82
+              td Proveedores
+              td.text-end 5.000.000
+              td(style="background-color: #E1FBFF;").text-end 11,24
+            tr
+              td Inventario
+              td.text-end 2.500.000
+              td(style="background-color: #FEF5E5;").text-end 22,73
+              td Acreedores
+              td.text-end 12.000.000
+              td(style="background-color: #E1FBFF;").text-end 26,97
+            tr
+              th Total activo circulante
+              th
+              th(style="background-color: #FEF5E5;").text-end 100,00
+              td Pasivos por impuestos
+              td.text-end 2.500.000
+              td(style="background-color: #E1FBFF;").text-end 5,62
+            tr
+              td(colspan="3")
+              th Total pasivo corriente
+              th.text-end 44.500.000
+              th(style="background-color: #E1FBFF;").text-end 100,00
+            
+            tr
+              th(style="background-color: #F6F6F6;") Propiedad, planta y <br>equipo
+              th(style="background-color: #F6F6F6;").text-end 196.500.000
+              th(style="background-color: #E1EFE3;").text-end 94,70
+              th(style="background-color: #F6F6F6;") Pasivo <br>no corriente
+              th(style="background-color: #F6F6F6;").text-end 70.000.000
+              th(style="background-color: #FFDDBC;").text-end 61,14
+            tr
+              td Terrenos
+              td.text-end 76.000.000
+              td(style="background-color: #E1FBFF;").text-end 38,68
+              td Obligaciones financieras
+              td.text-end 50.000.000
+              td(style="background-color: #E1EFE3;").text-end 71,43
+            tr
+              td Edificios
+              td.text-end 100.000.000
+              td(style="background-color: #E1FBFF;").text-end 50,89
+              td Dividendos por pagar
+              td.text-end 20.000.000
+              td(style="background-color: #E1EFE3;").text-end 28,57
+            tr
+              td Mobiliario
+              td.text-end 23.000.000
+              td(style="background-color: #E1FBFF;").text-end 11,70
+              th Total pasivo corriente
+              th.text-end 70.000.000
+              th(style="background-color: #E1EFE3;").text-end 100,00
+            tr
+              td Inversiones
+              td.text-end 9.500.000
+              td(style="background-color: #E1FBFF;").text-end 4,83
+              th(colspan="3")
+            tr
+              td Depreciación
+              td.text-end 12.000.000
+              td(style="background-color: #E1FBFF;").text-end -6,11
+              th(style="background-color: #F6F6F6;") Patrimonio
+              th.text-end(style="background-color: #F6F6F6;") 93.000.000,00 
+              th.text-end(style="background-color: #F6F6F6;")
+            tr
+              td(colspan="2")
+              td(style="background-color: #E1FBFF;").text-end 100,00
+              th Capital
+              th.text-end 24.000.000,00 
+              th.text-end(style="background-color: #FDE5FF;") 25,81
+            tr
+              td(colspan="3")
+              th Reservas legales
+              th.text-end 4.000.000,00 
+              th.text-end(style="background-color: #FDE5FF;") 4,30
+            tr
+              td(colspan="3")
+              th Utilidad del ejercicio
+              th.text-end 40.000.000,00 
+              th.text-end(style="background-color: #FDE5FF;") 43,01
+            tr
+              td(colspan="3")
+              th Utilidades acumuladas
+              th.text-end 25.000.000,00 
+              th.text-end(style="background-color: #FDE5FF;") 26,88
+            tr
+              td(colspan="3")
+              td Total pasivo + patrimonio
+              td.text-end 207.500.000,00  
+              td.text-end(style="background-color: #FDE5FF;") 100,00
 
     .row.justify-content-center.mb-4
       .col-md-5.col-10.mb-md-0.mb-4(data-aos="fade-right")
