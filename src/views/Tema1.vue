@@ -107,32 +107,32 @@
               th(style="background-color: #E1EFE3;").text-end 100,00 <br> 5,30
               th(style="background-color: #F6F6F6;") Pasivo <br>Corriente
               th(style="background-color: #F6F6F6;").text-end 114.500.000,00 <br>44.500.000
-              th(style="background-color: #FFDDBC;").text-end 100,00 <br>38,86
+              th(style="background-color: #E8E8E8;").text-end 100,00 <br>38,86
             tr
               td Efectivo
               td.text-end 5.000.000
-              td(style="background-color: #FEF5E5;").text-end 45,45
+              td(style="background-color: #F3F9FF;").text-end 45,45
               td Obligaciones financieras
               td.text-end 25.000.000
               td(style="background-color: #E1FBFF;").text-end 56,18
             tr
               td Cuentas por cobrar
               td.text-end 3.500.000
-              td(style="background-color: #FEF5E5;").text-end 31,82
+              td(style="background-color: #F3F9FF;").text-end 31,82
               td Proveedores
               td.text-end 5.000.000
               td(style="background-color: #E1FBFF;").text-end 11,24
             tr
               td Inventario
               td.text-end 2.500.000
-              td(style="background-color: #FEF5E5;").text-end 22,73
+              td(style="background-color: #F3F9FF;").text-end 22,73
               td Acreedores
               td.text-end 12.000.000
               td(style="background-color: #E1FBFF;").text-end 26,97
             tr
               th Total activo circulante
               th
-              th(style="background-color: #FEF5E5;").text-end 100,00
+              th(style="background-color: #F3F9FF;").text-end 100,00
               td Pasivos por impuestos
               td.text-end 2.500.000
               td(style="background-color: #E1FBFF;").text-end 5,62
@@ -148,7 +148,7 @@
               th(style="background-color: #E1EFE3;").text-end 94,70
               th(style="background-color: #F6F6F6;") Pasivo <br>no corriente
               th(style="background-color: #F6F6F6;").text-end 70.000.000
-              th(style="background-color: #FFDDBC;").text-end 61,14
+              th(style="background-color: #E8E8E8;").text-end 61,14
             tr
               td Terrenos
               td.text-end 76.000.000
@@ -187,27 +187,27 @@
               td(style="background-color: #E1FBFF;").text-end 100,00
               th Capital
               th.text-end 24.000.000,00 
-              th.text-end(style="background-color: #FDE5FF;") 25,81
+              th.text-end(style="background-color: #F3F9FF;") 25,81
             tr
               td(colspan="3")
               th Reservas legales
               th.text-end 4.000.000,00 
-              th.text-end(style="background-color: #FDE5FF;") 4,30
+              th.text-end(style="background-color: #F3F9FF;") 4,30
             tr
               td(colspan="3")
               th Utilidad del ejercicio
               th.text-end 40.000.000,00 
-              th.text-end(style="background-color: #FDE5FF;") 43,01
+              th.text-end(style="background-color: #F3F9FF;") 43,01
             tr
               td(colspan="3")
               th Utilidades acumuladas
               th.text-end 25.000.000,00 
-              th.text-end(style="background-color: #FDE5FF;") 26,88
+              th.text-end(style="background-color: #F3F9FF;") 26,88
             tr
               td(colspan="3")
               td Total pasivo + patrimonio
               td.text-end 207.500.000,00  
-              td.text-end(style="background-color: #FDE5FF;") 100,00
+              td.text-end(style="background-color: #F3F9FF;") 100,00
 
     .row.justify-content-center.mb-4
       .col-md-5.col-10.mb-md-0.mb-4(data-aos="fade-right")
@@ -268,7 +268,7 @@
             p Que el estado de situación financiera se puede concluir que en esta sociedad su capital está representado por acciones por eso tiene una política de dividendos o beneficios a entregar a los inversionistas.
           .col-md-5.col-8.mb-md-0.mb-4.order-md-2.order-1
             img(src='@/assets/curso/temas/tema1/img16.png')
-      .tarjeta.color-acento-botones--borde.p-4(titulo="h) Se puede observar que la utilidad del ejercicio representa")
+      .tarjeta.color-acento-botones--borde.p-4(titulo="h) Se puede observar que")
         .row.justify-content-center
           .col-md-5.col-10.mb-md-0.mb-4.order-md-1.order-2
             h4 Se puede observar que la utilidad del ejercicio representa
@@ -288,7 +288,7 @@
           table
             thead
               tr
-                td(style="font-size: 18px; background-color: #FEFBF6;").text-center.text-bold Saloan 
+                td(style="font-size: 18px; background-color: #3AE3FE;").text-center.text-bold Saloan 
                   p.text-bold Estado de situación financiera del 1 de enero de 2021 a 31 de diciembre de 2021
                   p.text-bold valores en pesos ($)
         table.mb-4(data-aos="fade-right")
@@ -329,7 +329,7 @@
             th(style="background-color: #F6F6F6;").text-end 40.000.000 
             th(style="background-color: #EDF4EE;").text-end 33,33
 
-    .row.align-items-center.BG04.p-4.mb-4
+    .row.align-items-center.BG01.p-4.mb-4
       .col-md-4.col-6.mb-md-0.mb-4
         img(src='@/assets/curso/temas/tema1/img18.png')
       .col-md-8
@@ -346,6 +346,7 @@
       .col-md-5(data-aos="fade-left")
         .BG05.p-4.mb-4
           p Este análisis se realiza para conocer la solidez de la empresa en cuanto a sus activos, patrimonio y respecto de las políticas organizacionales lo que se evidencia en las variaciones que se hallen por rubro y su incremento o decremento de un período a otro. Este análisis se realiza con los resultados financieros de, al menos, dos periodos o vigencias diferentes. 
+          br
         .BG06.p-4.mb-4
           p Este análisis es dinámico gracias a que se enfoca en las modificaciones notorias que presentan los rubros de un periodo a otro. Es necesario anotar que este tiene en cuenta las variaciones absolutas o en pesos ($), así como las variaciones relativas o porcentuales (%).
 
@@ -371,10 +372,10 @@
         th VARIACIÓN RELATIVA
       tr
         th
-        th(style="background-color: #FCC15A;") A
-        th(style="background-color: #FCC15A;") B
-        th(style="background-color: #FCC15A;") (B -A)
-        th(style="background-color: #FCC15A;") VA/A
+        th(style="background-color: #D2E1F1;") A
+        th(style="background-color: #D2E1F1;") B
+        th(style="background-color: #D2E1F1;") (B -A)
+        th(style="background-color: #D2E1F1;") VA/A
       tr
         th(style="background-color: #F6F6F6;") Activo
         th(style="background-color: #F6F6F6;").text-end 201.700.000,00
@@ -527,7 +528,7 @@
     
     p De esta manera, se realiza el cálculo para obtener variaciones absolutas y relativas y se puede concluir lo siguiente:
 
-    PasosA.color-primario.mb-5(tipo="l")
+    PasosA.color-acento-contenido.mb-5(tipo="l")
       .row.justify-content-center.align-items-center
         .col-md-6.col-10.order-md-1.order-2
           p Se evidencia un incremento de 400 % en efectivo, lo que corrobora la conclusión planteada en el análisis vertical, donde se específica que la empresa debe tener un compromiso próximo a cumplir, razón por la que se prefiere dejar en caja un valor que, finalizando año, podría ser invertido para obtener mayores beneficios.
@@ -555,31 +556,45 @@
     
     p El análisis financiero lleva consigo un gran peso de importancia, pues a partir de su implementación se determinan los efectos de posibles decisiones de inversión, de la implementación de políticas de inversión y mercantiles como margen de utilidad, precio, promoción y publicidad, cobertura geográfica, colocación; de lineamiento de desarrollo de procesos y productos, retribuciones y medios de financiación. Es así como se comparten los elementos que deben integrar el análisis financiero integral. 
 
-    .row.justify-content-center.align-items-center.mb-4
-      .col-md-4.col-8.mb-md-0.mb-4(data-aos="fade-right")
-        img(src='@/assets/curso/temas/tema1/img24.png')
-      .col-md-8
+
+    .row.justify-content-center.align-items-center.mb-4.BG01
+      .col-md-12
         SlyderA(tipo="b")
           .row.justify-content-center.BG01.p-4
-            .col-md-10
+            .col-md-7
               h4 El análisis financiero integral 
               p Es una herramienta poderosa que permite conocer la posición presente y futura de una organización sumado a los resultados de sus operaciones como base fundamental para proyectar las predicciones y estimaciones posibles sobre las condiciones y resultados futuros.
+            .col-md-5
+              figure
+                img(src="@/assets/curso/temas/tema1/img28_1.png", alt="Imagen decorativa")
           .row.justify-content-center.BG01.p-4
-            .col-md-10
+            .col-md-7
               h4 Analista como financiero integral  
               p Para que un analista sea experto y tenga un desempeño extraordinario necesita, indefectiblemente, tener un sólido conocimiento contable y dominar las técnicas de análisis financiero que facilitan la identificación y relación entre diferentes factores o rubros financieros y operativos.
+            .col-md-5
+              figure
+                img(src="@/assets/curso/temas/tema1/img28_2.png", alt="Imagen decorativa")
           .row.justify-content-center.BG01.p-4
-            .col-md-10
+            .col-md-7
               h4 Estado de fuente y aplicación de fondos 
               p Entre ellas se encuentra el Estado de Fuente y Aplicación de Fondos (EFAF) o también conocido como estado de fuentes y usos, estado de cambios en la posición financiera o estado de movimiento de fondos.
+            .col-md-5
+              figure
+                img(src="@/assets/curso/temas/tema1/img28_3.png", alt="Imagen decorativa")
           .row.justify-content-center.BG01.p-4
-            .col-md-10
+            .col-md-7
               h4 EFAF 
               p Evidencia a través de qué rubro, actividad específica o fuentes de dónde provinieron los recursos que la organización obtuvo durante un periodo y el uso o aplicación de ellos que difiere del Estado de Flujo de Efectivo (EFE), ya que este solo se expresa en términos monetarios.
+            .col-md-5
+              figure
+                img(src="@/assets/curso/temas/tema1/img28_4.png", alt="Imagen decorativa")
           .row.justify-content-center.BG01.p-4
-            .col-md-10
+            .col-md-7
               h4 Disponibilidad de recursos 
               p Menciona fondos para referirse a la disponibilidad constante de recursos para garantizar la operatividad de la empresa donde el efectivo solo es uno de tantos recursos, ya que un movimiento de fondos puede y no implicar una transferencia de efectivo.
+            .col-md-5
+              figure
+                img(src="@/assets/curso/temas/tema1/img28_5.png", alt="Imagen decorativa")
 
     .row.justify-content-center.align-items-center.mb-4
       .col-md-7.col-10.mb-md-0.mb-4.order-md-1.order-2
@@ -588,7 +603,7 @@
           .BG08.p-2
             p.text-bold Utilidad neta + Depreciación del período + Amortizaciones diferidas del periodo = GIF
       .col-md-3.col-6.order-md-2.order-1(data-aos="fade-left")
-        img(src='@/assets/curso/temas/tema1/img25.png')
+        img(src='@/assets/curso/temas/tema1/img25.svg')
 
     p La calidad de las decisiones gerenciales relacionadas con EFAF están orientadas a realizar una eficiente gestión de los recursos que tienen una directriz y es que los fondos de corto plazo se deben aplicar o utilizar en usos de corto plazo y los fondos de largo plazo debieran financiar las aplicaciones de largo plazo.
     p También existe el EFAF con base en los cambios en el capital de trabajo que se dedica a expresar el aumento o disminución en el capital de trabajo, que radica su limitación en la fórmula para calcular el capital de trabajo:
@@ -612,7 +627,7 @@
     
     .row.justify-content-center.align-items-center.mb-4
       .col-md-5.col-8(data-aos="fade-left")
-        img(src='@/assets/curso/temas/tema1/img28.png')
+        img(src='@/assets/curso/temas/tema1/img28.svg')
       .col-md-7.col-10.mb-md-0.mb-4
         p Estas son notas o narraciones que deben ser claras y concretas, estar numeradas o claramente identificadas en orden secuencial. Las notas, son parte integral de todos y cada uno de los estados financieros, partidas extraordinarias, primas de descuentos causados pendientes de amortizar. La información suministrada debe cumplir con el fundamento de la información financiera, las descripciones de esta deben ser útiles, gracias a su concepción, identificación y valuación de los componentes de los estados financieros, y en especial del capital y su protección.
         p Las revelaciones cobran vital importancia en la gestión financiera gracias a que influyen en la toma de decisiones por las partes interesadas de la información tomando un carácter predictivo, confirmatorio o ambos. Pero la descripción o inclusión inapropiada de la información financiera y sus revelaciones pueden influir en decisiones erróneas por parte de los usuarios de la información.
@@ -624,22 +639,22 @@
       .col-md-11
         ul.lista-ul
           li 
-            <i class="fas fa-atom fa-fw" style="color:#3BC192"></i>
+            <i class="fas fa-folder-open fa-fw" style="color:#6DEBFF"></i>
             | Los activos y pasivos más importantes de acuerdo con el uso que se destinan, la exigibilidad o liquidación, término de tiempo y valores.
           li 
-            <i class="fas fa-atom fa-fw" style="color:#3BC192"></i>
+            <i class="fas fa-folder-open fa-fw" style="color:#6DEBFF"></i>
             |La fecha de corte o periodo al cual pertenecen.
           li 
-            <i class="fas fa-atom fa-fw" style="color:#3BC192"></i>
+            <i class="fas fa-folder-open fa-fw" style="color:#6DEBFF"></i>
             |	Principales prácticas y políticas contables con énfasis en las modificaciones contables que hubiesen ocurrido.
           li 
-            <i class="fas fa-atom fa-fw" style="color:#3BC192"></i>
+            <i class="fas fa-folder-open fa-fw" style="color:#6DEBFF"></i>
             |	Los ingresos y gastos principales.
           li 
-            <i class="fas fa-atom fa-fw" style="color:#3BC192"></i>
+            <i class="fas fa-folder-open fa-fw" style="color:#6DEBFF"></i>
             |	Los activos y pasivos descontados que sean objeto de devolución o compensación, al igual que las garantías y contingencias.
           li 
-            <i class="fas fa-atom fa-fw" style="color:#3BC192"></i>
+            <i class="fas fa-folder-open fa-fw" style="color:#6DEBFF"></i>
             |	Errores de vigencias anteriores.
 
     separador
@@ -653,32 +668,31 @@
         p Los indicadores financieros son instrumentos que facilitan el análisis financiero al comparar datos diferentes lo que hace que también se les conozca como razones financieras, por medio de ellos se identifican puntos fuertes y débiles de la empresa y comparados con periodos o resultados anteriores permiten determinar probabilidades y tendencias. Aportan a realizar una comparación lógica; es decir, dentro de datos que tengan relación o que cuenten con las mismas características, lo que daría lugar a realizar comparaciones para determinar su incremento, variación, decremento y el impacto que estas han generado en la organización.
         p A continuación, se realiza una presentación generalizada de estos indicadores, los cuales cumplen una función específica y permiten realizar hallazgos determinantes para la organización:
     
-    SlyderA.mb-5(tipo="b")
+    SlyderA.BG01.mb-5(tipo="b")
       .row.justify-content-center
-        .col-md-5.col-10.BG09.p-0.px-0.order-md-1.order-2
-          .BG04.p-2.mb-4
-            h4.mb-0.mx-4 Indicadores de liquidez
+        .col-md-5.col-10.p-0.px-0.order-md-1.order-2          
+          h4.mb-0.mx-4 Indicadores de liquidez
           p.mx-4 Razón corriente, capital neto de trabajo y prueba ácida son indicadores que en conjunto permiten evaluar la capacidad de la organización para pagar sus compromisos y obligaciones de corto plazo.
         .col-md-5.col-10.px-0.order-md-2.order-1
           img(src='@/assets/curso/temas/tema1/img30.png')
       .row.justify-content-center
-        .col-md-5.col-10.BG09.p-0.px-0.order-md-1.order-2
-          .BG04.p-2.mb-4
+        .col-md-5.col-10.p-0.px-0.order-md-1.order-2
+          .BG01.p-2.mb-4
             h4.mb-0.mx-4 Indicadores de actividad
           p.mx-4 En los Indicadores de actividad se tienen rotación de cartera, periodo promedio de cobro, descuento por pronto pago, rotación de inventarios, rotación de inventarios para empresas comerciales, rotación de inventarios para empresas industriales y ciclo de efectivo
           p.mx-4.mb-0 La rotación de proveedores consiste en evaluar el número de días que la empresa toma para pagar a los proveedores, es decir, el número de días que los proveedores aportan a la financiación de la empresa.
         .col-md-5.col-10.px-0.order-md-2.order-1
           img(src='@/assets/curso/temas/tema1/img31.png')
       .row.justify-content-center
-        .col-md-5.col-10.BG09.p-0.px-0.order-md-1.order-2
-          .BG04.p-2.mb-4
+        .col-md-5.col-10.p-0.px-0.order-md-1.order-2
+          .BG01.p-2.mb-4
             h4.mb-0.mx-4 Indicadores de rentabilidad
           p.mx-4 Conocidos también como indicadores de rendimiento, son útiles para evaluar la efectividad de la administración de la organización y controlar la inversión en la actividad económica y los egresos generados por la misma, así como su efectividad para convertirlos en ventas. En este grupo se encuentran margen bruto, margen operacional, margen neto, rendimiento del patrimonio, rendimiento del activo total, Ebitda y sistema Dupont.
         .col-md-5.col-10.px-0.order-md-2.order-1
           img(src='@/assets/curso/temas/tema1/img32.png')
       .row.justify-content-center
-        .col-md-5.col-10.BG09.p-0.px-0.order-md-1.order-2
-          .BG04.p-2.mb-4
+        .col-md-5.col-10.p-0.px-0.order-md-1.order-2
+          .BG01.p-2.mb-4
             h4.mb-0.mx-4 Indicadores de endeudamiento
           p.mx-4 Son instrumentos que permiten evaluar el grado y en qué forma participan los acreedores en la financiación de la organización, y de esta manera conocer el riesgo de los inversionistas y la pertinencia de un endeudamiento. En este rango se encuentran los indicadores de crisis, a saber:
         .col-md-5.col-10.px-0.order-md-2.order-1
@@ -701,36 +715,35 @@
               td.text-center(style="background-color: #FFF;") &#8805; 1 vez
 
       .row.justify-content-center
-        .col-md-5.col-10.BG09.p-0.px-0.order-md-1.order-2
-          .BG04.p-2.mb-4
+        .col-md-5.col-10.p-0.px-0.order-md-1.order-2
+          .BG01.p-2.mb-4
             h4.mb-0.mx-4 Indicadores de Leverage
           p.mx-4 Estos indicadores también conocidos como de apalancamiento comparan el financiamiento procedente de terceros con la inversión de los socios para determinar cuál de los dos grupos está corriendo el mayor riesgo. En este grupo se encuentran los indicadores Leverage total y Leverage a corto plazo.
         .col-md-5.col-10.px-0.order-md-2.order-1
           img(src='@/assets/curso/temas/tema1/img34.png')
       .row.justify-content-center
-        .col-md-5.col-10.BG09.p-0.px-0.order-md-1.order-2
-          .BG04.p-2.mb-4
+        .col-md-5.col-10.p-0.px-0.order-md-1.order-2
+          .BG01.p-2.mb-4
             h4.mb-0.mx-4 Indicadores de apalancamiento
           p.mx-4 El apalancamiento en el entorno organizacional es una estrategia gerencial que facilita la reducción de costos con el fin de lograr una mayor rentabilidad de manera que esta sea superior a las utilidades obtenidas con el capital propio. Existe el apalancamiento operativo o GAO, el apalancamiento financiero GAF y el apalancamiento total GAT.
         .col-md-5.col-10.px-0.order-md-2.order-1
           img(src='@/assets/curso/temas/tema1/img35.png')
 
     .row.justify-content-center.mb-4
-      .col-md-8.BG09.p-4
-        .row.justify-content-center.align-items-center
-
+      .col-md-8.p-4
+        .row.justify-content-center.align-items-center(style="background-color:#03386E;border-radius:10px")
           .col-md-2.col-3.mb-md-0.mb-4
             img(src='@/assets/curso/temas/tema1/img36.png')
           .col
             .row.justify-content-between.align-items-center
               .col.mb-3.mb-sm-0
-                p Ahora, veamos representados los indicadores consolidados, para ello haz clic en el botón Descargar. 
+                p(style="color:white") Ahora, veamos representados los indicadores consolidados, para ello haz clic en el botón Descargar. 
               .col-sm-auto
                 a.boton.color-acento-botones(:href="obtenerLink('downloads/Indicadores_financieros.pdf')" target="_blank")
                   span Descargar
                   i.fas.fa-file-download
 
-    .cajon.color-acento-contenido.p-4.mb-4
+    .cajon.color-primario.p-4.mb-4(style="background-color:#E1EFE3")
       p Los indicadores son instrumentos efectivos que aportan al análisis financiero de la organización, pero individualmente es poco su aporte, por esa razón es necesario establecer parámetros de comparación los cuales deben estar apoyados en el criterio del analista, tener en cuenta que los indicadores deben ser resultados de la misma empresa, de periodos anteriores y también pueden compararse con indicadores promedio de la industria a la que pertenece la organización.
 
 </template>
