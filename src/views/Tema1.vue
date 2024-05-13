@@ -8,40 +8,41 @@
       h1 Análisis financiero
     
     .row.justify-content-center.align-items-center.mb-4
-      .col-md-5.col-10.order-md-1.order-2
-        .bloque-texto-b.color-acento-contenido.bloque01.p-4
-          .bloque-texto-b__texto(data-aos="fade-right")
-            p Es una técnica de diagnóstico organizacional por medio de la cual se analiza la estructura financiera de la empresa, en otras palabras, el sistema económico que ha construido la empresa a través de su trayectoria y en el medio al que pertenece, a partir de este estudio se puede tomar la empresa y dividirla en partes de acuerdo con su relevancia, para hacer comparaciones, las cuales orientan el quehacer de la organización y direcciona las decisiones a tomar de acuerdo con lo interpretado.<br><br>
-            p.mb-0 Por este medio se conocen las tendencias en cuanto a decisiones financieras si se analizan varios periodos o vigencias, se determina el nivel de liquidez, así como el endeudamiento y el crecimiento del patrimonio en una organización en un periodo determinado, entre otros aspectos.
+      .col-md-7.col-10.order-md-1.order-2(data-aos="fade-right")
+        p.mb-2 Es una técnica de diagnóstico organizacional por medio de la cual se analiza la estructura financiera de la empresa, en otras palabras, el sistema económico que ha construido la empresa a través de su trayectoria y en el medio al que pertenece, a partir de este estudio se puede tomar la empresa y dividirla en partes de acuerdo con su relevancia, para hacer comparaciones, las cuales orientan el quehacer de la organización y direcciona las decisiones a tomar de acuerdo con lo interpretado.<br><br>
+        p.mb-0 Por este medio se conocen las tendencias en cuanto a decisiones financieras si se analizan varios periodos o vigencias, se determina el nivel de liquidez, así como el endeudamiento y el crecimiento del patrimonio en una organización en un periodo determinado, entre otros aspectos.
       .col-md-5.col-8.order-md-2.order-1.mb-md-0.mb-4
         figure.mb-5(data-aos="fade-left")
           img(src='@/assets/curso/temas/tema1/img01.png')
     
     p.mb-5 El análisis financiero se realiza con la utilización de tres instrumentos:
     
-    .row.justify-content-center.mb-4
-      .col-md-5.col-10(data-aos="zoom-in")
-        img(src='@/assets/curso/temas/tema1/img02.svg')
+    .row.justify-content-center.mb-5(data-aos="fade-down")
+      .col-md-8.col-lg-6.col-12
+        .titulo-sexto.color-acento-contenido
+          p.titulo.pb-0.mb-0 <b>Figura 1. </b> <i>Tipos de análisis financiero</i>
+        figure
+          img(src='@/assets/curso/temas/tema1/img02.svg', alt='Imagen que menciona los tres instrumentos presentes en el análisis financiero, los cuales son: 1. El análisis vertical. 2. El análisis horizontal. 3. La aplicación de indicadores que varían.')  
+
+    //- .row.justify-content-center.mb-4
+    //-   .col-md-5.col-10(data-aos="zoom-in")
+    //-     img(src='@/assets/curso/temas/tema1/img02.svg')
     
     p Desde los que permiten hallar la rentabilidad, pasando por el nivel de cuentas por cobrar, ventas y costos, hasta llegar a determinar la eficiencia de la organización mediante la aplicación de indicadores de actividad. 
     p Es de aclarar que cada uno de ellos arrojará cifras que requieren de una interpretación y que independientemente no dicen mucho, pero si se integran logran dilucidar grandes hallazgos acerca del presente y futuro de la organización; y es ahí donde está la habilidad de un analista financiero.
     p.mb-5 A continuación, se presentan los diferentes métodos utilizados para realizar análisis en una organización:
 
-    .row.justify-content-center.mb-5
-      .col-12.BG01.p-2
-        .titulo-sexto.color-acento-contenido.mb-0(data-aos="fade-right")
-          h5 Figura 1
-          span Métodos de análisis
-      .col-12.desktop
-        figure(data-aos="zoom-in")
-          img(src='@/assets/curso/temas/tema1/img03.svg')
+    .row.justify-content-center.mb-5(data-aos="fade-down")
+      .col-12
+        .titulo-sexto.color-acento-contenido
+          p.titulo.pb-0.mb-0 <b>Figura 2. </b> <i>Métodos de análisis</i>
+        figure
+          img.d-none.d-sm-none.d-md-block(src='@/assets/curso/temas/tema1/img03.svg', alt='En la figura 2 se presentan los diferentes métodos utilizados para realizar análisis en una organización')  
+          img.d-block.d-md-none(src='@/assets/curso/temas/tema1/img03_1.svg', alt='En la figura 2 se presentan los diferentes métodos utilizados para realizar análisis en una organización') 
           figcaption Nota. Tomada de Calvo (2019).
-      .col-12.movil
-        figure(data-aos="zoom-in")
-          img(src='@/assets/curso/temas/tema1/img03_1.svg')
-          figcaption Nota. Tomada de Calvo (2019).
+
       
-    p.mb-5 El análisis financiero no tiene un procedimiento predeterminado, este se realiza teniendo en cuenta el cálculo de  los valores porcentuales y hallando la variación absoluta y relativa, para utilizar tantos indicadores sea necesario, de esta manera se da a conocer las etapas para un análisis financiero:
+    p.mb-5 El análisis financiero no tiene un procedimiento predeterminado, este se realiza teniendo en cuenta el cálculo de  los valores porcentuales y hallando la variación absoluta y relativa, para utilizar tantos indicadores como sea necesario, de esta manera se da a conocer las etapas para un análisis financiero:
 
     AcordionA.mb-5(tipo="a" clase-tarjeta="BG02")
       .row.justify-content-center(titulo="Etapa preliminar")
@@ -58,40 +59,50 @@
               i.fas.fa-check-circle
               | Estudiar si la empresa cuenta con la capacidad de absorber un mayor endeudamiento, este caso se presenta para entidades financieras al estudiar la aprobación de un crédito.
         .col-md-3.col-6.mb-md-0.mb-4.order-md-2.order-1
-          img(src='@/assets/curso/temas/tema1/img04.png')
+          img(src='@/assets/curso/temas/tema1/img04.svg')
       .row.justify-content-center(titulo="Etapa de estudio formal")
         .col-md-8.order-md-1.order-2
           p Esta etapa se considera la fase mecánica del análisis donde se recolecta la información de acuerdo con requerimientos y su disponibilidad. La información debe ser clasificada, agrupada de acuerdo con su relación, cuadros estadísticos, gráficos e índices, entre otros.
         .col-md-3.col-6.mb-md-0.mb-4.order-md-2.order-1
-          img(src='@/assets/curso/temas/tema1/img05.png')
+          img(src='@/assets/curso/temas/tema1/img05.svg')
       .row.justify-content-center(titulo="Etapa del análisis real")
         .col-md-8.order-md-1.order-2
           p En esta etapa se culmina el análisis de la información y se inicia la emisión de juicios mediante la metodología de comparación de índices y toda la información obtenida, clasificada y de los resultados obtenidos y da paso al proceso de relacionar la información o atar cabos para dar respuesta al interrogante que se espera resolver, se plantean alternativas de solución, se selecciona la más razonable y se inicia su implementación.
         .col-md-3.col-6.mb-md-0.mb-4.order-md-2.order-1
-          img(src='@/assets/curso/temas/tema1/img06.png')
+          img(src='@/assets/curso/temas/tema1/img06.svg')
 
-    p Al llevar a cabo estas tres etapas propuestas en esta metodología, se disminuirá la posibilidad de emitir juicios erróneos y tomar decisiones desacertadas.
+    p.mb-4 Al llevar a cabo estas tres etapas propuestas en esta metodología, se disminuirá la posibilidad de emitir juicios erróneos y tomar decisiones desacertadas.
 
-    .row.mb-4(data-aos="fade-right")
-      .col-auto.BG03.p-3
-        h4.mb-0 Método de porcientos integrales o análisis financiero vertical
+    //- .row.mb-4(data-aos="fade-right")
+    //-   .col-auto.BG03.p-3
+    //-     h4.mb-0 Método de porcientos integrales o análisis financiero vertical
+        
+    .h4.mb-4(data-aos="zoom-down-right")
+      span.titulo-herramientas Método de porcientos integrales o análisis financiero vertical
     
     p Instrumento de diagnóstico organizacional que evidencia los grupos de interés, así como las políticas de la organización dentro de una vigencia.
 
-    .row.justify-content-center.mb-5(data-aos="zoom-in")
-      .col-md-10
-        img(src='@/assets/curso/temas/tema1/img07.svg')
+    .row.justify-content-center.mb-5(data-aos="fade-down")
+      .col-12.col-lg-10
+        .titulo-sexto.color-acento-contenido
+          p.titulo.pb-0.mb-0 <b>Figura 3. </b> <i>Aspectos presentes en el análisis financiero vertical </i>
+        figure
+          img.d-none.d-sm-none.d-md-block(src='@/assets/curso/temas/tema1/fig03b.svg', alt='Imagen que menciona los aspectos que están presentes en el análisis financiero vertical. Destacando que en él se definen niveles de inventarios, realizan rubros y se hablan de pasivos, entre otros aspectos.')  
+          img.d-block.d-md-none(src='@/assets/curso/temas/tema1/fig03a.svg', alt='Imagen que menciona los aspectos que están presentes en el análisis financiero vertical. Destacando que en él se definen niveles de inventarios, realizan rubros y se hablan de pasivos, entre otros aspectos.') 
+          
+    //- .row.justify-content-center.mb-5(data-aos="zoom-in")
+    //-   .col-md-10
+    //-     img(src='@/assets/curso/temas/tema1/img07.svg')
     
     .row.align-items-center.mb-4
-      .col-md-6.col-10.mb-md-0.mb-4(data-aos="fade-right")
+      .col-md-5.col-10.mb-md-0.mb-4(data-aos="fade-right")
         img(src='@/assets/curso/temas/tema1/img08.png')
-      .col-md-6(data-aos="fade-left")
+      .col-md-7(data-aos="fade-left")
         p En este tipo de análisis financiero se encuentran las ventajas y desventajas que la organización posee al realizar un análisis con números relativos, su desventaja radica en que al realizar análisis en porcentajes se puede caer en errores si se pierde de vista el valor en pesos o en la moneda correspondiente.
         p A continuación, se presenta un ejemplo de este análisis donde se compara cada rubro con el total de su correspondencia, en efecto, se refiere a que se compara el efectivo con el total del activo circulante y el activo total, este parámetro debe ser definido para realizar el análisis y al presentar el informe de la interpretación de esta información:
     .row.justify-content-center.align-items-center.mb-5      
       .titulo-sexto.color-acento-contenido.mb-4(data-aos="fade-right")
-        h5 Tabla 1
-        span Métodos de porcientos o análisis vertical
+        p.mb-0 #[b Tabla 1.] #[em Métodos de porcientos o análisis vertical]
       
       .tabla-a.color-acento-contenido.mb-0(data-aos="fade-left")
         table
@@ -279,18 +290,16 @@
     p En cuanto al estado de resultados o conocido como de ganancias y pérdidas el cálculo varía, porque hay un solo referente o punto focal siendo este las ventas, a partir de allí cada rubro se compara o se divide en las ventas obteniendo el porcentaje de participación de cada uno. En la siguiente tabla se presenta el Estado de Resultados y su análisis vertical:
 
     .row.justify-content-center.mb-4
-      .col-md-10
+      .col-lg-10.col-12
         .titulo-sexto.color-acento-contenido.mb-4(data-aos="fade-right")
-          h5 Tabla 2
-          span Método de porcientos en el estado de resultados 
+          p.mb-0 #[b Tabla 2.] #[em Método de porcientos en el estado de resultados] 
         
         .tabla-b.mb-0(data-aos="fade-left")
           table
             thead
               tr
                 td(style="font-size: 18px; background-color: #3AE3FE;").text-center.text-bold Saloan 
-                  p.text-bold Estado de situación financiera del 1 de enero de 2021 a 31 de diciembre de 2021
-                  p.text-bold valores en pesos ($)
+                  p.text-bold.mb-0 Estado de situación financiera del 1 de enero de 2021 a 31 de diciembre de 2021 valores en pesos ($)
         table.mb-4(data-aos="fade-right")
           tr
             th(style="background-color: #F6F6F6;") Ventas
@@ -336,33 +345,31 @@
         p Para realizar el análisis vertical se debe tomar como base el valor total de las ventas equivalente al 100 % y a partir de allí cada uno de los conceptos aun los resultados correspondientes a utilidad bruta, operacional y neta también deben ser divididos entre el valor en pesos de las ventas, es decir, utilidad bruta / ventas x 100 = 80.000.000 / 120.000.000 x 100 = 66,67 %.
         p.mb-0 En el análisis de porcientos o vertical del estado de resultados de la empresa Saloan, se puede evidenciar que sus costos representan el 33,33 % de sus ventas generando una utilidad bruta del 66,67 % equivalente a $80.000.000, así mismo, los gastos en que incurre la empresa para garantizar su actividad representan el 16,92 % y el impuesto que asume la empresa equivale al 19.75 % erogaciones que representan el 36,67 %. Este último resultado de 36,67 %, sumado al 33,33 % de la utilidad neta y el 33,33 % correspondiente a los costos es igual al 103,33 % a este valor se le debe sustraer el 3,33 % equivalente a otros ingresos que ya están adicionados y esto arroja el 100 % de las ventas que corresponde a la comprobación de esta técnica el cual debe ser 100 %.
 
-    .row.mb-4(data-aos="fade-right")
-      .col-auto.BG03.p-3
-        h4.mb-0 Análisis financiero comparativo u horizontal
+    
+    .h4.mb-4(data-aos="zoom-down-right")
+      span.titulo-herramientas Análisis financiero comparativo u horizontal
 
     .row.justify-content-center.align-items-center.mb-4
       .col-md-5.col-6.mb-md-0.mb-4(data-aos="fade-right")  
         img(src='@/assets/curso/temas/tema1/img19.png')
-      .col-md-5(data-aos="fade-left")
-        .BG05.p-4.mb-4
+      .col-md-7(data-aos="fade-left")
+        .BG05.p-4.mb-2
           p Este análisis se realiza para conocer la solidez de la empresa en cuanto a sus activos, patrimonio y respecto de las políticas organizacionales lo que se evidencia en las variaciones que se hallen por rubro y su incremento o decremento de un período a otro. Este análisis se realiza con los resultados financieros de, al menos, dos periodos o vigencias diferentes. 
           br
-        .BG06.p-4.mb-4
+        .BG06.p-4.py-5.mb-2
           p Este análisis es dinámico gracias a que se enfoca en las modificaciones notorias que presentan los rubros de un periodo a otro. Es necesario anotar que este tiene en cuenta las variaciones absolutas o en pesos ($), así como las variaciones relativas o porcentuales (%).
 
     p Para realizar este análisis horizontal es necesario identificar el periodo o vigencia más reciente como “B”, el periodo anterior o más antiguo como “A”, la variación absoluta arrojará resultados en pesos ($) cuyo valor puede ser positivo si el rubro ha incrementado o negativo si el rubro ha disminuido. En cuanto a la variación relativa se refiere a (%) esta se calcula tomando la variación absoluta obtenida y dividiéndola en el valor en pesos correspondiente al mismo rubro en el año o vigencia anterior.
 
     .titulo-sexto.color-acento-contenido.mb-4(data-aos="fade-right")
-      h5 Tabla 3
-      span Análisis horizontal
+      p.mb-0 #[b Tabla 3.] #[em Análisis horizontal]
     
     .tabla-a.color-acento-contenido.mb-0(data-aos="fade-left")
       table
         thead
           tr
             td(style="font-size: 18px; background-color: #3AE3FE;").text-center.text-bold Saloan 
-              p.text-bold Estado de situación financiera del 1 de enero de 2020 al 31 de diciembre de 2021
-              p.text-bold valores en pesos ($)
+              p.text-bold.mb-0 Estado de situación financiera del 1 de enero de 2020 al 31 de diciembre de 2021 valores en pesos ($)
     table.mb-4(data-aos="fade-right")
       tr
         th
@@ -550,15 +557,15 @@
         .col-md-6.col-10
           p La empresa ha trabajado en disminuir sus compromisos con entidades financieras, proveedores y acreedores tanto a corto como a largo plazo lo cual demuestra la habilidad de la gerencia para dirigir la empresa y la cohesión de su equipo de trabajo para aunar esfuerzos y alcanzar objetivos.      
       
-    .row.mb-4(data-aos="fade-right")
-      .col-auto.BG03.p-3
-        h4.mb-0 Análisis financiero integral
+    
+    .h4.mb-4(data-aos="zoom-down-right")
+      span.titulo-herramientas Análisis financiero integral
     
     p El análisis financiero lleva consigo un gran peso de importancia, pues a partir de su implementación se determinan los efectos de posibles decisiones de inversión, de la implementación de políticas de inversión y mercantiles como margen de utilidad, precio, promoción y publicidad, cobertura geográfica, colocación; de lineamiento de desarrollo de procesos y productos, retribuciones y medios de financiación. Es así como se comparten los elementos que deben integrar el análisis financiero integral. 
 
 
     .row.justify-content-center.align-items-center.mb-4.BG01
-      .col-md-12
+      .col-md-12.p-3
         SlyderA(tipo="b")
           .row.justify-content-center.BG01.p-4
             .col-md-7
@@ -668,66 +675,67 @@
         p Los indicadores financieros son instrumentos que facilitan el análisis financiero al comparar datos diferentes lo que hace que también se les conozca como razones financieras, por medio de ellos se identifican puntos fuertes y débiles de la empresa y comparados con periodos o resultados anteriores permiten determinar probabilidades y tendencias. Aportan a realizar una comparación lógica; es decir, dentro de datos que tengan relación o que cuenten con las mismas características, lo que daría lugar a realizar comparaciones para determinar su incremento, variación, decremento y el impacto que estas han generado en la organización.
         p A continuación, se realiza una presentación generalizada de estos indicadores, los cuales cumplen una función específica y permiten realizar hallazgos determinantes para la organización:
     
-    SlyderA.BG01.mb-5(tipo="b")
-      .row.justify-content-center
-        .col-md-5.col-10.p-0.px-0.order-md-1.order-2          
-          h4.mb-0.mx-4 Indicadores de liquidez
-          p.mx-4 Razón corriente, capital neto de trabajo y prueba ácida son indicadores que en conjunto permiten evaluar la capacidad de la organización para pagar sus compromisos y obligaciones de corto plazo.
-        .col-md-5.col-10.px-0.order-md-2.order-1
-          img(src='@/assets/curso/temas/tema1/img30.png')
-      .row.justify-content-center
-        .col-md-5.col-10.p-0.px-0.order-md-1.order-2
-          .BG01.p-2.mb-4
-            h4.mb-0.mx-4 Indicadores de actividad
-          p.mx-4 En los Indicadores de actividad se tienen rotación de cartera, periodo promedio de cobro, descuento por pronto pago, rotación de inventarios, rotación de inventarios para empresas comerciales, rotación de inventarios para empresas industriales y ciclo de efectivo
-          p.mx-4.mb-0 La rotación de proveedores consiste en evaluar el número de días que la empresa toma para pagar a los proveedores, es decir, el número de días que los proveedores aportan a la financiación de la empresa.
-        .col-md-5.col-10.px-0.order-md-2.order-1
-          img(src='@/assets/curso/temas/tema1/img31.png')
-      .row.justify-content-center
-        .col-md-5.col-10.p-0.px-0.order-md-1.order-2
-          .BG01.p-2.mb-4
-            h4.mb-0.mx-4 Indicadores de rentabilidad
-          p.mx-4 Conocidos también como indicadores de rendimiento, son útiles para evaluar la efectividad de la administración de la organización y controlar la inversión en la actividad económica y los egresos generados por la misma, así como su efectividad para convertirlos en ventas. En este grupo se encuentran margen bruto, margen operacional, margen neto, rendimiento del patrimonio, rendimiento del activo total, Ebitda y sistema Dupont.
-        .col-md-5.col-10.px-0.order-md-2.order-1
-          img(src='@/assets/curso/temas/tema1/img32.png')
-      .row.justify-content-center
-        .col-md-5.col-10.p-0.px-0.order-md-1.order-2
-          .BG01.p-2.mb-4
-            h4.mb-0.mx-4 Indicadores de endeudamiento
-          p.mx-4 Son instrumentos que permiten evaluar el grado y en qué forma participan los acreedores en la financiación de la organización, y de esta manera conocer el riesgo de los inversionistas y la pertinencia de un endeudamiento. En este rango se encuentran los indicadores de crisis, a saber:
-        .col-md-5.col-10.px-0.order-md-2.order-1
-          .titulo-sexto.color-acento-contenido.mb-4
-            h5 Tabla 4
-            span Indicadores de crisis
-          table
-            caption Fuente: (Ortiz, 2018)
-            tr
-              th(style="background-color: #FCC15A;") Indicador
-              th(style="background-color: #FCC15A;") Parámetro
-            tr
-              td(style="background-color: #FFF;") Endeudamiento financiero
-              td.text-center(style="background-color: #FFF;") &lt; 30 %
-            tr
-              td(style="background-color: #F6F6F6;") Impacto de la carga financiera
-              td.text-center(style="background-color: #F6F6F6;") &lt; 10 %
-            tr
-              td(style="background-color: #FFF;") Cobertura de intereses
-              td.text-center(style="background-color: #FFF;") &#8805; 1 vez
+    .BG01.p-4.mb-5(data-aos="fade-right")
+      SlyderA(tipo="b")
+        .row.justify-content-center
+          .col-md-5.col-10.p-0.px-0.order-md-1.order-2          
+            h4.mb-0.mx-4 Indicadores de liquidez
+            p.mx-4 Razón corriente, capital neto de trabajo y prueba ácida son indicadores que en conjunto permiten evaluar la capacidad de la organización para pagar sus compromisos y obligaciones de corto plazo.
+          .col-md-5.col-10.px-0.order-md-2.order-1
+            img(src='@/assets/curso/temas/tema1/img30.png')
+        .row.justify-content-center
+          .col-md-5.col-10.p-0.px-0.order-md-1.order-2
+            .BG01.p-2.mb-4
+              h4.mb-0.mx-4 Indicadores de actividad
+            p.mx-4 En los Indicadores de actividad se tienen rotación de cartera, periodo promedio de cobro, descuento por pronto pago, rotación de inventarios, rotación de inventarios para empresas comerciales, rotación de inventarios para empresas industriales y ciclo de efectivo
+            p.mx-4.mb-0 La rotación de proveedores consiste en evaluar el número de días que la empresa toma para pagar a los proveedores, es decir, el número de días que los proveedores aportan a la financiación de la empresa.
+          .col-md-5.col-10.px-0.order-md-2.order-1
+            img(src='@/assets/curso/temas/tema1/img31.png')
+        .row.justify-content-center
+          .col-md-5.col-10.p-0.px-0.order-md-1.order-2
+            .BG01.p-2.mb-4
+              h4.mb-0.mx-4 Indicadores de rentabilidad
+            p.mx-4 Conocidos también como indicadores de rendimiento, son útiles para evaluar la efectividad de la administración de la organización y controlar la inversión en la actividad económica y los egresos generados por la misma, así como su efectividad para convertirlos en ventas. En este grupo se encuentran margen bruto, margen operacional, margen neto, rendimiento del patrimonio, rendimiento del activo total, Ebitda y sistema Dupont.
+          .col-md-5.col-10.px-0.order-md-2.order-1
+            img(src='@/assets/curso/temas/tema1/img32.png')
+        .row.justify-content-center
+          .col-md-5.col-10.p-0.px-0.order-md-1.order-2
+            .BG01.p-2.mb-4
+              h4.mb-0.mx-4 Indicadores de endeudamiento
+            p.mx-4 Son instrumentos que permiten evaluar el grado y en qué forma participan los acreedores en la financiación de la organización, y de esta manera conocer el riesgo de los inversionistas y la pertinencia de un endeudamiento. En este rango se encuentran los indicadores de crisis, a saber:
+          .col-md-5.col-10.px-0.order-md-2.order-1
+            .titulo-sexto.color-acento-contenido.mb-4
+              h5 Tabla 4.
+              em Indicadores de crisis
+            table
+              caption Fuente: (Ortiz, 2018)
+              tr
+                th(style="background-color: #FCC15A;") Indicador
+                th(style="background-color: #FCC15A;") Parámetro
+              tr
+                td(style="background-color: #FFF;") Endeudamiento financiero
+                td.text-center(style="background-color: #FFF;") &lt; 30 %
+              tr
+                td(style="background-color: #F6F6F6;") Impacto de la carga financiera
+                td.text-center(style="background-color: #F6F6F6;") &lt; 10 %
+              tr
+                td(style="background-color: #FFF;") Cobertura de intereses
+                td.text-center(style="background-color: #FFF;") &#8805; 1 vez
 
-      .row.justify-content-center
-        .col-md-5.col-10.p-0.px-0.order-md-1.order-2
-          .BG01.p-2.mb-4
-            h4.mb-0.mx-4 Indicadores de Leverage
-          p.mx-4 Estos indicadores también conocidos como de apalancamiento comparan el financiamiento procedente de terceros con la inversión de los socios para determinar cuál de los dos grupos está corriendo el mayor riesgo. En este grupo se encuentran los indicadores Leverage total y Leverage a corto plazo.
-        .col-md-5.col-10.px-0.order-md-2.order-1
-          img(src='@/assets/curso/temas/tema1/img34.png')
-      .row.justify-content-center
-        .col-md-5.col-10.p-0.px-0.order-md-1.order-2
-          .BG01.p-2.mb-4
-            h4.mb-0.mx-4 Indicadores de apalancamiento
-          p.mx-4 El apalancamiento en el entorno organizacional es una estrategia gerencial que facilita la reducción de costos con el fin de lograr una mayor rentabilidad de manera que esta sea superior a las utilidades obtenidas con el capital propio. Existe el apalancamiento operativo o GAO, el apalancamiento financiero GAF y el apalancamiento total GAT.
-        .col-md-5.col-10.px-0.order-md-2.order-1
-          img(src='@/assets/curso/temas/tema1/img35.png')
+        .row.justify-content-center
+          .col-md-5.col-10.p-0.px-0.order-md-1.order-2
+            .BG01.p-2.mb-4
+              h4.mb-0.mx-4 Indicadores de Leverage
+            p.mx-4 Estos indicadores también conocidos como de apalancamiento comparan el financiamiento procedente de terceros con la inversión de los socios para determinar cuál de los dos grupos está corriendo el mayor riesgo. En este grupo se encuentran los indicadores Leverage total y Leverage a corto plazo.
+          .col-md-5.col-10.px-0.order-md-2.order-1
+            img(src='@/assets/curso/temas/tema1/img34.png')
+        .row.justify-content-center
+          .col-md-5.col-10.p-0.px-0.order-md-1.order-2
+            .BG01.p-2.mb-4
+              h4.mb-0.mx-4 Indicadores de apalancamiento
+            p.mx-4 El apalancamiento en el entorno organizacional es una estrategia gerencial que facilita la reducción de costos con el fin de lograr una mayor rentabilidad de manera que esta sea superior a las utilidades obtenidas con el capital propio. Existe el apalancamiento operativo o GAO, el apalancamiento financiero GAF y el apalancamiento total GAT.
+          .col-md-5.col-10.px-0.order-md-2.order-1
+            img(src='@/assets/curso/temas/tema1/img35.png')
 
     .row.justify-content-center.mb-4
       .col-md-8.p-4
@@ -743,7 +751,7 @@
                   span Descargar
                   i.fas.fa-file-download
 
-    .cajon.color-primario.p-4.mb-4(style="background-color:#E1EFE3")
+    .cajon.color-secundario.p-4.mb-4(style="background-color:#E1EFE3")
       p Los indicadores son instrumentos efectivos que aportan al análisis financiero de la organización, pero individualmente es poco su aporte, por esa razón es necesario establecer parámetros de comparación los cuales deben estar apoyados en el criterio del analista, tener en cuenta que los indicadores deben ser resultados de la misma empresa, de periodos anteriores y también pueden compararse con indicadores promedio de la industria a la que pertenece la organización.
 
 </template>

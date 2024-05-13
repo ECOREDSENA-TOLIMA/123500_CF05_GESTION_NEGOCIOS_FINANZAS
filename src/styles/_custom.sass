@@ -3,22 +3,19 @@
     animation: float1 2.5s ease-in-out infinite alternate
     position: absolute
     top: 25%
-    left: 20%
+    left: 22%
+    width: 55%
   &-2
-    animation: float3 5s ease-in-out infinite alternate
+    animation: float3 3.5s ease-in-out infinite alternate
     position: absolute
-    top: 25%
-    left: 25%
+    top: 15%
+    right: 15%
+    width: 75%
   &-3
     animation: float2 2.8s ease-in-out infinite alternate
     position: absolute
     top: 71%
     right: 5%
-  &-4
-    animation: float1 5s ease-in-out infinite alternate
-    position: absolute
-    top: 70%
-    right: 40%
 
 
 @keyframes float1
@@ -30,7 +27,7 @@
 
 @keyframes float3
   0%
-    transform: translateY(50px)
+    transform: translateY(30px)
 
   100%
     transform: translateY(0px)
@@ -56,11 +53,16 @@
     left: 0
   
 .BG01
-  //background-color: #F6F6F6
+  //background-color: #F6F6F6F
+  border-radius: 0.7rem
   background-image: url("../assets/curso/temas/tema1/img28bg.png")
-
+.BG01A
+  background-color: #DADDDF
+  border-radius: 0.7rem
+  .acordion__activo
+    background-color: #E1EFE3 !important
 .BG02
-  background-color:#E1EFE3
+  background-color:#DADDDF
   border-radius: 15px
 
 .BG03
@@ -119,7 +121,8 @@
     background: #2196F3 !important
 
 .BG16
-  background-color: #C5F7FF
+  background-color: #FEF5E5
+  border-radius: 0.7rem
 
 .BG17
   background-color: #FFE9C3
@@ -139,7 +142,7 @@
   background-color:#FEFBF6
   
 .tabs-a__tab
-  background-color: #F6F6F6
+  background-color: #DADDDF
 
 .fa-chevron-right:before, .fa-chevron-left:before
   color: #228898
@@ -185,12 +188,108 @@
   .mts
     margin-top: -1.35rem
 
-.slyder-a__tipo-b .slyder-a__btn--sigt 
-  background-color:#FCC15A
+.slyder-a__tipo-b .slyder-a__btn--sigt,
 .slyder-a__tipo-b .slyder-a__btn--atrs
   background-color:#FCC15A
+  width: 40px
+  height: 40px
+  background-color: $color-acento-botones
+  border-color: $color-acento-botones
+  opacity: 1
+
 .slyder-a__bullets__item--active
   background-color:#FCC15A
   border-color: #FCC15A
 //.slyder-a__bullets__item
 //  background-color: #03386E
+
+.slyder-a__bullets__item--active
+  background-color: $color-acento-botones !important
+  border-color: $color-acento-botones
+  opacity: 1
+
+.slyder-a__bullets__item
+  width: 15px
+  height: 15px
+  background-color: $color-secundario
+  border-radius: 50%
+  margin: 0 10px
+  cursor: pointer
+  opacity: 1
+  transition: opacity 0.3s ease-in-out, box-shadow 0.3s ease-in-out
+  border: none
+  
+.titulo-herramientas 
+  background-image: url("../assets/curso/temas/ico-title.svg")
+  background-size: inherit
+  background-repeat: no-repeat 
+  padding-left: 2em
+  color: $color-primario
+  border-bottom: 0.15em solid $color-secundario
+
+.tabs-c__header
+  margin-bottom: 0px
+
+.tabs-c__content-item
+  background-color: #FEF5E5 !important
+
+  
+.linea-tiempo-d.color-acento-botones.especial
+  .linea-tiempo-d__item--selected
+    .linea-tiempo-d__item__content
+      background-color: #FEF5E5 !important
+  .linea-tiempo-d__item__content.tarjeta.tarjeta--gris
+    background-color: #DADDDF
+
+.acordion__activo
+  background-color: #E1EFE3 !important
+.acordion__accion__btn--a
+  background-color: $color-acento-botones
+
+.cajon.color-primario
+  background-color: #E1EFE3
+
+.linea-tiempo-c__header__btn--right, .linea-tiempo-c__header__btn--left, 
+  background-color: $color-acento-botones
+
+  
+.linea-tiempo-c__header__btn--right:hover,.linea-tiempo-c__header__btn--left:hover
+  border-color: $color-acento-botones
+
+  
+  
+///////// Card hover --------------------------------------
+.crd_hover_txt
+  position: relative  
+  padding: 0 !important
+  overflow: hidden !important  
+  &:hover    
+    .crd_hover_txt--body   
+      transition: all 0.5s cubic-bezier(0.42, 0, 0.58, 1) 
+      transform: translateY(0)
+      top: 0px
+
+  .crd_hover_txt--body
+    position: absolute
+    padding: 1.5rem
+    bottom: 0    
+    transition: all 0.5s cubic-bezier(0.42, 0, 0.58, 1)
+    transform: translateY(calc( 100% - 4.5rem ))
+    background-color: rgba(255, 247, 230, 1) 
+  
+  // @media (min-width:1200px) and (max-width:1400px)  
+  //   .crd_hover_txt--body
+  //     p
+  //       font-size: 0.85em
+
+  .lista-ul--color
+    li
+      display: flex
+  .ico-open-task
+    background-image: url('../assets/curso/temas/open.svg')
+    background-repeat: no-repeat
+    background-size: 25px 25px
+    border: none
+    top: -3px !important
+    margin-right: 7px !important
+    padding: 13px

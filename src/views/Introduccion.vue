@@ -9,13 +9,13 @@
           i.fas.fa-info
       h1 Introducción
 
-    p Para iniciar este espacio formativo, se invita a observar los principales elementos a tener en cuenta para su desarrollo y apropiación 
+    p Para iniciar este espacio formativo, se invita a escudriñar los principales elementos a tener en cuenta para su desarrollo y apropiación. 
 
     figure.mb-5(data-aos="fade-right")
       .video
         iframe(width="560" height="315" src="https://www.youtube.com/embed/b1BeYsrcNvo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
 
-    p Lo dicho anteriormente se puede complementar, teniendo en cuenta
+    p Lo dicho anteriormente se puede complementar, teniendo en cuenta:
 
     figure.mb-5(data-aos="fade-right")
       .video
