@@ -22,7 +22,8 @@
         .titulo-sexto.color-acento-contenido
           p.titulo.pb-0.mb-0 <b>Figura 1. </b> <i>Tipos de análisis financiero</i>
         figure
-          img(src='@/assets/curso/temas/tema1/img02.svg', alt='Imagen que menciona los tres instrumentos presentes en el análisis financiero, los cuales son: 1. El análisis vertical. 2. El análisis horizontal. 3. La aplicación de indicadores que varían.')  
+          img.d-none.d-sm-none.d-md-block(src='@/assets/curso/temas/tema1/img02.svg', alt='Imagen que menciona los tres instrumentos presentes en el análisis financiero, los cuales son: 1. El análisis vertical. 2. El análisis horizontal. 3. La aplicación de indicadores que varían.')  
+          img.d-block.d-md-none(src='@/assets/curso/temas/tema1/img02B.svg', alt='Imagen que menciona los tres instrumentos presentes en el análisis financiero, los cuales son: 1. El análisis vertical. 2. El análisis horizontal. 3. La aplicación de indicadores que varían.')  
 
     //- .row.justify-content-center.mb-4
     //-   .col-md-5.col-10(data-aos="zoom-in")
@@ -349,14 +350,14 @@
     .h4.mb-4(data-aos="zoom-down-right")
       span.titulo-herramientas Análisis financiero comparativo u horizontal
 
-    .row.justify-content-center.align-items-center.mb-4
-      .col-md-5.col-6.mb-md-0.mb-4(data-aos="fade-right")  
+    .row.justify-content-center.mb-4
+      .col-md-4.col-lg-4.col-12.mb-md-0.mb-4(data-aos="fade-right")  
         img(src='@/assets/curso/temas/tema1/img19.png')
-      .col-md-7(data-aos="fade-left")
-        .BG05.p-4.mb-2
+      .col-md-4.col-lg-4.col-12(data-aos="fade-left")
+        .cajon.color-primario.p-4.mb-2
           p Este análisis se realiza para conocer la solidez de la empresa en cuanto a sus activos, patrimonio y respecto de las políticas organizacionales lo que se evidencia en las variaciones que se hallen por rubro y su incremento o decremento de un período a otro. Este análisis se realiza con los resultados financieros de, al menos, dos periodos o vigencias diferentes. 
-          br
-        .BG06.p-4.py-5.mb-2
+      .col-md-4.col-lg-4.col-12(data-aos="fade-left")
+        .cajon.color-primario.p-4.h-100.mb-2
           p Este análisis es dinámico gracias a que se enfoca en las modificaciones notorias que presentan los rubros de un periodo a otro. Es necesario anotar que este tiene en cuenta las variaciones absolutas o en pesos ($), así como las variaciones relativas o porcentuales (%).
 
     p Para realizar este análisis horizontal es necesario identificar el periodo o vigencia más reciente como “B”, el periodo anterior o más antiguo como “A”, la variación absoluta arrojará resultados en pesos ($) cuyo valor puede ser positivo si el rubro ha incrementado o negativo si el rubro ha disminuido. En cuanto a la variación relativa se refiere a (%) esta se calcula tomando la variación absoluta obtenida y dividiéndola en el valor en pesos correspondiente al mismo rubro en el año o vigencia anterior.
@@ -678,35 +679,33 @@
     .BG01.p-4.mb-5(data-aos="fade-right")
       SlyderA(tipo="b")
         .row.justify-content-center
-          .col-md-5.col-10.p-0.px-0.order-md-1.order-2          
-            h4.mb-0.mx-4 Indicadores de liquidez
+          .col-md-7.col-10.p-0.px-0.order-md-1.order-2          
+            h4.mx-4 Indicadores de liquidez
             p.mx-4 Razón corriente, capital neto de trabajo y prueba ácida son indicadores que en conjunto permiten evaluar la capacidad de la organización para pagar sus compromisos y obligaciones de corto plazo.
-          .col-md-5.col-10.px-0.order-md-2.order-1
+          .col-md-5.col-10.order-md-2.order-1
             img(src='@/assets/curso/temas/tema1/img30.png')
         .row.justify-content-center
-          .col-md-5.col-10.p-0.px-0.order-md-1.order-2
-            .BG01.p-2.mb-4
-              h4.mb-0.mx-4 Indicadores de actividad
+          .col-md-7.col-10.p-0.px-0.order-md-1.order-2
+            //- .BG01.p-2.mb-4
+            h4.mx-4 Indicadores de actividad
             p.mx-4 En los Indicadores de actividad se tienen rotación de cartera, periodo promedio de cobro, descuento por pronto pago, rotación de inventarios, rotación de inventarios para empresas comerciales, rotación de inventarios para empresas industriales y ciclo de efectivo
             p.mx-4.mb-0 La rotación de proveedores consiste en evaluar el número de días que la empresa toma para pagar a los proveedores, es decir, el número de días que los proveedores aportan a la financiación de la empresa.
-          .col-md-5.col-10.px-0.order-md-2.order-1
+          .col-md-5.col-10.order-md-2.order-1
             img(src='@/assets/curso/temas/tema1/img31.png')
         .row.justify-content-center
-          .col-md-5.col-10.p-0.px-0.order-md-1.order-2
-            .BG01.p-2.mb-4
-              h4.mb-0.mx-4 Indicadores de rentabilidad
+          .col-md-7.col-10.p-0.px-0.order-md-1.order-2
+            //- .BG01.p-2.mb-4
+            h4.mx-4 Indicadores de rentabilidad
             p.mx-4 Conocidos también como indicadores de rendimiento, son útiles para evaluar la efectividad de la administración de la organización y controlar la inversión en la actividad económica y los egresos generados por la misma, así como su efectividad para convertirlos en ventas. En este grupo se encuentran margen bruto, margen operacional, margen neto, rendimiento del patrimonio, rendimiento del activo total, Ebitda y sistema Dupont.
-          .col-md-5.col-10.px-0.order-md-2.order-1
+          .col-md-5.col-10.order-md-2.order-1
             img(src='@/assets/curso/temas/tema1/img32.png')
         .row.justify-content-center
-          .col-md-5.col-10.p-0.px-0.order-md-1.order-2
-            .BG01.p-2.mb-4
-              h4.mb-0.mx-4 Indicadores de endeudamiento
+          .col-md-7.col-10.p-0.px-0.order-md-1.order-2
+            h4.mx-4 Indicadores de endeudamiento
             p.mx-4 Son instrumentos que permiten evaluar el grado y en qué forma participan los acreedores en la financiación de la organización, y de esta manera conocer el riesgo de los inversionistas y la pertinencia de un endeudamiento. En este rango se encuentran los indicadores de crisis, a saber:
-          .col-md-5.col-10.px-0.order-md-2.order-1
-            .titulo-sexto.color-acento-contenido.mb-4
-              h5 Tabla 4.
-              em Indicadores de crisis
+          .col-md-5.col-10.order-md-2.order-1
+            .titulo-sexto.color-acento-contenido.mb-2
+              h5.mb-0 Tabla 4. #[em Indicadores de crisis]
             table
               caption Fuente: (Ortiz, 2018)
               tr
@@ -723,18 +722,18 @@
                 td.text-center(style="background-color: #FFF;") &#8805; 1 vez
 
         .row.justify-content-center
-          .col-md-5.col-10.p-0.px-0.order-md-1.order-2
-            .BG01.p-2.mb-4
-              h4.mb-0.mx-4 Indicadores de Leverage
+          .col-md-7.col-10.p-0.px-0.order-md-1.order-2
+            //- .BG01.p-2.mb-4
+            h4.mx-4 Indicadores de Leverage
             p.mx-4 Estos indicadores también conocidos como de apalancamiento comparan el financiamiento procedente de terceros con la inversión de los socios para determinar cuál de los dos grupos está corriendo el mayor riesgo. En este grupo se encuentran los indicadores Leverage total y Leverage a corto plazo.
-          .col-md-5.col-10.px-0.order-md-2.order-1
+          .col-md-5.col-10.order-md-2.order-1
             img(src='@/assets/curso/temas/tema1/img34.png')
         .row.justify-content-center
-          .col-md-5.col-10.p-0.px-0.order-md-1.order-2
-            .BG01.p-2.mb-4
-              h4.mb-0.mx-4 Indicadores de apalancamiento
+          .col-md-7.col-10.p-0.px-0.order-md-1.order-2
+            //- .BG01.p-2.mb-4
+            h4.mx-4 Indicadores de apalancamiento
             p.mx-4 El apalancamiento en el entorno organizacional es una estrategia gerencial que facilita la reducción de costos con el fin de lograr una mayor rentabilidad de manera que esta sea superior a las utilidades obtenidas con el capital propio. Existe el apalancamiento operativo o GAO, el apalancamiento financiero GAF y el apalancamiento total GAT.
-          .col-md-5.col-10.px-0.order-md-2.order-1
+          .col-md-5.col-10.order-md-2.order-1
             img(src='@/assets/curso/temas/tema1/img35.png')
 
     .row.justify-content-center.mb-4
@@ -747,7 +746,7 @@
               .col.mb-3.mb-sm-0
                 p(style="color:white") Ahora, veamos representados los indicadores consolidados, para ello haz clic en el botón Descargar. 
               .col-sm-auto
-                a.boton.color-acento-botones(:href="obtenerLink('downloads/Indicadores_financieros.pdf')" target="_blank")
+                a.boton.color-acento-botones(:href="obtenerLink('downloads/Anexo_Indicadores_financieros.pdf')" target="_blank")
                   span Descargar
                   i.fas.fa-file-download
 

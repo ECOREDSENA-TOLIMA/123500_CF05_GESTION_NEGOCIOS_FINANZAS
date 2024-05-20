@@ -96,7 +96,7 @@ export default {
       {
         icono: 'fas fa-file-pdf',
         titulo: 'Descargar PDF',
-        download: 'downloads/prueba.pdf',
+        download: 'downloads/CFA_05_123500.zip',
       },
       {
         icono: 'fas fa-download',
@@ -226,25 +226,19 @@ export default {
       autores: [
         {
           nombre: 'Milady Tatiana Villamil Castellanos',
-          cargo: 'Responsable del Ecosistema',
+          cargo: 'Líder Ecosistema de Recursos Educativos Digitales',
           centro: 'Dirección General',
         },
         {
-          nombre: 'Olga Constanza Bermúdez Jaimes',
+          nombre: 'Liliana Victoria Morales Gualdrón',
           cargo: 'Responsable de Línea de Producción',
-          centro: 'Centro de Servicios de Salud - Regional Antioquia',
+          centro: 'Regional Tolima - Centro de Comercio y Servicios ',
         },
       ],
     },
     {
       titulo: 'CONTENIDO INSTRUCCIONAL',
       autores: [
-        {
-          nombre: 'Rafael Neftalí Lizcano Reyes',
-          cargo: 'Asesor metodológico y pedagógico',
-          centro:
-            'Centro Industrial del Diseño y la Manufactura Regional Santander',
-        },
         {
           nombre: 'Abel Fernando Becerra Carrillo',
           cargo: 'Experto Temático',
@@ -265,7 +259,7 @@ export default {
         {
           nombre: 'Norma Constanza Morales Cruz',
           cargo: 'Experta Temática',
-          centro: 'Centro de comercio y servicios',
+          centro: 'Regional Tolima - Centro de comercio y servicios',
         },
         {
           nombre: 'Miroslava González Hernández',
@@ -275,7 +269,7 @@ export default {
         },
         {
           nombre: 'Leydy Jhuliana Jaramillo Mejía',
-          cargo: 'Diseñadora instruccional',
+          cargo: 'Diseñadora Instruccional',
           centro: 'Regional Distrito Capital - Centro de Gestión Industrial',
         },
         {
@@ -285,7 +279,7 @@ export default {
         },
         {
           nombre: 'José Gabriel Ortiz Abella',
-          cargo: 'Corrector de estilo',
+          cargo: 'Corrector de Estilo',
           centro: 'Regional Distrito Capital - Centro de Diseño y Metrología.',
         },
       ],
@@ -294,74 +288,14 @@ export default {
       titulo: 'DISEÑO Y DESARROLLO DE RECURSOS EDUCATIVOS DIGITALES',
       autores: [
         {
-          nombre: 'Francisco José Lizcano Reyes',
-          cargo: 'Responsable del equipo',
-          centro:
-            'Centro Industrial del Diseño y la Manufactura Regional Santander',
+          nombre: 'Oscar Iván Uribe Ortiz',
+          cargo: 'Diseñador de Contenidos Digitales ',
+          centro: 'Regional Tolima - Centro de comercio y servicios',
         },
         {
-          nombre: 'Leyson Fabian Castaño Perez',
-          cargo: 'Soporte organizacional',
-          centro: 'Centro de Comercio y Servicios Regional Tolima',
-        },
-        {
-          nombre: 'María Natalia Maldonado Delgado',
-          cargo: 'Diseño web',
-          centro:
-            'Centro Industrial del Diseño y la Manufactura Regional Santander',
-        },
-        {
-          nombre: 'Diego Fernando Velasco Güiza',
-          cargo: 'Desarrollo Front-End',
-          centro:
-            'Centro Industrial del Diseño y la Manufactura Regional Santander',
-        },
-        {
-          nombre: 'Zuleidy María Ruíz Torres',
-          cargo: 'Producción audiovisual',
-          centro: 'Centro de Comercio y Servicios Regional Tolima',
-        },
-        {
-          nombre: 'Wilson Andrés Arenales Cáceres',
-          cargo: 'Producción audiovisual',
-          centro:
-            'Centro Industrial del Diseño y la Manufactura Regional Santander',
-        },
-        {
-          nombre: 'Gilberto Junior Rodríguez Rodríguez',
-          cargo: 'Validación audiovisual',
-          centro:
-            'Centro Industrial del Diseño y la Manufactura Regional Santander',
-        },
-        {
-          nombre: 'María Carolina Tamayo López',
-          cargo: 'Locución',
-          centro:
-            'Centro Industrial del Diseño y la Manufactura Regional Santander',
-        },
-        {
-          nombre: 'Lina Marcela Pérez Manchego',
-          cargo: 'Ilustración',
-          centro:
-            'Centro Industrial del Diseño y la Manufactura Regional Santander',
-        },
-        {
-          nombre: 'Estefani Daniela Gallo Cortés',
-          cargo: 'Ilustración',
-          centro:
-            'Centro Industrial del Diseño y la Manufactura Regional Santander',
-        },
-        {
-          nombre: 'Erika Viviana Sandoval Rojas',
-          cargo: 'Producción audiovisual',
-          centro:
-            'Centro Industrial del Diseño y la Manufactura Regional Santander',
-        },
-        {
-          nombre: 'Maria camila ovalle ospina',
-          cargo: 'Validación de diseño y contenido',
-          centro:
-            'Centro Industrial del Diseño y la Manufactura Regional Santander',
+          nombre: 'Oscar Daniel Espitia Marin',
+          cargo: 'Desarrollo FullStack',
+          centro: 'Regional Tolima - Centro de comercio y servicios',
         },
       ],
     },
@@ -369,24 +303,14 @@ export default {
       titulo: 'VALIDACIÓN RECURSO EDUCATIVO DIGITAL',
       autores: [
         {
-          nombre: 'Luis Gabriel Urueta Alvarez',
-          cargo: 'Validador de Recursos Educativos Digitales',
-          centro: 'Centro de Servicios de Salud - Regional Antioquia',
-        },
-        {
-          nombre: 'Jaime Hernan Tejada',
-          cargo: 'Validador de Recursos Educativos Digitales',
-          centro: 'Centro de Servicios de Salud - Regional Antioquia',
-        },
-        {
-          nombre: 'Daniel Ricardo Mutis Gómez',
-          cargo: 'Evaluador para contenidos inclusivos y accesibles',
-          centro: 'Centro de Servicios de Salud - Regional Antioquia',
+          nombre: 'Norma Constanza Morales Cruz',
+          cargo: 'Evaluador de Contenidos Inclusivos y Accesibles',
+          centro: 'Regional Tolima - Centro de comercio y servicios',
         },
         {
           nombre: 'Margarita Marcela Medrano',
-          cargo: 'Evaluador para contenidos inclusivos y accesibles',
-          centro: 'Centro de Servicios de Salud - Regional Antioquia',
+          cargo: 'Vinculador y Validador de Recursos Educativos Digitales LMS ',
+          centro: 'Regional Tolima - Centro de comercio y servicios',
         },
       ],
     },

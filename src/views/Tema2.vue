@@ -64,37 +64,37 @@
           .col-md-8
             img(src='@/assets/curso/temas/tema2/img04.svg')
         .row.justify-content-center
-          .col-md-8.mb-md-0.mb-4
+          .col-md-8.mb-md-0.mb-4.col-lg-9
             h4 Tasa de interés 
-            p Corresponde al costo o renta correspondiente al uso de capital por determinado tiempo. Se representa con la letra “i” y su fórmula es:
+            p.mb-0 Corresponde al costo o renta correspondiente al uso de capital por determinado tiempo. Se representa con la letra “i” y su fórmula es:
             p i = F - P
-            p Existen tres tipos relevantes de interés: simple, compuesto y continuo.
-            p Interés simple: es la renta por el uso de un capital que no generan más intereses o no ganan más intereses en el periodo siguiente. Lo que quiere decir que los intereses se calculan siempre por el capital y este permanece constante durante el tiempo que esté vigente esta operación.
-            p Interés compuesto: es el interés generado que al final del periodo capitaliza los intereses devengados en el periodo inmediatamente anterior. En esta operación los intereses ganan intereses, lo que implica que los intereses devengados en un período forman parte del capital en el periodo siguiente.
-            p Un porcentaje que indica el valor del dinero en el tiempo, también puede definirse como la cifra que hace equivalentes dos valores diferentes, en diferentes momentos de tiempo. Existen diferentes tasas de interés, así:
-          .col-md-4
+            p.mb-1 Existen tres tipos relevantes de interés: simple, compuesto y continuo.
+            p.mb-1 #[b Interés simple:] es la renta por el uso de un capital que no generan más intereses o no ganan más intereses en el periodo siguiente. Lo que quiere decir que los intereses se calculan siempre por el capital y este permanece constante durante el tiempo que esté vigente esta operación.
+            p.mb-1 #[b Interés compuesto:] es el interés generado que al final del periodo capitaliza los intereses devengados en el periodo inmediatamente anterior. En esta operación los intereses ganan intereses, lo que implica que los intereses devengados en un período forman parte del capital en el periodo siguiente.
+            p.mb-1 Un porcentaje que indica el valor del dinero en el tiempo, también puede definirse como la cifra que hace equivalentes dos valores diferentes, en diferentes momentos de tiempo. Existen diferentes tasas de interés, así:
+          .col-md-4.col-lg-3
             img(src='@/assets/curso/temas/tema2/img05.svg')
         .row.justify-content-center
-          .col-md-4.mb-md-0.mb-2
+          .col-md-5.mb-md-0.mb-2
             h4 Valor del dinero en el tiempo
             p Se refiere a la capacidad del dinero en el tiempo de generar mayor valor al dinero, o en otras palabras, de generar riqueza. Este valor es el que nos permite hallar las matemáticas financieras a través de su fórmula de valor presente para conocer el valor del dinero hoy y de conocer el valor futuro de una inversión u obligación según fuere el caso.
             p Las matemáticas financieras son útiles para trabajar anualidades, es decir, con el fin de determinar las cuotas a pagar para cubrir una inversión que se espera recuperar junto con su beneficio o tasa de interés a un término definido y una  tasa de interés específica.
-          .col-md-8
+          .col-md-7
             img(src='@/assets/curso/temas/tema2/img06.svg')
         .row.justify-content-center
-          .col-md-4.mb-md-0.mb-2
+          .col-md-5.mb-md-0.mb-2
             p También es posible conocer el valor presente a invertir a partir de una serie de cuotas o anualidades y aplica en el caso de realizar una compra de un apartamento sobre planos, que tiene previsto su finalización entidad financiera por el 60 % del valor total del inmueble y, por último, necesita saber el valor de las cuotas a pagar durante un año a la firma constructora para cubrir el excedente restante. En este caso la fórmula es:
-          .col-md-8
+          .col-md-7
             img(src='@/assets/curso/temas/tema2/img07.svg')
 
     .h4.mb-4.mt-5(data-aos="zoom-down-right")
       span.titulo-herramientas Análisis
 
     .row.justify-content-center.align-items-center.mb-4
-      .col-md-6.col-10.order-md-1.order-2
+      .col-md-7.col-10.order-md-1.order-2.px-lg-1
         p El análisis es la función principal que cumple la matemática financiera, ella proporciona diferentes herramientas que hacen posible conocer escenarios desconocidos en diferentes circunstancias los cuales aportan al exitoso desempeño organizacional. Para analizar los anteriores conceptos, a continuación, se desarrolla un ejercicio de aplicación:
         p.mb-0 El inversionista está programando un viaje de turismo en un año que según cotizaciones le costará $15.000.000, actualmente cuenta con dinero disponible para invertir y desea que el beneficio sumado a la inversión corresponda mínimo al valor del viaje, para esto se ha informado que la tasa de interés efectivo anual es de 27,71 %.
-      .col-md-6.col-8.order-md-2.order-1.mb-md-0.mb-4
+      .col-md-5.col-8.order-md-2.order-1.mb-md-0.mb-4
         figure.mb-5(data-aos="fade-left")
           img(src='@/assets/curso/temas/tema2/img08.png')
     

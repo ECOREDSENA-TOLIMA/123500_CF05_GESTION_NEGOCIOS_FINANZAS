@@ -121,25 +121,31 @@
 
     p El valor de desecho del proyecto de inversión se refiere al valor que tienen los activos adquiridos en el proyecto por el inversionista para conocer luego de sustraer la depreciación a una tasa de retorno solicitada el cual se calcula por tres vías o métodos, a saber:
 
-    .row.justify-content-center.mb-4
-      .col-md-4.col-10.mb-md-0.mb-4(data-aos="fade-right")
-        .tarjeta-avatar
-          img(src='@/assets/curso/temas/tema3/img10.png' alt='AvatarTop')
-          .BG15.p-4.color-secundario.pt-5
-            h4.text-center Método contable
-            p Es un método conservador para calcular el valor de desecho que se utiliza en etapa de perfil o prefactibilidad y se realiza con la sumatoria de todos los valores contables o en libros de cada activo, teniendo en cuenta la inversión del activo, el número de años de depreciación faltantes y los ya depreciados. 
-      .col-md-4.col-10.mb-md-0.mb-4(data-aos="zoom-in")
-        .tarjeta-avatar
-          img(src='@/assets/curso/temas/tema3/img11.png' alt='AvatarTop')
-          .BG15.p-4.color-secundario.pt-5
-            h4.text-center Método comercial
-            p Se determina según el valor comercial que se espera que los activos puedan tener y sus efectos tributarios. Se calcula tomando el valor comercial, la utilidad antes de impuestos, la utilidad neta y el valor contable.
-      .col-md-4.col-10(data-aos="fade-left")
-        .tarjeta-avatar
-          img(src='@/assets/curso/temas/tema3/img12.png' alt='AvatarTop')
-          .BG15.p-4.color-secundario.pt-5
-            h4.text-center Método económico
-            p Estima el valor que un inversionista podría pagar por el proyecto y considera el flujo de caja del último año al que se le sustrae el valor de la depreciación y se multiplica por la tasa de retorno exigida. Este es el método más utilizado y aterrizado para calcular el valor de desecho de un proyecto de inversión.
+    .row.justify-content-center.mb-5
+      .col-sm-6.col-lg-4.mb-4.mb-lg-0
+        .tarjeta--boton.color-custom-c.h-100.p-4
+          .row.justify-content-center.mb-3
+            .col-7
+              figure
+                img(src='@/assets/curso/temas/tema3/img10.svg', alt='')
+          h5.text-center Método contable
+          p Es un método conservador para calcular el valor de desecho que se utiliza en etapa de perfil o prefactibilidad y se realiza con la sumatoria de todos los valores contables o en libros de cada activo, teniendo en cuenta la inversión del activo, el número de años de depreciación faltantes y los ya depreciados. 
+      .col-sm-6.col-lg-4.mb-4.mb-lg-0
+        .tarjeta--boton.color-custom-c.h-100.p-4
+          .row.justify-content-center.mb-3
+            .col-7
+              figure
+                img(src='@/assets/curso/temas/tema3/img11.svg', alt='')
+          h5.text-center Método comercial
+          p Se determina según el valor comercial que se espera que los activos puedan tener y sus efectos tributarios. Se calcula tomando el valor comercial, la utilidad antes de impuestos, la utilidad neta y el valor contable.
+      .col-sm-6.col-lg-4.mb-4.mb-sm-0
+        .tarjeta--boton.color-custom-c.h-100.p-4
+          .row.justify-content-center.mb-3
+            .col-7
+              figure
+                img(src='@/assets/curso/temas/tema3/img12.svg', alt='')
+          h5.text-center Método económico
+          p Estima el valor que un inversionista podría pagar por el proyecto y considera el flujo de caja del último año al que se le sustrae el valor de la depreciación y se multiplica por la tasa de retorno exigida. Este es el método más utilizado y aterrizado para calcular el valor de desecho de un proyecto de inversión.
 
     .h4.mb-4.mt-5(data-aos="zoom-down-right")
       span.titulo-herramientas Flujo de caja del inversionista
@@ -147,9 +153,9 @@
     p Este flujo de caja nace de la necesidad de conocer la rentabilidad que recibirá un inversionista al colocar sus recursos propios en un proyecto de inversión para lo cual es necesario incluir el efecto del financiamiento con el fin de incluir el impacto de la deuda. De esta manera, se incluye el costo de la financiación separando el valor de la cuota que asume los gastos financieros y el de amortización o disminución del capital de la obligación financiera.
 
     .row.justify-content-center.mb-4
-      .col-md-6.col-10.px-0(data-aos="fade-right")
-        img(src='@/assets/curso/temas/tema3/img13.png')
-      .col-md-4.col-10.BG16.p-3(data-aos="fade-left")
+      .col-md-6.col-10.px-0.py-0(data-aos="fade-right")
+        img(src='@/assets/curso/temas/tema3/img13.png', style="height:100%")
+      .col-md-4.col-10.BG16A.p-3(data-aos="fade-left")
         p.text-bold.ms-2.mb-0 + Ingresos sujetos a impuestos.
         p.text-bold.ms-2.mb-0 -Egresos sujetos a impuestos.
         p.text-bold.ms-2.mb-0 = Ebitda.
@@ -176,12 +182,12 @@
         figure.mb-5(data-aos="fade-left")
           img(src='@/assets/curso/temas/tema3/img14.png')
 
-    p Los proyectos de reemplazo especialmente nacen por las siguientes razones:
+    p.mb-4 Los proyectos de reemplazo especialmente nacen por las siguientes razones:
 
     .row.justify-content-center.align-items-center.mb-5
       .col-md-8.BG04.p-4
         .row.justify-content-center.align-items-center
-          .col-md-2.col-8.p-0.img01.mb-md-0.mb-4
+          .col-md-2.px-lg-4.col-8.p-0.img01.mb-md-0.mb-4
             figure
               img.w-75(src='@/assets/curso/temas/tema3/img15.png')
           .col-md-10.col-12
@@ -229,8 +235,10 @@
     
     AcordionA.mb-5(tipo="a" clase-tarjeta="BG01A")
       .row.justify-content-center(titulo="Estructura del flujo de caja proyecto puro")
-        .col-md-5.col-11.order-md-1.order-2.mb-4
-          h4 Estructura del flujo de caja proyecto puro 
+        .col-md-5.col-11.order-1.mb-md-0.mb-4
+          img(src='@/assets/curso/temas/tema3/img19.png')
+        .col-md-6.col-11.order-2.mb-4
+          //- h4 Estructura del flujo de caja proyecto puro 
           p.mb-0 = Ingresos sujetos a impuestos*.
           p.mb-0 - Egresos sujetos a impuestos.
           p.mb-0 - Gastos no desembolsables.
@@ -242,13 +250,11 @@
           p.mb-0 + Depreciación.
           p.mb-0 + Valor en libros.
           p.mb-0 = Flujo de caja.
-        .col-md-6.col-11.order-md-2.order-1.mb-md-0.mb-4
-          img(src='@/assets/curso/temas/tema3/img19.png')
         .col-12.col-md-11.mt-2.BG16.p-4.order-3
           p.mb-0 * Los ingresos corresponden a la venta de activos que por ser originados por reemplazo se realizaría en el último año del horizonte del proyecto.
       .row.justify-content-center(titulo="Estructura del flujo de caja de la situación con proyecto")
-        .col-md-5.col-11.order-md-1.order-2.mb-4
-          h4 Estructura del flujo de caja de la situación con proyecto 
+        .col-md-6.col-11.order-md-2.order-2.mb-4
+          //- h4 Estructura del flujo de caja de la situación con proyecto 
           p.mb-0 = Ingresos sujetos a impuestos*.
           p.mb-0 + Ahorro costos.
           p.mb-0 - Gastos no desembolsables.
@@ -259,14 +265,17 @@
           p.mb-0 + Depreciación.
           p.mb-0 + Valor en libros.
           p.mb-0 = Flujo de caja.
-        .col-md-6.col-11.order-md-2.order-1.mb-md-0.mb-4
+        .col-md-5.col-11.order-md-1.order-1.mb-md-0.mb-4
           img(src='@/assets/curso/temas/tema3/img20.png')
         .col-11.BG16.mt-2.p-4.order-3
           p.mb-0 * Los ingresos corresponden a la venta del equipo vigente y el impuesto por pagar por la venta que deben ser incorporados en el año cero (0), porque se realiza la inversión en la compra del activo de reemplazo.
       .row.justify-content-center(titulo="Flujo de caja incremental")
-        .col-md-5.col-11.order-md-1.order-2.mb-4
+        .col-lg-11.col-12
           p Es pertinente anotar que para tomar decisiones de inversión en el caso del reemplazo se hace necesario comparar a través de flujo diferencial para evaluar el impacto de la decisión, este se realiza tomando los flujos de caja netos de la situación sin proyecto o en este caso sin reemplazo y debajo se ubican los flujos de caja netos de la situación con proyecto o para este caso con reemplazo lo que permite calcular las diferencias y valorar el flujo incremental el cual se construye así:
-          h4 Flujo de caja incremental 
+        .col-md-5.col-11.order-1.mb-md-0.mb-4
+          img(src='@/assets/curso/temas/tema3/img21.png')
+        .col-md-6.col-11.order-2.mb-4
+          //- h4 Flujo de caja incremental 
           p.mb-0 = Ingresos sujetos a impuestos*.
           p.mb-0 + Ahorro costos.
           p.mb-0 + Gastos no desembolsables/Depreciación.
@@ -278,8 +287,6 @@
           p.mb-0 + Valor en libros.
           p.mb-0 -	Inversión.
           p.mb-0 = Flujo de caja.
-        .col-md-6.col-11.order-md-2.order-1.mb-md-0.mb-4
-          img(src='@/assets/curso/temas/tema3/img21.png')
         .col-11.BG16.p-4.order-3
           p.mb-0 * La financiación de un proyecto depende de la mejor alternativa que el inversionista debe hallar a partir de la elaboración de los flujos de costos de cada opción de financiación con el fin de elegir las más apropiada siendo esta la que represente el menor valor actual de costos de capital.
 
@@ -291,48 +298,71 @@
       LineaTiempoC.color-acento-contenido(text-small)
         .row.justify-content-center.p-3(titulo="VPN")
           .col-12.mb-4.mb-md-0
-            h4 VPN
-            p Se reconoce como el indicador resultado de sustraer del valor presente de los futuros flujos de caja la inversión inicial. Es adecuado precisar que la tasa de interés corresponde a la mínima rentabilidad que deben producir los bienes o activos que posee una empresa conocida también como tasa de oportunidad.
-            p También puede definirse como Valor Actual Neto o (VAN) que es aceptable cuando es igual o superior a cero, lo cual quiere decir que al restar todos los ingresos y erogaciones el proyecto de inversión no presenta riesgos puesto que no pierde su inversión o lo que es mejor, si el valor es mayor a cero quiere decir que la inversión genera beneficios expresados en la cantidad que arroje como resultado.
-            p Si el horizonte del proyecto es de 5 años el número de flujos de caja a descontar son 5 a la tasa de interés definida por la organización o el inversionista, su fórmula es:
-            p <span style="background-color:#3AE3FE !important; font-weight: bold; padding: 5px">VPN = - I0 + (F/(1 + i)n) + (F/(1 + i)n) + (F/(1 + i)n) + … </span>
-            p Estos son los criterios para decidir con base en VPN:
-            p.text-bold 1. Si VPN &gt; 0, entonces el proyecto es aceptable.
-            p.text-bold 2. Si VPN &lt; 0, entonces el proyecto no es aceptable.
-            p.text-bold 3. Si VPN = 0, entonces es indiferente aceptarlo o no.
+            //- h4 VPN
+            .row 
+              .col-md-2.col-8
+                img(src='@/assets/curso/temas/tema3/imgAD1.png')
+              .col-md-10.col-12
+                p.mb-1 Se reconoce como el indicador resultado de sustraer del valor presente de los futuros flujos de caja la inversión inicial. Es adecuado precisar que la tasa de interés corresponde a la mínima rentabilidad que deben producir los bienes o activos que posee una empresa conocida también como tasa de oportunidad.
+                p.mb-1 También puede definirse como Valor Actual Neto o (VAN) que es aceptable cuando es igual o superior a cero, lo cual quiere decir que al restar todos los ingresos y erogaciones el proyecto de inversión no presenta riesgos puesto que no pierde su inversión o lo que es mejor, si el valor es mayor a cero quiere decir que la inversión genera beneficios expresados en la cantidad que arroje como resultado.
+                p Si el horizonte del proyecto es de 5 años el número de flujos de caja a descontar son 5 a la tasa de interés definida por la organización o el inversionista, su fórmula es:
+                p <span style="background-color:#3AE3FE !important; font-weight: bold; padding: 5px">VPN = - I0 + (F/(1 + i)n) + (F/(1 + i)n) + (F/(1 + i)n) + … </span>
+                p.mb-1 Estos son los criterios para decidir con base en VPN:
+                p.text-bold.mb-0 1. Si VPN &gt; 0, entonces el proyecto es aceptable.
+                p.text-bold.mb-0 2. Si VPN &lt; 0, entonces el proyecto no es aceptable.
+                p.text-bold.mb-0 3. Si VPN = 0, entonces es indiferente aceptarlo o no.
         .row.justify-content-center.p-3(titulo="TIR")
           .col-12.mb-4.mb-md-0
-            h4 TIR
-            p Es un instrumento para medir la rentabilidad que ofrece una inversión y la viabilidad para llevarla a cabo. Definida como la tasa de interés que hace equivalentes los ingresos y egresos tomando como primer egreso la inversión inicial del proyecto, también puede definirse como la tasa de interés que equilibra o  iguala en el tiempo los ingresos y egresos de un proyecto. Representa la tasa de interés más alta que un inversionista puede pagar sin perder su inversión. La fórmula es:
-            p <span style="background-color:#3AE3FE !important; font-weight: bold; padding: 5px">TIR = - I0 +(F/(1 + i)n) + (F/(1 + i)n) + (F/(1 + i)n)…</span>
-            p Los criterios de selección del proyecto de inversión según TIR, es:
-            p.text-bold 1. Si TIR &gt; K, el proyecto será aceptado. Teniendo una rentabilidad mayor a la tasa mínima esperada o al Costo de Capital (CK).
-            p.text-bold 2.Si TIR = K el proyecto será aceptado si existe la probabilidad de mejorar la posición en el mercado porque no presenta beneficios o rentabilidad.
-            p.text-bold 3. Si TIR &lt; K, el proyecto debe rechazarse debido a que no cubre la rentabilidad mínima esperada.
+            //- h4 TIR
+            .row 
+              .col-md-2.col-8
+                img(src='@/assets/curso/temas/tema3/imgAD2.png')
+              .col-md-10.col-12
+                p.mb-1 Es un instrumento para medir la rentabilidad que ofrece una inversión y la viabilidad para llevarla a cabo. Definida como la tasa de interés que hace equivalentes los ingresos y egresos tomando como primer egreso la inversión inicial del proyecto, también puede definirse como la tasa de interés que equilibra o  iguala en el tiempo los ingresos y egresos de un proyecto. Representa la tasa de interés más alta que un inversionista puede pagar sin perder su inversión. La fórmula es:
+                p <span style="background-color:#3AE3FE !important; font-weight: bold; padding: 5px">TIR = - I0 +(F/(1 + i)n) + (F/(1 + i)n) + (F/(1 + i)n)…</span>
+                p.mb-1 Los criterios de selección del proyecto de inversión según TIR, es:
+                p.text-bold.mb-0 1. Si TIR &gt; K, el proyecto será aceptado. Teniendo una rentabilidad mayor a la tasa mínima esperada o al Costo de Capital (CK).
+                p.text-bold.mb-0 2.Si TIR = K el proyecto será aceptado si existe la probabilidad de mejorar la posición en el mercado porque no presenta beneficios o rentabilidad.
+                p.text-bold.mb-0 3. Si TIR &lt; K, el proyecto debe rechazarse debido a que no cubre la rentabilidad mínima esperada.
         .row.justify-content-center.p-3(titulo="CAUE")
           .col-12.mb-4.mb-md-0
-            h4 CAUE
-            p Indica Costo Anual Uniforme Equivalente llamado también flujo final de caja y representa la cantidad de flujos de caja que el proyecto de inversión espera recibir por un número n de periodos a una tasa de interés transformando todos lo ingreso y egresos en pagos uniformes o anualidades.
-            p <span style="background-color:#3AE3FE !important; font-weight: bold; padding: 5px">CAUE = - I0 +(F/(1 + i)n) + (F/(1 + i)n) + (F/(1 + i)n)… donde i = TIO</span>
-            p Los criterios para aceptar o rechazar un proyecto de inversión bajo este indicador es:
-            p.text-bold 1. Si el CAUE es positivo, los ingresos son mayores que los egresos y genera beneficios y rentabilidad.
-            p.text-bold 2. Si el CAUE es negativo, los ingresos son menores que los egresos y el proyecto genera pérdidas.
+            //- h4 CAUE
+            .row 
+              .col-12
+                p Indica Costo Anual Uniforme Equivalente llamado también flujo final de caja y representa la cantidad de flujos de caja que el proyecto de inversión espera recibir por un número n de periodos a una tasa de interés transformando todos lo ingreso y egresos en pagos uniformes o anualidades.
+                p <span style="background-color:#3AE3FE !important; font-weight: bold; padding: 5px">CAUE = - I0 +(F/(1 + i)n) + (F/(1 + i)n) + (F/(1 + i)n)… donde i = TIO</span>
+                p.mb-1 Los criterios para aceptar o rechazar un proyecto de inversión bajo este indicador es:
+                p.text-bold.mb-0 1. Si el CAUE es positivo, los ingresos son mayores que los egresos y genera beneficios y rentabilidad.
+                p.text-bold 2. Si el CAUE es negativo, los ingresos son menores que los egresos y el proyecto genera pérdidas.
+              .col-12
+                img(src='@/assets/curso/temas/tema3/imgAD3.png')
         .row.justify-content-center.p-3(titulo="ROI")
           .col-12.mb-4.mb-md-0
-            h4 Periodo de Recuperación de la Inversión - ROI
-            p Determina el número de periodos o tiempo expresado en “n” cual fuere los períodos en el flujo de caja, que pueden ser mensuales, bimensuales, trimestrales, semestrales anuales requeridos o necesarios para recuperar la inversión, en otras palabras, compara la inversión inicial con los flujos de caja del proyecto en valores absolutos sin la intervención de una tasa de interés. Donde I0 corresponde a la inversión inicial y F corresponde a la sumatoria de los flujos de caja obtenidos durante el horizonte del proyecto de inversión.
-            p.text-bold ROI = ln / F
+            .row 
+              .col-12
+                h4 Periodo de Recuperación de la Inversión - ROI
+                p Determina el número de periodos o tiempo expresado en “n” cual fuere los períodos en el flujo de caja, que pueden ser mensuales, bimensuales, trimestrales, semestrales anuales requeridos o necesarios para recuperar la inversión, en otras palabras, compara la inversión inicial con los flujos de caja del proyecto en valores absolutos sin la intervención de una tasa de interés. Donde I0 corresponde a la inversión inicial y F corresponde a la sumatoria de los flujos de caja obtenidos durante el horizonte del proyecto de inversión.
+                p.text-bold ROI = ln / F
+              .col-12
+                img(src='@/assets/curso/temas/tema3/imgAD4.png')
         .row.justify-content-center.p-3(titulo="TIO")
           .col-12.mb-4.mb-md-0
-            h4 TIO
-            p Tasa de Interés de Oportunidad (TIO), corresponde a la tasa o beneficio que un inversionista espera recibir por invertir su dinero en x proyecto y dejar de invertirlo en otro que podría hipotéticamente generarle mayores beneficios.
+            .row 
+              .col-12
+                //- h4 TIO
+                p Tasa de Interés de Oportunidad (TIO), corresponde a la tasa o beneficio que un inversionista espera recibir por invertir su dinero en x proyecto y dejar de invertirlo en otro que podría hipotéticamente generarle mayores beneficios.
+              .col-12
+                img(src='@/assets/curso/temas/tema3/imgAD5.png')
         .row.justify-content-center.p-3(titulo="ANF")
           .col-12.mb-4.mb-md-0
-            h4 Activo Neto Financiado (ANF)
-            p También conocido como Capital Invertido Neto (CIN), son los activos que han sido financiados con servicio a la deuda representados en pasivos costosos o con recursos del patrimonio, siendo el patrimonio el recurso  donde el costo se hace más elevado debido a que los inversionistas siempre esperan un beneficio mayor a cualquiera que reciba un acreedor. 
-            p <span style="background-color:#3AE3FE !important; font-weight: bold; padding: 5px">ANF = patrimonio + pasivos con costo</span>
-            p Al identificar los pasivos con costo se refiere a las obligaciones financieras cuyo costo corresponde al servicio a la deuda o gastos financieros a pagar por este servicio, entre los cuales se encuentran obligaciones financieras de corto y largo plazo, los bonos, los pasivos con socios.
-
+            .row 
+              .col-12
+                h4 Activo Neto Financiado - ANF
+                p También conocido como Capital Invertido Neto (CIN), son los activos que han sido financiados con servicio a la deuda representados en pasivos costosos o con recursos del patrimonio, siendo el patrimonio el recurso  donde el costo se hace más elevado debido a que los inversionistas siempre esperan un beneficio mayor a cualquiera que reciba un acreedor. 
+                p <span style="background-color:#3AE3FE !important; font-weight: bold; padding: 5px">ANF = patrimonio + pasivos con costo</span>
+                p Al identificar los pasivos con costo se refiere a las obligaciones financieras cuyo costo corresponde al servicio a la deuda o gastos financieros a pagar por este servicio, entre los cuales se encuentran obligaciones financieras de corto y largo plazo, los bonos, los pasivos con socios.
+              .col-12
+                img(src='@/assets/curso/temas/tema3/imgAD6.png')
     .h4.mb-4.mt-5(data-aos="zoom-down-right")
       span.titulo-herramientas Costo Promedio de Capital (CPC)
     
@@ -439,7 +469,8 @@
 
     .row.justify-content-center.mb-4
       .col-md-10.mb-4
-        img(src='@/assets/curso/temas/tema3/img24.svg')
+        img.d-none.d-sm-none.d-md-block(src='@/assets/curso/temas/tema3/img24.svg')
+        img.d-block.d-md-none(src='@/assets/curso/temas/tema3/img24.svg')
       .col-md-10.mb-4
         .titulo-sexto.color-acento-contenido.mb-4(data-aos="fade-right")
           h5 Tabla 7.
