@@ -8,10 +8,10 @@
       h1 Evaluación financiera y social 
 
     .row.justify-content-center.align-items-center.mb-4
-      .col-md-5.col-8.mb-md-0.mb-4
+      .col-md-5.col-12.mb-md-0.mb-4
         figure.mb-5(data-aos="fade-right")
           img(src='@/assets/curso/temas/tema3/img01.png')
-      .col-md-7.col-10
+      .col-md-7.col-12
         p La evaluación financiera y social se basa en realizar estimaciones de lo que proyecta el futuro, los beneficios y costos asociados durante un horizonte de tiempo. Al plantearlas el analista debe conocer la actividad económica a la que se dedica la empresa, el entorno en que se desempeña la organización, así como el comportamiento de los precios, la ubicación y acceso a los insumos, prever los avances tecnológicos, la evolución de la demanda, el comportamiento de la competencia, cambios de gobierno o de política económica y social, leyes aplicables al sector y demás variables del entorno; todos ellos influyen en las alternativas planteadas por los analistas que seguramente no van a coincidir. 
         p.mb-0 Estas permiten determinar, de manera objetiva, las magnitudes numéricas de los resultados a obtener, apoyadas en cálculos matemáticos donde se validarán supuestos que han tenido origen en la realidad organizacional con el fin de tener una correcta valuación de los beneficios esperados.
 
@@ -45,12 +45,12 @@
       .col-md-7.col-12.order-md-1.order-2.mb-md-0.mb-4
         p Este es un estado financiero de mucha importancia para la evaluación financiera de un proyecto de inversión, ya que es el instrumento que arroja la información o resultados sobre los que se determinan los beneficios a recibir por el proyecto, en los que, además de incluir ingresos y gastos, es necesario incluir la depreciación, amortización del activo nominal, valor residual, utilidades y pérdidas.
         p.mb-0 Este ejercicio tiene su grado de complejidad, ya que requiere de la elaboración de un flujo de acuerdo con su fin; es decir, un flujo de caja para medir la rentabilidad, otro para evaluar los resultados de los recursos propios y el último para definir la capacidad de pago frente a obligaciones financieras; estos también difieren si la evaluación se realiza sobre un proyecto a implementar o sobre una actividad económica en marcha.
-      .col-md-5.col-8.order-md-2.order-1
+      .col-md-5.col-12.order-md-2.order-1
         figure.mb-5(data-aos="fade-left")
           img(src='@/assets/curso/temas/tema3/img04.png')
 
     .row.justify-content-center.align-items-center.mb-4
-      .col-md-4.col-8.mb-md-0.mb-4
+      .col-md-4.col-12.mb-md-0.mb-4
         img(src='@/assets/curso/temas/tema3/img05.png')
       .col-md-6.col-10
         p Los elementos para la construcción de un flujo de caja son cuatro:
@@ -175,10 +175,10 @@
       span.titulo-herramientas Flujo de caja de proyectos de inversión en empresa en marcha
 
     .row.justify-content-center.align-items-center.mb-4
-      .col-md-7.col-10.order-md-1
+      .col-md-7.col-12.order-md-1
         p El flujo de caja difiere del inversionista, ya que algunos rubros o conceptos ya están siendo asumidos por la operación de la empresa como los gastos de remuneración del conductor de la empresa que viene desarrollando una actividad o proceso en la organización.
         p.mb-0 De esta manera, los conceptos que tienen cabida en este estado financiero son las inversiones que se realizan por reemplazo, ampliación, tercerización de procesos y los de abandono, permitiendo identificar los  proyectos de inversión de reemplazo que tienen origen debido a la reducción del nivel de producción causando el incremento en los costos productivos por inactividad para la realización de mantenimiento asociados a la vida útil agotada del equipo y la obsolescencia.
-      .col-md-5.col-8.order-md-2.order-1.order-2.mb-md-0.mb-4
+      .col-md-5.col-12.order-md-2.order-1.order-2.mb-md-0.mb-4
         figure.mb-5(data-aos="fade-left")
           img(src='@/assets/curso/temas/tema3/img14.png')
 
@@ -342,7 +342,7 @@
               .col-12
                 h4 Periodo de Recuperación de la Inversión - ROI
                 p Determina el número de periodos o tiempo expresado en “n” cual fuere los períodos en el flujo de caja, que pueden ser mensuales, bimensuales, trimestrales, semestrales anuales requeridos o necesarios para recuperar la inversión, en otras palabras, compara la inversión inicial con los flujos de caja del proyecto en valores absolutos sin la intervención de una tasa de interés. Donde I0 corresponde a la inversión inicial y F corresponde a la sumatoria de los flujos de caja obtenidos durante el horizonte del proyecto de inversión.
-                p.text-bold ROI = ln / F
+                p.text-bold <span style="background-color:#3AE3FE !important; font-weight: bold; padding: 5px">ROI = ln / F</span>
               .col-12
                 img(src='@/assets/curso/temas/tema3/imgAD4.png')
         .row.justify-content-center.p-3(titulo="TIO")
@@ -371,39 +371,39 @@
     .titulo-sexto.color-acento-contenido.mb-4(data-aos="fade-right")
       h5 Tabla 6.
       em Costo promedio de capital
-
-    table.mb-4(data-aos="fade-right")
-      tr
-        th(style="background-color: #3AE3FE;" colspan="2").text-center Recurso
-        th(style="background-color: #3AE3FE;").text-center Tasa
-        th(style="background-color: #3AE3FE;").text-center Participación
-        th(style="background-color: #3AE3FE;").text-center Ponderación
-      tr
-        td(style="background-color: #F6F6F6;") Pasivo corriente
-        td(style="background-color: #F6F6F6;").text-end 25.000.000
-        td(style="background-color: #F6F6F6;").text-end 26,82 %
-        td(style="background-color: #F6F6F6;").text-end 14,88 %
-        td(style="background-color: #F6F6F6;").text-end 3,99
-      tr
-        td Pasivo a Largo Plazo
-        td.text-end 50.000.000
-        td.text-end 26,82 %
-        td.text-end 29,76 %
-        td.text-end 7,98
-      tr
-        td(style="background-color: #F6F6F6;") Patrimonio
-        td(style="background-color: #F6F6F6;").text-end 93.000.000
-        td(style="background-color: #F6F6F6;").text-end 29 %
-        td(style="background-color: #F6F6F6;").text-end 55,36 %
-        td(style="background-color: #F6F6F6;").text-end 16,05
-      tr
-        th Totales
-        th.text-end 168.000.000
-        th.text-end 27,54%
-        th.text-end 100 %
-        th.text-end 28,02 %
-      tr
-        td(style="background-color: #F6F6F6;" colspan="5") Fuente: Propia
+    .tabla-a
+      table.mb-4(data-aos="fade-right")
+        tr
+          th(style="background-color: #3AE3FE;" colspan="2").text-center Recurso
+          th(style="background-color: #3AE3FE;").text-center Tasa
+          th(style="background-color: #3AE3FE;").text-center Participación
+          th(style="background-color: #3AE3FE;").text-center Ponderación
+        tr
+          td(style="background-color: #F6F6F6;") Pasivo corriente
+          td(style="background-color: #F6F6F6;").text-end 25.000.000
+          td(style="background-color: #F6F6F6;").text-end 26,82 %
+          td(style="background-color: #F6F6F6;").text-end 14,88 %
+          td(style="background-color: #F6F6F6;").text-end 3,99
+        tr
+          td Pasivo a Largo Plazo
+          td.text-end 50.000.000
+          td.text-end 26,82 %
+          td.text-end 29,76 %
+          td.text-end 7,98
+        tr
+          td(style="background-color: #F6F6F6;") Patrimonio
+          td(style="background-color: #F6F6F6;").text-end 93.000.000
+          td(style="background-color: #F6F6F6;").text-end 29 %
+          td(style="background-color: #F6F6F6;").text-end 55,36 %
+          td(style="background-color: #F6F6F6;").text-end 16,05
+        tr
+          th Totales
+          th.text-end 168.000.000
+          th.text-end 27,54%
+          th.text-end 100 %
+          th.text-end 28,02 %
+        tr
+          td(style="background-color: #F6F6F6;" colspan="5") Fuente: Propia
     
     .row.justify-content-center.align-items-center.mb-4
       .col-md-5.col-8.mb-md-0.mb-4
@@ -416,23 +416,22 @@
         p La interpretación de este indicador se facilita cuando hay dos o más alternativas de inversión donde se aplique y se defina cuál de ellas es la menos costosa para la organización. Sin embargo, este componente o indicador individual aporta al cálculo del EVA que se estará tratando más adelante.
 
     .BG01.p-4.mb-5(data-aos="fade-right")
-      SlyderA(tipo="b")
-        .row.justify-content-center
-          .col-md-11.col-12
-            h4 Utilidad Neta Ajustada (UNA)
-            p Se refiere a la utilidad antes de impuestos y de gastos financieros. Lo que se pretende es definir si esta utilidad neta ajustada es suficiente para atender el costo de los recursos en pasivos, patrimonio y aportar a la generación de riqueza en la organización. Para su cálculo se necesita:
-            p.text-center <span style="background-color:#3AE3FE !important; font-weight: bold; padding: 6px">UNA = Utilidad neta + Gastos financieros</span>
-        .row.justify-content-center
-          .col-md-11.col-12
-            h4 EVA
-            p Quiere decir valor económico agregado, es un indicador creado para crear riqueza basado en la eficiencia y productividad de los bienes y derechos de la empresa o activos, la estructura del capital y el medio al que la empresa pertenece. Su fórmula es:
-            p.text-center <span style="background-color:#3AE3FE !important; font-weight: bold; padding: 5px">EVA = UNA - (ANF x CPC)</span>
-            p.mb-0.text-bold EVA: Economic Value Added (valor económico agregado).
-            p.mb-0.text-bold UNA: Utilidad Neta Ajustada.
-            p.mb-0.text-bold ANF: Activo Neto Financiado.
-            p.mb-0.text-bold CPC: Costo Promedio de Capital.
-        //- .row.justify-content-center
-        //-   .col-md-11.col-12
+      .row.justify-content-center
+        .col-md-11.col-12
+          h4 Utilidad Neta Ajustada (UNA)
+          p Se refiere a la utilidad antes de impuestos y de gastos financieros. Lo que se pretende es definir si esta utilidad neta ajustada es suficiente para atender el costo de los recursos en pasivos, patrimonio y aportar a la generación de riqueza en la organización. Para su cálculo se necesita:
+      .row.justify-content-center
+        .col-md-7.col-12
+          p.text-center <span style="background-color:#3AE3FE !important; font-weight: bold; padding: 6px">UNA = Utilidad neta + Gastos financieros</span>
+          h4 EVA
+          p Quiere decir valor económico agregado, es un indicador creado para crear riqueza basado en la eficiencia y productividad de los bienes y derechos de la empresa o activos, la estructura del capital y el medio al que la empresa pertenece. Su fórmula es:
+          p.text-center <span style="background-color:#3AE3FE !important; font-weight: bold; padding: 5px">EVA = UNA - (ANF x CPC)</span>
+          p.mb-0.text-bold EVA: Economic Value Added (valor económico agregado).
+          p.mb-0.text-bold UNA: Utilidad Neta Ajustada.
+          p.mb-0.text-bold ANF: Activo Neto Financiado.
+          p.mb-0.text-bold CPC: Costo Promedio de Capital.
+        .col-md-3.col-12
+            img(src='@/assets/curso/temas/tema3/img22x.png')
 
     p Su fin es evaluar las estrategias a implementar tendientes a aumentar el valor de la empresa basado en los objetivos estratégicos, operacionales y financieros, los recursos invertidos, el riesgo y el beneficio a obtener.
     p A continuación, se desarrolla un ejemplo para ampliar la aplicación de indicadores y su interpretación:     
@@ -440,9 +439,9 @@
     .row.justify-content-center.mb-4
       .col-md-10.BG18.p-4
         p La empresa Saloan ha decidido tecnificar aún más su proceso productivo y ha determinado que realizará una inversión en nueva tecnología para el proceso productivo en el año 3 con el fin de reducir los costos de producción, incrementar sus ventas, ser más productiva y generar riqueza.
-      .col-md-5.col-6.px-0(data-aos="fade-right")
+      .col-md-5.col-12.px-0(data-aos="fade-right")
         img(src='@/assets/curso/temas/tema3/img23.png')
-      .col-md-5.col-8.BG01.p-4(data-aos="fade-left")
+      .col-md-5.col-12.BG01.p-4(data-aos="fade-left")
         p.mb-0 El escenario actual de la empresa es:
         p.mb-0 #[strong Ventas]: 3333 unidades/año
         p.mb-0 #[strong Precio de venta]: $15.000
@@ -470,224 +469,226 @@
     .row.justify-content-center.mb-4
       .col-md-10.mb-4
         img.d-none.d-sm-none.d-md-block(src='@/assets/curso/temas/tema3/img24.svg')
-        img.d-block.d-md-none(src='@/assets/curso/temas/tema3/img24.svg')
+        img.d-block.d-md-none(src='@/assets/curso/temas/tema3/img24b.svg') 
       .col-md-10.mb-4
         .titulo-sexto.color-acento-contenido.mb-4(data-aos="fade-right")
           h5 Tabla 7.
           em Amortización
-
-        table.mb-4(data-aos="fade-right")
-          tr
-            th(style="background-color: #3AE3FE;").text-center n
-            th(style="background-color: #3AE3FE;").text-center Serie de cuotas o anualidades A
-            th(style="background-color: #3AE3FE;").text-center Interés B
-            th(style="background-color: #3AE3FE;").text-center Amortización C = A -B
-            th(style="background-color: #3AE3FE;").text-center Saldo = n - C
-          tr
-            td(style="background-color: #F6F6F6;").text-center 0
-            td(style="background-color: #F6F6F6;").text-end -
-            td(style="background-color: #F6F6F6;").text-end -
-            td(style="background-color: #F6F6F6;").text-end -
-            td(style="background-color: #F6F6F6;").text-end 40.000.000,00
-          tr
-            td.text-center 1
-            td.text-end 17.489.077,31
-            td.text-end 10.728.000,00
-            td.text-end 6.761.077,31
-            td.text-end 33.238.922,69
-          tr
-            td(style="background-color: #F6F6F6;").text-center 2
-            td(style="background-color: #F6F6F6;").text-end 17.489.077,31
-            td(style="background-color: #F6F6F6;").text-end 8.914.679,07
-            td(style="background-color: #F6F6F6;").text-end 8.574.398,25
-            td(style="background-color: #F6F6F6;").text-end 24.664.524,44
-          tr
-            td.text-center 3
-            td.text-end 17.489.077,31
-            td.text-end 6.615.025,46
-            td.text-end 10.874.051,85
-            td.text-end 13.790.472,59
-          tr
-            td(style="background-color: #F6F6F6;").text-center 4
-            td(style="background-color: #F6F6F6;").text-end 17.489.077,31
-            td(style="background-color: #F6F6F6;").text-end 3.698.604,75
-            td(style="background-color: #F6F6F6;").text-end 13.790.472,59
-            td(style="background-color: #F6F6F6;").text-end 0
+        .tabla-b
+          table.mb-4(data-aos="fade-right")
+            tr
+              th(style="background-color: #3AE3FE;").text-center n
+              th(style="background-color: #3AE3FE;").text-center Serie de cuotas o anualidades A
+              th(style="background-color: #3AE3FE;").text-center Interés B
+              th(style="background-color: #3AE3FE;").text-center Amortización C = A -B
+              th(style="background-color: #3AE3FE;").text-center Saldo = n - C
+            tr
+              td(style="background-color: #F6F6F6;").text-center 0
+              td(style="background-color: #F6F6F6;").text-end -
+              td(style="background-color: #F6F6F6;").text-end -
+              td(style="background-color: #F6F6F6;").text-end -
+              td(style="background-color: #F6F6F6;").text-end 40.000.000,00
+            tr
+              td.text-center 1
+              td.text-end 17.489.077,31
+              td.text-end 10.728.000,00
+              td.text-end 6.761.077,31
+              td.text-end 33.238.922,69
+            tr
+              td(style="background-color: #F6F6F6;").text-center 2
+              td(style="background-color: #F6F6F6;").text-end 17.489.077,31
+              td(style="background-color: #F6F6F6;").text-end 8.914.679,07
+              td(style="background-color: #F6F6F6;").text-end 8.574.398,25
+              td(style="background-color: #F6F6F6;").text-end 24.664.524,44
+            tr
+              td.text-center 3
+              td.text-end 17.489.077,31
+              td.text-end 6.615.025,46
+              td.text-end 10.874.051,85
+              td.text-end 13.790.472,59
+            tr
+              td(style="background-color: #F6F6F6;").text-center 4
+              td(style="background-color: #F6F6F6;").text-end 17.489.077,31
+              td(style="background-color: #F6F6F6;").text-end 3.698.604,75
+              td(style="background-color: #F6F6F6;").text-end 13.790.472,59
+              td(style="background-color: #F6F6F6;").text-end 0
     
     p La tabla de amortización siempre debe dar en su saldo final cero, por esa razón se utilizan todos los decimales parecer algo imperceptible, pero al tomar solo dos decimales la cuota era por $17.492.000 y al finalizar arrojaba un saldo final de $17.000, aproximadamente.
 
     .titulo-sexto.color-acento-contenido.mb-4(data-aos="fade-right")
       h5 Tabla 8.
       em Flujo de caja
-
-    table.mb-4(data-aos="fade-right")
-      tr
-        th(style="background-color: #3AE3FE;").text-center
-        th(style="background-color: #3AE3FE;").text-center Concepto
-        th(style="background-color: #3AE3FE;").text-center Año 0
-        th(style="background-color: #3AE3FE;").text-center Año 1
-        th(style="background-color: #3AE3FE;").text-center Año 2
-        th(style="background-color: #3AE3FE;").text-center Año 3
-        th(style="background-color: #3AE3FE;").text-center Año 4
-        th(style="background-color: #3AE3FE;").text-center Año 5
-      tr
-        td.text-bold(style="background-color: #3AE3FE;").text-center =
-        td.text-bold Ingresos sujetos a impuestos
-        td.text-bold.text-end 
-        td.text-bold.text-end 49.995.000,00
-        td.text-bold.text-end 49.995.000,00
-        td.text-bold.text-end 49.995.000,00
-        td.text-bold.text-end 74.992.500,00
-        td.text-bold.text-end 74.992.500,00
-      tr
-        td(style="background-color: #3AE3FE;").text-center +
-        td(style="background-color: #F6F6F6;") Venta de activo
-        td(style="background-color: #F6F6F6;").text-end
-        td(style="background-color: #F6F6F6;").text-end
-        td(style="background-color: #F6F6F6;").text-end
-        td(style="background-color: #F6F6F6;").text-end 8.000.000,00
-        td(style="background-color: #F6F6F6;").text-end
-        td(style="background-color: #F6F6F6;").text-end
-      tr
-        td.text-center(style="background-color: #3AE3FE;") -
-        td Costos de producción
-        td.text-end 
-        td.text-end -39.996.000,00
-        td.text-end -39.996.000,00
-        td.text-end -39.996.000,00
-        td.text-end -19.998.000,00
-        td.text-end -19.998.000,00
-      tr
-        td(style="background-color: #3AE3FE;").text-center -
-        td(style="background-color: #F6F6F6;") Gastos de administración
-        td(style="background-color: #F6F6F6;").text-end
-        td(style="background-color: #F6F6F6;").text-end -7.499.250,00
-        td(style="background-color: #F6F6F6;").text-end -7.499.250,00
-        td(style="background-color: #F6F6F6;").text-end -7.499.250,00
-        td(style="background-color: #F6F6F6;").text-end -7.499.250,00
-        td(style="background-color: #F6F6F6;").text-end -7.499.250,00
-      tr
-        td.text-center(style="background-color: #3AE3FE;") -
-        td Gastos Financieros obligación
-        td.text-end 
-        td.text-end -10.728.000,00
-        td.text-end -8.914.679,07
-        td.text-end -6.615.025,46
-        td.text-end -3.698.604,75
-        td.text-end -
-      tr
-        td(style="background-color: #3AE3FE;").text-center +
-        td(style="background-color: #F6F6F6;") Depreciación
-        td(style="background-color: #F6F6F6;").text-end
-        td(style="background-color: #F6F6F6;").text-end -12.000.000,00
-        td(style="background-color: #F6F6F6;").text-end -12.000.000,00
-        td(style="background-color: #F6F6F6;").text-end -12.000.000,00
-        td(style="background-color: #F6F6F6;").text-end -12.000.000,00
-        td(style="background-color: #F6F6F6;").text-end -12.000.000,00
-      tr
-        td.text-center(style="background-color: #3AE3FE;") -
-        td Valor en libros
-        td.text-end 
-        td.text-end 
-        td.text-end 
-        td.text-end -4.000.000,00
-        td.text-end 
-        td.text-end
-      tr
-        td(style="background-color: #3AE3FE;").text-bold.text-center =
-        td(style="background-color: #F6F6F6;").text-bold Resultado antes de impuesto
-        td(style="background-color: #F6F6F6;").text-bold.text-end
-        td(style="background-color: #F6F6F6;").text-bold.text-end -20.228.250,00
-        td(style="background-color: #F6F6F6;").text-bold.text-end -18.414.929,07
-        td(style="background-color: #F6F6F6;").text-bold.text-end -12.115.275,46
-        td(style="background-color: #F6F6F6;").text-bold.text-end 31.796.645,25
-        td(style="background-color: #F6F6F6;").text-bold.text-end 35.495.250,00
-      tr
-        td.text-center(style="background-color: #3AE3FE;") -
-        td Impuesto
-        td.text-end 
-        td.text-end -7.079.887,50
-        td.text-end -6.445.225,17
-        td.text-end -4.240.346,41
-        td.text-end -11.128.825,84
-        td.text-end -12.423.337,50
-      tr
-        td(style="background-color: #3AE3FE;").text-bold.text-center =
-        td(style="background-color: #F6F6F6;").text-bold Resultado neto
-        td(style="background-color: #F6F6F6;").text-bold.text-end
-        td(style="background-color: #F6F6F6;").text-bold.text-end -27.308.137,50
-        td(style="background-color: #F6F6F6;").text-bold.text-end -24.860.154,24
-        td(style="background-color: #F6F6F6;").text-bold.text-end -16.355.621,87
-        td(style="background-color: #F6F6F6;").text-bold.text-end 20.667.819,41
-        td(style="background-color: #F6F6F6;").text-bold.text-end 23.071.912,50
-      tr
-        td.text-center(style="background-color: #3AE3FE;") +
-        td Depreciación
-        td.text-end 
-        td.text-end 12.000.000,00
-        td.text-end 12.000.000,00
-        td.text-end 12.000.000,00
-        td.text-end 12.000.000,00
-        td.text-end 12.000.000,00
-      tr
-        td(style="background-color: #3AE3FE;").text-center +
-        td(style="background-color: #F6F6F6;") Valor en libros
-        td(style="background-color: #F6F6F6;").text-end
-        td(style="background-color: #F6F6F6;").text-end 
-        td(style="background-color: #F6F6F6;").text-end 
-        td(style="background-color: #F6F6F6;").text-end 4.000.000,00
-        td(style="background-color: #F6F6F6;").text-end -
-        td(style="background-color: #F6F6F6;").text-end -
-      tr
-        td.text-center(style="background-color: #3AE3FE;") -
-        td Inversión de reemplazo
-        td.text-end -
-        td.text-end -
-        td.text-end -
-        td.text-end -100.000.000,00
-        td.text-end -
-        td.text-end -
-      tr
-        td(style="background-color: #3AE3FE;").text-center +
-        td(style="background-color: #F6F6F6;") Préstamo
-        td(style="background-color: #F6F6F6;").text-end
-        td(style="background-color: #F6F6F6;").text-end 
-        td(style="background-color: #F6F6F6;").text-end 
-        td(style="background-color: #F6F6F6;").text-end 40.000.000,00
-        td(style="background-color: #F6F6F6;").text-end -
-        td(style="background-color: #F6F6F6;").text-end -
-      tr
-        td.text-center(style="background-color: #3AE3FE;") -
-        td Amortización de la obligación
-        td.text-end 
-        td.text-end -6.761.077,31
-        td.text-end -8.574.398,25
-        td.text-end -10.874.051,85
-        td.text-end -13.790.472,59
-        td.text-end -
-      tr
-        td(style="background-color: #3AE3FE;").text-center -
-        td(style="background-color: #F6F6F6;") Valor de desecho
-        td(style="background-color: #F6F6F6;")
-        td(style="background-color: #F6F6F6;") 
-        td(style="background-color: #F6F6F6;") 
-        td(style="background-color: #F6F6F6;")
-        td(style="background-color: #F6F6F6;")
-        td(style="background-color: #F6F6F6;").text-end 0,00
-      tr
-        td.text-bold.text-center(style="background-color: #3AE3FE;") =
-        td.text-bold Flujo de caja
-        td.text-bold.text-end 
-        td.text-bold.text-end -14.989.327,31
-        td.text-bold.text-end -14.989.327,32
-        td.text-bold.text-end -66.989.327,31
-        td.text-bold.text-end 30.006.172,66
-        td.text-bold.text-end 47.495.250,00
+    .tabla-b
+      table.mb-4(data-aos="fade-right")
+        tr
+          th(style="background-color: #3AE3FE;").text-center
+          th(style="background-color: #3AE3FE;").text-center Concepto
+          th(style="background-color: #3AE3FE;").text-center Año 0
+          th(style="background-color: #3AE3FE;").text-center Año 1
+          th(style="background-color: #3AE3FE;").text-center Año 2
+          th(style="background-color: #3AE3FE;").text-center Año 3
+          th(style="background-color: #3AE3FE;").text-center Año 4
+          th(style="background-color: #3AE3FE;").text-center Año 5
+        tr
+          td.text-bold(style="background-color: #3AE3FE;").text-center =
+          td.text-bold Ingresos sujetos a impuestos
+          td.text-bold.text-end 
+          td.text-bold.text-end 49.995.000,00
+          td.text-bold.text-end 49.995.000,00
+          td.text-bold.text-end 49.995.000,00
+          td.text-bold.text-end 74.992.500,00
+          td.text-bold.text-end 74.992.500,00
+        tr
+          td(style="background-color: #3AE3FE;").text-center +
+          td(style="background-color: #F6F6F6;") Venta de activo
+          td(style="background-color: #F6F6F6;").text-end
+          td(style="background-color: #F6F6F6;").text-end
+          td(style="background-color: #F6F6F6;").text-end
+          td(style="background-color: #F6F6F6;").text-end 8.000.000,00
+          td(style="background-color: #F6F6F6;").text-end
+          td(style="background-color: #F6F6F6;").text-end
+        tr
+          td.text-center(style="background-color: #3AE3FE;") -
+          td Costos de producción
+          td.text-end 
+          td.text-end -39.996.000,00
+          td.text-end -39.996.000,00
+          td.text-end -39.996.000,00
+          td.text-end -19.998.000,00
+          td.text-end -19.998.000,00
+        tr
+          td(style="background-color: #3AE3FE;").text-center -
+          td(style="background-color: #F6F6F6;") Gastos de administración
+          td(style="background-color: #F6F6F6;").text-end
+          td(style="background-color: #F6F6F6;").text-end -7.499.250,00
+          td(style="background-color: #F6F6F6;").text-end -7.499.250,00
+          td(style="background-color: #F6F6F6;").text-end -7.499.250,00
+          td(style="background-color: #F6F6F6;").text-end -7.499.250,00
+          td(style="background-color: #F6F6F6;").text-end -7.499.250,00
+        tr
+          td.text-center(style="background-color: #3AE3FE;") -
+          td Gastos Financieros obligación
+          td.text-end 
+          td.text-end -10.728.000,00
+          td.text-end -8.914.679,07
+          td.text-end -6.615.025,46
+          td.text-end -3.698.604,75
+          td.text-end -
+        tr
+          td(style="background-color: #3AE3FE;").text-center +
+          td(style="background-color: #F6F6F6;") Depreciación
+          td(style="background-color: #F6F6F6;").text-end
+          td(style="background-color: #F6F6F6;").text-end -12.000.000,00
+          td(style="background-color: #F6F6F6;").text-end -12.000.000,00
+          td(style="background-color: #F6F6F6;").text-end -12.000.000,00
+          td(style="background-color: #F6F6F6;").text-end -12.000.000,00
+          td(style="background-color: #F6F6F6;").text-end -12.000.000,00
+        tr
+          td.text-center(style="background-color: #3AE3FE;") -
+          td Valor en libros
+          td.text-end 
+          td.text-end 
+          td.text-end 
+          td.text-end -4.000.000,00
+          td.text-end 
+          td.text-end
+        tr
+          td(style="background-color: #3AE3FE;").text-bold.text-center =
+          td(style="background-color: #F6F6F6;").text-bold Resultado antes de impuesto
+          td(style="background-color: #F6F6F6;").text-bold.text-end
+          td(style="background-color: #F6F6F6;").text-bold.text-end -20.228.250,00
+          td(style="background-color: #F6F6F6;").text-bold.text-end -18.414.929,07
+          td(style="background-color: #F6F6F6;").text-bold.text-end -12.115.275,46
+          td(style="background-color: #F6F6F6;").text-bold.text-end 31.796.645,25
+          td(style="background-color: #F6F6F6;").text-bold.text-end 35.495.250,00
+        tr
+          td.text-center(style="background-color: #3AE3FE;") -
+          td Impuesto
+          td.text-end 
+          td.text-end -7.079.887,50
+          td.text-end -6.445.225,17
+          td.text-end -4.240.346,41
+          td.text-end -11.128.825,84
+          td.text-end -12.423.337,50
+        tr
+          td(style="background-color: #3AE3FE;").text-bold.text-center =
+          td(style="background-color: #F6F6F6;").text-bold Resultado neto
+          td(style="background-color: #F6F6F6;").text-bold.text-end
+          td(style="background-color: #F6F6F6;").text-bold.text-end -27.308.137,50
+          td(style="background-color: #F6F6F6;").text-bold.text-end -24.860.154,24
+          td(style="background-color: #F6F6F6;").text-bold.text-end -16.355.621,87
+          td(style="background-color: #F6F6F6;").text-bold.text-end 20.667.819,41
+          td(style="background-color: #F6F6F6;").text-bold.text-end 23.071.912,50
+        tr
+          td.text-center(style="background-color: #3AE3FE;") +
+          td Depreciación
+          td.text-end 
+          td.text-end 12.000.000,00
+          td.text-end 12.000.000,00
+          td.text-end 12.000.000,00
+          td.text-end 12.000.000,00
+          td.text-end 12.000.000,00
+        tr
+          td(style="background-color: #3AE3FE;").text-center +
+          td(style="background-color: #F6F6F6;") Valor en libros
+          td(style="background-color: #F6F6F6;").text-end
+          td(style="background-color: #F6F6F6;").text-end 
+          td(style="background-color: #F6F6F6;").text-end 
+          td(style="background-color: #F6F6F6;").text-end 4.000.000,00
+          td(style="background-color: #F6F6F6;").text-end -
+          td(style="background-color: #F6F6F6;").text-end -
+        tr
+          td.text-center(style="background-color: #3AE3FE;") -
+          td Inversión de reemplazo
+          td.text-end -
+          td.text-end -
+          td.text-end -
+          td.text-end -100.000.000,00
+          td.text-end -
+          td.text-end -
+        tr
+          td(style="background-color: #3AE3FE;").text-center +
+          td(style="background-color: #F6F6F6;") Préstamo
+          td(style="background-color: #F6F6F6;").text-end
+          td(style="background-color: #F6F6F6;").text-end 
+          td(style="background-color: #F6F6F6;").text-end 
+          td(style="background-color: #F6F6F6;").text-end 40.000.000,00
+          td(style="background-color: #F6F6F6;").text-end -
+          td(style="background-color: #F6F6F6;").text-end -
+        tr
+          td.text-center(style="background-color: #3AE3FE;") -
+          td Amortización de la obligación
+          td.text-end 
+          td.text-end -6.761.077,31
+          td.text-end -8.574.398,25
+          td.text-end -10.874.051,85
+          td.text-end -13.790.472,59
+          td.text-end -
+        tr
+          td(style="background-color: #3AE3FE;").text-center -
+          td(style="background-color: #F6F6F6;") Valor de desecho
+          td(style="background-color: #F6F6F6;")
+          td(style="background-color: #F6F6F6;") 
+          td(style="background-color: #F6F6F6;") 
+          td(style="background-color: #F6F6F6;")
+          td(style="background-color: #F6F6F6;")
+          td(style="background-color: #F6F6F6;").text-end 0,00
+        tr
+          td.text-bold.text-center(style="background-color: #3AE3FE;") =
+          td.text-bold Flujo de caja
+          td.text-bold.text-end 
+          td.text-bold.text-end -14.989.327,31
+          td.text-bold.text-end -14.989.327,32
+          td.text-bold.text-end -66.989.327,31
+          td.text-bold.text-end 30.006.172,66
+          td.text-bold.text-end 47.495.250,00
 
     .BG01.p-4.mb-5(data-aos="fade-right")
       SlyderA.mb-4(tipo="b")
         .row.justify-content-center
-          .col-11
+          .col-12.col-md-4
+            img(src='@/assets/curso/temas/tema3/img250.png')
+          .col-12.col-md-8
             p.mb-0.text-bold VPN o VAN
             p.mb-2.text-bold VPN = - I0 + (F/(1 + i)n) + (F/(1 + i)n) + (F/(1 + i)n) + …
             p.mb-2.text-bold VPN = - 100.000.000 + (-14.989.327,31/(1 + ,29)1) + (-14.989.327,32/(1 + .29)2) + (-66.989.327,31/(1 + i)3) + (30.006.172,66/(1 + ,29)4) +(47.495.250/(1 + ,29)5)
@@ -695,7 +696,9 @@
             p.mb-2.text-bold VPN = -127.702.553,3 
             p Según el indicador de VPN en el escenario que se plantea el proyecto y con una TIO de 29 % en un horizonte de 5 años se debe rechazar el proyecto, si se revisa el flujo de caja la empresa se debe enfrentar a otras fuentes de financiación para ejecutar este proyecto, pero los resultados propuestos, según el flujo de caja son apropiados, es decir, el incremento en las ventas y la reducción de costos pero el proyecto en actuales condiciones requiere un horizonte más amplio para arrojar resultados beneficiosos para la empresa.
         .row.justify-content-center
-          .col-11
+          .col-12.col-md-4
+            img(src='@/assets/curso/temas/tema3/img251.png')
+          .col-12.col-md-8
             p.mb-2.text-bold TIR = - I0 +(F/(1 + i)n) + (F/(1 + i)n) + (F/(1 + i)n)…
             p.mb-2.text-bold TIR = - 100.000.000 + (-14.989.327,31/(1 + ,2682)1) + (-14.989.327,32/(1 +,2682)2) + (-66.989.327,31/(1 + ,2682)3) + (30.006.172,66/(1 + ,2682)4) +(47.495.250/(1 + ,2682)5)
             p.mb-2.text-bold TIR = -100.000.000 + (-11.819.371,79) + (-9.319.801,14) + (-32.842.965,96) + (11.600.043,25) + (14.478.095,39)

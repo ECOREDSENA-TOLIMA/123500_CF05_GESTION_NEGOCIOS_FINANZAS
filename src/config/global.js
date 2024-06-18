@@ -280,7 +280,7 @@ export default {
         {
           nombre: 'José Gabriel Ortiz Abella',
           cargo: 'Corrector de Estilo',
-          centro: 'Regional Distrito Capital - Centro de Diseño y Metrología.',
+          centro: 'Regional Distrito Capital - Centro de Diseño y Metrología',
         },
       ],
     },

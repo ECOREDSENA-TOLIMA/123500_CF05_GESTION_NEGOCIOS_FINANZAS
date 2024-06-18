@@ -106,7 +106,7 @@
         p.mb-0 #[b Tabla 1.] #[em Métodos de porcientos o análisis vertical]
       
       .tabla-a.color-acento-contenido.mb-0(data-aos="fade-left")
-        table
+        table.table1000
           thead
             tr
               td(colspan=6)(style="font-size: 18px; background-color: #3AE3FE;").text-center.text-bold Saloan 
@@ -296,48 +296,47 @@
           p.mb-0 #[b Tabla 2.] #[em Método de porcientos en el estado de resultados] 
         
         .tabla-b.mb-0(data-aos="fade-left")
-          table
+          table.mb-4(data-aos="fade-right")
             thead
               tr
-                td(style="font-size: 18px; background-color: #3AE3FE;").text-center.text-bold Saloan 
+                td(colspan="3" style="font-size: 18px; background-color: #3AE3FE;").text-center.text-bold Saloan 
                   p.text-bold.mb-0 Estado de situación financiera del 1 de enero de 2021 a 31 de diciembre de 2021 valores en pesos ($)
-        table.mb-4(data-aos="fade-right")
-          tr
-            th(style="background-color: #F6F6F6;") Ventas
-            th(style="background-color: #F6F6F6;").text-end 120.000.000,00 
-            th(style="background-color: #F6F6F6;").text-end 100.00
-          tr
-            td Costo de ventas
-            td.text-end 40.000.000 
-            td(style="background-color: #EDF4EE;").text-end 33.33
-          tr
-            th(style="background-color: #F6F6F6;") Utilidad bruta
-            th(style="background-color: #F6F6F6;").text-end 80.000.000 
-            th(style="background-color: #EDF4EE;").text-end 66.67
-          tr
-            td Gastos de ventas
-            td.text-end 8.505.000 
-            td.text-end 7,09
-          tr
-            td(style="background-color: #F6F6F6;") Gastos de administración
-            td(style="background-color: #F6F6F6;").text-end 11.800.000 
-            td(style="background-color: #F6F6F6;").text-end 9,83
-          tr
-            th Utilidad operacional
-            th.text-end 59.695.000 
-            th.text-end 49,75
-          tr
-            td(style="background-color: #F6F6F6;") Otros ingresos
-            td(style="background-color: #F6F6F6;").text-end 4.000.000 
-            td(style="background-color: #F6F6F6;").text-end 3,33
-          tr
-            td Impuesto a la renta 35 %
-            td.text-end 23.695.000 
-            td.text-end 19,75
-          tr
-            th(style="background-color: #F6F6F6;") Utilidad neta
-            th(style="background-color: #F6F6F6;").text-end 40.000.000 
-            th(style="background-color: #EDF4EE;").text-end 33,33
+            tr
+              th(style="background-color: #F6F6F6;") Ventas
+              th(style="background-color: #F6F6F6;").text-end 120.000.000,00 
+              th(style="background-color: #F6F6F6;").text-end 100.00
+            tr
+              td Costo de ventas
+              td.text-end 40.000.000 
+              td(style="background-color: #EDF4EE;").text-end 33.33
+            tr
+              th(style="background-color: #F6F6F6;") Utilidad bruta
+              th(style="background-color: #F6F6F6;").text-end 80.000.000 
+              th(style="background-color: #EDF4EE;").text-end 66.67
+            tr
+              td Gastos de ventas
+              td.text-end 8.505.000 
+              td.text-end 7,09
+            tr
+              td(style="background-color: #F6F6F6;") Gastos de administración
+              td(style="background-color: #F6F6F6;").text-end 11.800.000 
+              td(style="background-color: #F6F6F6;").text-end 9,83
+            tr
+              th Utilidad operacional
+              th.text-end 59.695.000 
+              th.text-end 49,75
+            tr
+              td(style="background-color: #F6F6F6;") Otros ingresos
+              td(style="background-color: #F6F6F6;").text-end 4.000.000 
+              td(style="background-color: #F6F6F6;").text-end 3,33
+            tr
+              td Impuesto a la renta 35 %
+              td.text-end 23.695.000 
+              td.text-end 19,75
+            tr
+              th(style="background-color: #F6F6F6;") Utilidad neta
+              th(style="background-color: #F6F6F6;").text-end 40.000.000 
+              th(style="background-color: #EDF4EE;").text-end 33,33
 
     .row.align-items-center.BG01.p-4.mb-4
       .col-md-4.col-6.mb-md-0.mb-4
@@ -366,173 +365,172 @@
       p.mb-0 #[b Tabla 3.] #[em Análisis horizontal]
     
     .tabla-a.color-acento-contenido.mb-0(data-aos="fade-left")
-      table
+      table.table800.mb-4(data-aos="fade-right")
         thead
           tr
-            td(style="font-size: 18px; background-color: #3AE3FE;").text-center.text-bold Saloan 
+            td( colspan="5" style="font-size: 18px; background-color: #3AE3FE;").text-center.text-bold Saloan 
               p.text-bold.mb-0 Estado de situación financiera del 1 de enero de 2020 al 31 de diciembre de 2021 valores en pesos ($)
-    table.mb-4(data-aos="fade-right")
-      tr
-        th
-        th 2020
-        th 2021
-        th VARIACIÓN ABSOLUTA
-        th VARIACIÓN RELATIVA
-      tr
-        th
-        th(style="background-color: #D2E1F1;") A
-        th(style="background-color: #D2E1F1;") B
-        th(style="background-color: #D2E1F1;") (B -A)
-        th(style="background-color: #D2E1F1;") VA/A
-      tr
-        th(style="background-color: #F6F6F6;") Activo
-        th(style="background-color: #F6F6F6;").text-end 201.700.000,00
-        th(style="background-color: #F6F6F6;").text-end 207.500.000,00
-        td(style="background-color: #F6F6F6;").text-end 5.800.000,00
-        td(style="background-color: #F6F6F6;").text-end 2,88
-      tr
-        th Circulante
-        th.text-end 11.200.000
-        th.text-end 11.000.000
-        td.text-end -200.000,00
-        td.text-end 2,88
-      tr
-        td Efectivo
-        td.text-end 1.000.000
-        td.text-end 5.000.000
-        td.text-end 4.000.000,00
-        td(style="color: #F1592A;").text-end 400,00
-      tr
-        td Cuentas por cobrar
-        td.text-end 5.700.000
-        td.text-end 3.500.000
-        td.text-end -2.200.000,00
-        td.text-end -38,60
-      tr
-        td Inventario
-        td.text-end 4.500.000
-        td.text-end 2.500.000
-        td.text-end -2.000.000,00
-        td.text-end -44,44
-      tr
-        th(style="background-color: #F6F6F6;") Propiedad, planta y equipo
-        th(style="background-color: #F6F6F6;").text-end 190.500.000,00
-        th(style="background-color: #F6F6F6;").text-end 196.500.000,00
-        td(style="background-color: #F6F6F6;").text-end 6.000.000,00
-        td(style="background-color: #F6F6F6;").text-end 3,15
-      tr
-        td Terrenos
-        td.text-end 76.000.000
-        td.text-end 76.000.000
-        td.text-end -
-        td.text-end 0,00
-      tr
-        td Edificios
-        td.text-end 100.000.000
-        td.text-end 100.000.000
-        td.text-end -
-        td.text-end 0,00
-      tr
-        td Mobiliario
-        td.text-end 23.000.000
-        td.text-end 23.000.000
-        td.text-end -
-        td.text-end 0,00
-      tr
-        td Inversiones
-        td.text-end 3.500.000
-        td.text-end 9.500.000
-        td.text-end 6.000.000,00
-        td(style="color: #F1592A;").text-end 171,43
-      tr
-        th(style="background-color: #F6F6F6;") Pasivo
-        th(style="background-color: #F6F6F6;").text-end 147.700.000,00
-        th(style="background-color: #F6F6F6;").text-end 114.500.000,00
-        td(style="background-color: #F6F6F6;").text-end -33.200.000,00
-        td(style="background-color: #F6F6F6;").text-end -22,48
-      tr
-        th Corriente
-        th.text-end 57.700.000
-        th.text-end 4.500.000
-        td.text-end -13.200.000,00
-        td.text-end -22,88
-      tr
-        td Obligaciones financieras
-        td.text-end 27.200.000
-        td.text-end 25.000.000
-        td.text-end -2.200.000,00
-        td.text-end -8,09
-      tr
-        td Proveedores
-        td.text-end 10.000.000
-        td.text-end 5.000.000
-        td.text-end -5.000.000,00
-        td.text-end -50,00
-      tr
-        td Acreedores
-        td.text-end 18.000.000
-        td.text-end 12.000.000
-        td.text-end -6.000.000,00
-        td.text-end -33,33
-      tr
-        td Pasivos por impuestos
-        td.text-end 2.500.000
-        td.text-end 2.500.000
-        td.text-end -
-        td.text-end 0,00
-      tr
-        th(style="background-color: #F6F6F6;") Pasivo no corriente
-        th(style="background-color: #F6F6F6;").text-end 90.000.000,00
-        th(style="background-color: #F6F6F6;").text-end 70.000.000,00
-        td(style="background-color: #F6F6F6;").text-end -20.000.000,00
-        td(style="background-color: #F6F6F6;").text-end -22,22
-      tr
-        td Obligaciones financieras
-        td.text-end 70.000.000
-        td.text-end 50.000.000
-        td.text-end -20.000.000,00
-        td.text-end -28,57
-      tr
-        td Dividendos por pagar
-        td.text-end 20.000.000
-        td.text-end 20.000.000
-        td.text-end -
-        td.text-end 0,00
-      tr
-        th(style="background-color: #F6F6F6;") Patrimonio
-        th(style="background-color: #F6F6F6;").text-end 54.000.000,00
-        th(style="background-color: #F6F6F6;").text-end 93.000.000,00
-        td(style="background-color: #F6F6F6;").text-end 39.000.000,00
-        td(style="background-color: #F6F6F6;").text-end 72,22
-      tr
-        td Capital
-        td.text-end 30.000.000
-        td.text-end 24.000.000
-        td.text-end -6.000.000,00
-        td.text-end -20,00
-      tr
-        td Reservas legales
-        td.text-end 4.000.000
-        td.text-end 4.000.000
-        td.text-end -
-        td.text-end 0,00
-      tr
-        td Utilidad del ejercicio
-        td.text-end -5.000.000
-        td.text-end 40.000.000
-        td.text-end 35.000.000,00
-        td(style="color: #F1592A;").text-end 700,00
-      tr
-        td Utilidades acumuladas
-        td.text-end 25.000.000
-        td.text-end 25.000.000
-        td.text-end -
-        td.text-end 0,00
-      tr
-        th(style="background-color: #F6F6F6;") Pasivo + patrimonio
-        th(style="background-color: #F6F6F6;").text-end 201.700.000,00
-        th(style="background-color: #F6F6F6;").text-end 207.500.000,00
-        td(style="background-color: #F6F6F6;" colspan="2")
+        tr
+          th
+          th 2020
+          th 2021
+          th VARIACIÓN ABSOLUTA
+          th VARIACIÓN RELATIVA
+        tr
+          th
+          th(style="background-color: #D2E1F1;") A
+          th(style="background-color: #D2E1F1;") B
+          th(style="background-color: #D2E1F1;") (B -A)
+          th(style="background-color: #D2E1F1;") VA/A
+        tr
+          th(style="background-color: #F6F6F6;") Activo
+          th(style="background-color: #F6F6F6;").text-end 201.700.000,00
+          th(style="background-color: #F6F6F6;").text-end 207.500.000,00
+          td(style="background-color: #F6F6F6;").text-end 5.800.000,00
+          td(style="background-color: #F6F6F6;").text-end 2,88
+        tr
+          th Circulante
+          th.text-end 11.200.000
+          th.text-end 11.000.000
+          td.text-end -200.000,00
+          td.text-end 2,88
+        tr
+          td Efectivo
+          td.text-end 1.000.000
+          td.text-end 5.000.000
+          td.text-end 4.000.000,00
+          td(style="color: #F1592A;").text-end 400,00
+        tr
+          td Cuentas por cobrar
+          td.text-end 5.700.000
+          td.text-end 3.500.000
+          td.text-end -2.200.000,00
+          td.text-end -38,60
+        tr
+          td Inventario
+          td.text-end 4.500.000
+          td.text-end 2.500.000
+          td.text-end -2.000.000,00
+          td.text-end -44,44
+        tr
+          th(style="background-color: #F6F6F6;") Propiedad, planta y equipo
+          th(style="background-color: #F6F6F6;").text-end 190.500.000,00
+          th(style="background-color: #F6F6F6;").text-end 196.500.000,00
+          td(style="background-color: #F6F6F6;").text-end 6.000.000,00
+          td(style="background-color: #F6F6F6;").text-end 3,15
+        tr
+          td Terrenos
+          td.text-end 76.000.000
+          td.text-end 76.000.000
+          td.text-end -
+          td.text-end 0,00
+        tr
+          td Edificios
+          td.text-end 100.000.000
+          td.text-end 100.000.000
+          td.text-end -
+          td.text-end 0,00
+        tr
+          td Mobiliario
+          td.text-end 23.000.000
+          td.text-end 23.000.000
+          td.text-end -
+          td.text-end 0,00
+        tr
+          td Inversiones
+          td.text-end 3.500.000
+          td.text-end 9.500.000
+          td.text-end 6.000.000,00
+          td(style="color: #F1592A;").text-end 171,43
+        tr
+          th(style="background-color: #F6F6F6;") Pasivo
+          th(style="background-color: #F6F6F6;").text-end 147.700.000,00
+          th(style="background-color: #F6F6F6;").text-end 114.500.000,00
+          td(style="background-color: #F6F6F6;").text-end -33.200.000,00
+          td(style="background-color: #F6F6F6;").text-end -22,48
+        tr
+          th Corriente
+          th.text-end 57.700.000
+          th.text-end 4.500.000
+          td.text-end -13.200.000,00
+          td.text-end -22,88
+        tr
+          td Obligaciones financieras
+          td.text-end 27.200.000
+          td.text-end 25.000.000
+          td.text-end -2.200.000,00
+          td.text-end -8,09
+        tr
+          td Proveedores
+          td.text-end 10.000.000
+          td.text-end 5.000.000
+          td.text-end -5.000.000,00
+          td.text-end -50,00
+        tr
+          td Acreedores
+          td.text-end 18.000.000
+          td.text-end 12.000.000
+          td.text-end -6.000.000,00
+          td.text-end -33,33
+        tr
+          td Pasivos por impuestos
+          td.text-end 2.500.000
+          td.text-end 2.500.000
+          td.text-end -
+          td.text-end 0,00
+        tr
+          th(style="background-color: #F6F6F6;") Pasivo no corriente
+          th(style="background-color: #F6F6F6;").text-end 90.000.000,00
+          th(style="background-color: #F6F6F6;").text-end 70.000.000,00
+          td(style="background-color: #F6F6F6;").text-end -20.000.000,00
+          td(style="background-color: #F6F6F6;").text-end -22,22
+        tr
+          td Obligaciones financieras
+          td.text-end 70.000.000
+          td.text-end 50.000.000
+          td.text-end -20.000.000,00
+          td.text-end -28,57
+        tr
+          td Dividendos por pagar
+          td.text-end 20.000.000
+          td.text-end 20.000.000
+          td.text-end -
+          td.text-end 0,00
+        tr
+          th(style="background-color: #F6F6F6;") Patrimonio
+          th(style="background-color: #F6F6F6;").text-end 54.000.000,00
+          th(style="background-color: #F6F6F6;").text-end 93.000.000,00
+          td(style="background-color: #F6F6F6;").text-end 39.000.000,00
+          td(style="background-color: #F6F6F6;").text-end 72,22
+        tr
+          td Capital
+          td.text-end 30.000.000
+          td.text-end 24.000.000
+          td.text-end -6.000.000,00
+          td.text-end -20,00
+        tr
+          td Reservas legales
+          td.text-end 4.000.000
+          td.text-end 4.000.000
+          td.text-end -
+          td.text-end 0,00
+        tr
+          td Utilidad del ejercicio
+          td.text-end -5.000.000
+          td.text-end 40.000.000
+          td.text-end 35.000.000,00
+          td(style="color: #F1592A;").text-end 700,00
+        tr
+          td Utilidades acumuladas
+          td.text-end 25.000.000
+          td.text-end 25.000.000
+          td.text-end -
+          td.text-end 0,00
+        tr
+          th(style="background-color: #F6F6F6;") Pasivo + patrimonio
+          th(style="background-color: #F6F6F6;").text-end 201.700.000,00
+          th(style="background-color: #F6F6F6;").text-end 207.500.000,00
+          td(style="background-color: #F6F6F6;" colspan="2")
     
     p De esta manera, se realiza el cálculo para obtener variaciones absolutas y relativas y se puede concluir lo siguiente:
 
@@ -617,8 +615,10 @@
     p También existe el EFAF con base en los cambios en el capital de trabajo que se dedica a expresar el aumento o disminución en el capital de trabajo, que radica su limitación en la fórmula para calcular el capital de trabajo:
 
     .row.justify-content-center.mb-4
-      .col-lg-7
+      .col-lg-7.d-none.d-sm-none.d-md-block
         img(src='@/assets/curso/temas/tema1/img26.svg')
+      .col-12.d-block.d-md-none
+        img(src='@/assets/curso/temas/tema1/img26b.svg')
 
     p Este indicador permite hallar la disminución o riesgo que tiene la empresa de utilizar los recursos en actividades diferentes a la operación del negocio lo que conduce a arriesgar la operatividad de la empresa y su trayectoria en el tiempo.
 
@@ -700,26 +700,27 @@
           .col-md-5.col-10.order-md-2.order-1
             img(src='@/assets/curso/temas/tema1/img32.png')
         .row.justify-content-center
-          .col-md-7.col-10.p-0.px-0.order-md-1.order-2
+          .col-md-7.col-12.p-0.px-0.order-md-1.order-2
             h4.mx-4 Indicadores de endeudamiento
             p.mx-4 Son instrumentos que permiten evaluar el grado y en qué forma participan los acreedores en la financiación de la organización, y de esta manera conocer el riesgo de los inversionistas y la pertinencia de un endeudamiento. En este rango se encuentran los indicadores de crisis, a saber:
-          .col-md-5.col-10.order-md-2.order-1
+          .col-md-5.col-12.order-md-2.order-1
             .titulo-sexto.color-acento-contenido.mb-2
               h5.mb-0 Tabla 4. #[em Indicadores de crisis]
-            table
-              caption Fuente: (Ortiz, 2018)
-              tr
-                th(style="background-color: #FCC15A;") Indicador
-                th(style="background-color: #FCC15A;") Parámetro
-              tr
-                td(style="background-color: #FFF;") Endeudamiento financiero
-                td.text-center(style="background-color: #FFF;") &lt; 30 %
-              tr
-                td(style="background-color: #F6F6F6;") Impacto de la carga financiera
-                td.text-center(style="background-color: #F6F6F6;") &lt; 10 %
-              tr
-                td(style="background-color: #FFF;") Cobertura de intereses
-                td.text-center(style="background-color: #FFF;") &#8805; 1 vez
+            .tabla-a
+              table(style="min-width:300px")
+                caption Fuente: (Ortiz, 2018)
+                tr
+                  th(style="background-color: #FCC15A;") Indicador
+                  th(style="background-color: #FCC15A;") Parámetro
+                tr
+                  td(style="background-color: #FFF;") Endeudamiento financiero
+                  td.text-center(style="background-color: #FFF;") &lt; 30 %
+                tr
+                  td(style="background-color: #F6F6F6;") Impacto de la carga financiera
+                  td.text-center(style="background-color: #F6F6F6;") &lt; 10 %
+                tr
+                  td(style="background-color: #FFF;") Cobertura de intereses
+                  td.text-center(style="background-color: #FFF;") &#8805; 1 vez
 
         .row.justify-content-center
           .col-md-7.col-10.p-0.px-0.order-md-1.order-2
