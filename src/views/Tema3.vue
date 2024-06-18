@@ -469,7 +469,7 @@
     .row.justify-content-center.mb-4
       .col-md-10.mb-4
         img.d-none.d-sm-none.d-md-block(src='@/assets/curso/temas/tema3/img24.svg')
-        img.d-block.d-md-none(src='@/assets/curso/temas/tema3/img24b.svg') 
+        img.d-block.d-md-none(src='@/assets/curso/temas/tema3/img24b.png') 
       .col-md-10.mb-4
         .titulo-sexto.color-acento-contenido.mb-4(data-aos="fade-right")
           h5 Tabla 7.
