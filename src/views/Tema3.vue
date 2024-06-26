@@ -30,7 +30,7 @@
       .col-md-2.col-4(data-aos="fade-right")
         img(src='@/assets/curso/temas/tema3/img03.png')
       .col-md-9.col-11
-        p Para realizar la evaluación financiera y social el inversionista no acude a la información que le brinda los estados financieros de la situación financiera y de resultados que en un proyecto de inversión o una empresa en marcha serían proyecciones de las probabilidades de éxito que se podría alcanzar con x alternativa de inversión. En esta parte de la evaluación financiera y social la herramienta básica para evaluar una alternativa de inversiones el flujo de caja o de efectivo.
+        p Para realizar la evaluación financiera y social el inversionista no acude a la información que le brinda los estados financieros de la situación financiera y de resultados que en un proyecto de inversión o una empresa en marcha serían proyecciones de las probabilidades de éxito que se podría alcanzar con x alternativa de inversión. En esta parte de la evaluación financiera y social, la herramienta básica para evaluar una alternativa de inversiones, el flujo de caja o de efectivo.
 
     p Este estado financiero conocido según las NIIF como flujo de efectivo que en síntesis es la consolidación de ingresos y egresos para que la organización pueda proyectarse acerca de los ingresos que recibirá y de los costos y gastos que deberá asumir para garantizar la operatividad de la empresa. Como complemento, observe con el siguiente video los elementos a tener presente dentro de la información financiera desde el uso de las NIF en las empresas:
 
@@ -230,7 +230,7 @@
             h4 Los proyectos de abandono
             p Se caracterizan por eliminar áreas de negocio no rentables liberando recursos para invertirlos en proyectos más rentables.
 
-    p Para este caso los flujos de caja pueden ser de proyecto puro antes conocido como de la situación actual sin proyecto y de la situación con proyecto conocido actualmente como flujo de caja de proyecto puro cuando la inversión por reemplazo se realiza en el año cero (0), realizados con el fin de evidenciar en los mismo las inversiones en el momento real que se realizan y sus efectos en los flujos de caja, así:
+    p Para este caso los flujos de caja pueden ser de proyecto puro antes conocido como de la situación actual sin proyecto y de la situación con proyecto conocido actualmente como flujo de caja de proyecto puro cuando la inversión por reemplazo se realiza en el año cero (0), realizados con el fin de evidenciar en los mismos las inversiones en el momento real que se realizan y sus efectos en los flujos de caja, así:
 
     
     AcordionA.mb-5(tipo="a" clase-tarjeta="BG01A")
@@ -288,7 +288,7 @@
           p.mb-0 -	Inversión.
           p.mb-0 = Flujo de caja.
         .col-11.BG16.p-4.order-3
-          p.mb-0 * La financiación de un proyecto depende de la mejor alternativa que el inversionista debe hallar a partir de la elaboración de los flujos de costos de cada opción de financiación con el fin de elegir las más apropiada siendo esta la que represente el menor valor actual de costos de capital.
+          p.mb-0 * La financiación de un proyecto depende de la mejor alternativa que el inversionista debe hallar a partir de la elaboración de los flujos de costos de cada opción de financiación con el fin de elegir la más apropiada, siendo esta la que represente el menor valor actual de costos de capital.
 
     .h4.mb-4.mt-5(data-aos="zoom-down-right")
       span.titulo-herramientas Evaluación financiera
@@ -305,7 +305,7 @@
               .col-md-10.col-12
                 p.mb-1 Se reconoce como el indicador resultado de sustraer del valor presente de los futuros flujos de caja la inversión inicial. Es adecuado precisar que la tasa de interés corresponde a la mínima rentabilidad que deben producir los bienes o activos que posee una empresa conocida también como tasa de oportunidad.
                 p.mb-1 También puede definirse como Valor Actual Neto o (VAN) que es aceptable cuando es igual o superior a cero, lo cual quiere decir que al restar todos los ingresos y erogaciones el proyecto de inversión no presenta riesgos puesto que no pierde su inversión o lo que es mejor, si el valor es mayor a cero quiere decir que la inversión genera beneficios expresados en la cantidad que arroje como resultado.
-                p Si el horizonte del proyecto es de 5 años el número de flujos de caja a descontar son 5 a la tasa de interés definida por la organización o el inversionista, su fórmula es:
+                p Si el horizonte del proyecto es de 5 años, el número de flujos de caja a descontar son 5 a la tasa de interés definida por la organización o el inversionista, su fórmula es:
                 p <span style="background-color:#3AE3FE !important; font-weight: bold; padding: 5px">VPN = - I0 + (F/(1 + i)n) + (F/(1 + i)n) + (F/(1 + i)n) + … </span>
                 p.mb-1 Estos son los criterios para decidir con base en VPN:
                 p.text-bold.mb-0 1. Si VPN &gt; 0, entonces el proyecto es aceptable.
@@ -329,7 +329,7 @@
             //- h4 CAUE
             .row 
               .col-12
-                p Indica Costo Anual Uniforme Equivalente llamado también flujo final de caja y representa la cantidad de flujos de caja que el proyecto de inversión espera recibir por un número n de periodos a una tasa de interés transformando todos lo ingreso y egresos en pagos uniformes o anualidades.
+                p Indica Costo Anual Uniforme Equivalente llamado también flujo final de caja y representa la cantidad de flujos de caja que el proyecto de inversión espera recibir por un número n de periodos a una tasa de interés transformando todos los ingreso y egresos en pagos uniformes o anualidades.
                 p <span style="background-color:#3AE3FE !important; font-weight: bold; padding: 5px">CAUE = - I0 +(F/(1 + i)n) + (F/(1 + i)n) + (F/(1 + i)n)… donde i = TIO</span>
                 p.mb-1 Los criterios para aceptar o rechazar un proyecto de inversión bajo este indicador es:
                 p.text-bold.mb-0 1. Si el CAUE es positivo, los ingresos son mayores que los egresos y genera beneficios y rentabilidad.
@@ -426,7 +426,7 @@
           h4 EVA
           p Quiere decir valor económico agregado, es un indicador creado para crear riqueza basado en la eficiencia y productividad de los bienes y derechos de la empresa o activos, la estructura del capital y el medio al que la empresa pertenece. Su fórmula es:
           p.text-center <span style="background-color:#3AE3FE !important; font-weight: bold; padding: 5px">EVA = UNA - (ANF x CPC)</span>
-          p.mb-0.text-bold EVA: Economic Value Added (valor económico agregado).
+          p.mb-0.text-bold EVA: #[em Economic Value Added] (valor económico agregado).
           p.mb-0.text-bold UNA: Utilidad Neta Ajustada.
           p.mb-0.text-bold ANF: Activo Neto Financiado.
           p.mb-0.text-bold CPC: Costo Promedio de Capital.

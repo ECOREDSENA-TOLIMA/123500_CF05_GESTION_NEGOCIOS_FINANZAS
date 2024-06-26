@@ -10,7 +10,7 @@
     .row.justify-content-center.align-items-center.mb-4
       .col-md-7.col-10.order-md-1.order-2(data-aos="fade-right")
         p.mb-2 Es una técnica de diagnóstico organizacional por medio de la cual se analiza la estructura financiera de la empresa, en otras palabras, el sistema económico que ha construido la empresa a través de su trayectoria y en el medio al que pertenece, a partir de este estudio se puede tomar la empresa y dividirla en partes de acuerdo con su relevancia, para hacer comparaciones, las cuales orientan el quehacer de la organización y direcciona las decisiones a tomar de acuerdo con lo interpretado.<br><br>
-        p.mb-0 Por este medio se conocen las tendencias en cuanto a decisiones financieras si se analizan varios periodos o vigencias, se determina el nivel de liquidez, así como el endeudamiento y el crecimiento del patrimonio en una organización en un periodo determinado, entre otros aspectos.
+        p.mb-0 Por este medio se conocen las tendencias en cuanto a decisiones financieras, si se analizan varios periodos o vigencias, se determina el nivel de liquidez, así como el endeudamiento y el crecimiento del patrimonio en una organización en un periodo determinado, entre otros aspectos.
       .col-md-5.col-8.order-md-2.order-1.mb-md-0.mb-4
         figure.mb-5(data-aos="fade-left")
           img(src='@/assets/curso/temas/tema1/img01.png')
@@ -226,7 +226,7 @@
         img(src='@/assets/curso/temas/tema1/img09.png')
       .col-md-7(data-aos="fade-left")
         p Para realizar la operación o cálculos en el análisis vertical se debe tomar un factor o rubro base. Por ejemplo, para comparar el activo circulante y el no corriente o propiedad, planta y equipo se compara cada valor decir, el valor de $196.500.000 dividido entre el valor total del activo $207.500.000 arrojando un porcentaje de participación de 94,70 %, lo que indica que la empresa tiene una política fuerte de inversión en infraestructura para garantizar su actividad económica la cual requiere de una amplia y especializada infraestructura para su desarrollo.
-        p Como se puede apreciar en el estado de situación financiera, se realizó el cálculo para realizar análisis parciales y totales, los cuales de acuerdo con su correspondencia se han sombreado con un color diferente, es así como el activo circulante se encuentra sombreado con color amarillo pero el análisis del activo circulante, junto con el valor del activo fijo y del total del activo, se encuentran con color verde. Se comprueba que el cálculo fue realizado correctamente cuando al sumar los porcentajes de cada rubro su resultado es igual a 1 si se utilizó decimales o a 100 % si se convirtió a porcentaje.
+        p Como se puede apreciar en el estado de situación financiera, se realizó el cálculo para realizar análisis parciales y totales, los cuales de acuerdo con su correspondencia se han sombreado con un color diferente, es así como el activo circulante se encuentra sombreado con color amarillo, pero el análisis del activo circulante, junto con el valor del activo fijo y del total del activo, se encuentran con color verde. Se comprueba que el cálculo fue realizado correctamente cuando al sumar los porcentajes de cada rubro su resultado es igual a 1, si se utilizó decimales o 100 % si se convirtió a porcentaje.
 
     p En el estado de situación financiera de Saloan al aplicar el método de porcientos, conocido como análisis vertical, y se puede concluir lo siguiente:
 
@@ -242,21 +242,21 @@
         .row.justify-content-center
           .col-md-5.col-10.mb-md-0.mb-4.order-md-1.order-2
             h4 El efectivo
-            p Representa el 45,45 % del total del activo circulante por lo cual se puede deducir que la empresa esperaba asumir pronto un pago o realizar una inversión y prefirió que ese valor reposara en activo circulante al finalizar el año.
+            p Representa el 45,45 % del total del activo circulante, por lo cual se puede deducir que la empresa esperaba asumir pronto un pago o realizar una inversión y prefirió que ese valor reposara en activo circulante al finalizar el año.
           .col-md-5.col-8.mb-md-0.mb-4.order-md-2.order-1
             img(src='@/assets/curso/temas/tema1/img11.png')
       .tarjeta.color-acento-botones--borde.p-4(titulo="c) Las cuentas")
         .row.justify-content-center
           .col-md-5.col-10.mb-md-0.mb-4.order-md-1.order-2
-            h4 Las cuentas
-            p Por cobrar representan el 31,82 % del total de activo corriente o circulante, lo que permite deducir que la empresa maneja una política de ventas a crédito austera, de tal manera que su recuperación sea manejable y pronta.
+            h4 Las cuentas por cobrar
+            p Representan el 31,82 % del total de activo corriente o circulante, lo que permite deducir que la empresa maneja una política de ventas a crédito austera, de tal manera que su recuperación sea manejable y pronta.
           .col-md-5.col-8.mb-md-0.mb-4.order-md-2.order-1
             img(src='@/assets/curso/temas/tema1/img12.png')
       .tarjeta.color-acento-botones--borde.p-4(titulo="d) En inventario")
         .row.justify-content-center
           .col-md-5.col-10.mb-md-0.mb-4.order-md-1.order-2
             h4 En inventario
-            p La empresa ha destinado el 22,73 % del total del activo corriente lo que confirma la política previsiva en inversión de inventarios.
+            p La empresa ha destinado el 22,73 % del total del activo corriente, lo que confirma la política previsiva en inversión de inventarios.
           .col-md-5.col-8.mb-md-0.mb-4.order-md-2.order-1
             img(src='@/assets/curso/temas/tema1/img13.png')
       .tarjeta.color-acento-botones--borde.p-4(titulo="e) En activos fijos o propiedad")
@@ -277,7 +277,7 @@
         .row.justify-content-center
           .col-md-5.col-10.mb-md-0.mb-4.order-md-1.order-2
             h4 Sin acceder a más información
-            p Que el estado de situación financiera se puede concluir que en esta sociedad su capital está representado por acciones por eso tiene una política de dividendos o beneficios a entregar a los inversionistas.
+            p El estado de situación financiera se puede concluir que en esta sociedad su capital está representado por acciones, por eso tiene una política de dividendos o beneficios a entregar a los inversionistas.
           .col-md-5.col-8.mb-md-0.mb-4.order-md-2.order-1
             img(src='@/assets/curso/temas/tema1/img16.png')
       .tarjeta.color-acento-botones--borde.p-4(titulo="h) Se puede observar que")
@@ -354,7 +354,7 @@
         img(src='@/assets/curso/temas/tema1/img19.png')
       .col-md-4.col-lg-4.col-12(data-aos="fade-left")
         .cajon.color-primario.p-4.mb-2
-          p Este análisis se realiza para conocer la solidez de la empresa en cuanto a sus activos, patrimonio y respecto de las políticas organizacionales lo que se evidencia en las variaciones que se hallen por rubro y su incremento o decremento de un período a otro. Este análisis se realiza con los resultados financieros de, al menos, dos periodos o vigencias diferentes. 
+          p Este análisis se realiza para conocer la solidez de la empresa en cuanto a sus activos, patrimonio y respecto de las políticas organizacionales, lo que se evidencia en las variaciones que se hallen por rubro y su incremento o decremento de un período a otro. Este análisis se realiza con los resultados financieros de, al menos, dos periodos o vigencias diferentes. 
       .col-md-4.col-lg-4.col-12(data-aos="fade-left")
         .cajon.color-primario.p-4.h-100.mb-2
           p Este análisis es dinámico gracias a que se enfoca en las modificaciones notorias que presentan los rubros de un periodo a otro. Es necesario anotar que este tiene en cuenta las variaciones absolutas o en pesos ($), así como las variaciones relativas o porcentuales (%).
@@ -547,14 +547,14 @@
           p Se evidencia un incremento de 171,3 % en inversiones en el año 2021, lo que se define como una política de inversión con el fin de obtener mejores beneficios para recuperar en algún % los efectos de la Covid-19 en el 2020.
       .row.justify-content-center.align-items-center
         .col-md-6.col-10.order-md-1.order-2
-          p Se refleja un incremento de 700 % en la utilidad del ejercicio, lo que evidencia que a pesar de la situación la empresa se ha enfocado en trabajar fuertemente por recuperar su nivel de productividad y, por ende, de generar utilidad. 
+          p Se refleja un incremento de 700 % en la utilidad del ejercicio, lo que evidencia que a pesar de la situación, la empresa se ha enfocado en trabajar fuertemente por recuperar su nivel de productividad y, por ende, de generar utilidad. 
         .col-md-4.col-8.order-md-2.order-1.mb-md-0.mb-4(data-aos="fade-left")
           img(src='@/assets/curso/temas/tema1/img22.png')
       .row.justify-content-center.align-items-center
         .col-md-4.col-8.mb-md-0.mb-4(data-aos="fade-right")
           img(src='@/assets/curso/temas/tema1/img23.png')
         .col-md-6.col-10
-          p La empresa ha trabajado en disminuir sus compromisos con entidades financieras, proveedores y acreedores tanto a corto como a largo plazo lo cual demuestra la habilidad de la gerencia para dirigir la empresa y la cohesión de su equipo de trabajo para aunar esfuerzos y alcanzar objetivos.      
+          p La empresa ha trabajado en disminuir sus compromisos con entidades financieras, proveedores y acreedores tanto a corto como a largo plazo, lo cual demuestra la habilidad de la gerencia para dirigir la empresa y la cohesión de su equipo de trabajo para aunar esfuerzos y alcanzar objetivos.      
       
     
     .h4.mb-4(data-aos="zoom-down-right")
@@ -628,7 +628,7 @@
     
     .row.justify-content-center.align-items-center.mb-4
       .col-md-7.col-10.mb-md-0.mb-4.order-md-1.order-2
-        p Las revelaciones son la información o explicación que se presenta en las notas a los estados financieros las cuales son señales, se deben presentar de manera ordenada, secuencial, congruente conforme se presenta la información financiera. Corresponden a comentarios que se incluyen en los estados financieros de una organización para ampliar información acerca de datos específicos que presentan estos informes.
+        p Las revelaciones son la información o explicación que se presenta en las notas a los estados financieros, las cuales son señales, se deben presentar de manera ordenada, secuencial, congruente conforme se presenta la información financiera. Corresponden a comentarios que se incluyen en los estados financieros de una organización para ampliar información acerca de datos específicos que presentan estos informes.
         p Su función es brindar información comprensible que devele, entre otras, el fundamento para elaborar los estados financieros, políticas contables, de cartera, de proveedores, de inversiones y todas las que sea necesario precisar para brindar una información clara, verídica y completa, así como la información que no fue incluida en los estados financieros, además de las prácticas contables y todo lo que sea necesario para aportar a las decisiones de tipo económico.
       .col-md-5.col-8.order-md-2.order-1(data-aos="fade-left")
         img(src='@/assets/curso/temas/tema1/img27.png')
@@ -688,7 +688,7 @@
           .col-md-7.col-10.p-0.px-0.order-md-1.order-2
             //- .BG01.p-2.mb-4
             h4.mx-4 Indicadores de actividad
-            p.mx-4 En los Indicadores de actividad se tienen rotación de cartera, periodo promedio de cobro, descuento por pronto pago, rotación de inventarios, rotación de inventarios para empresas comerciales, rotación de inventarios para empresas industriales y ciclo de efectivo
+            p.mx-4 En los Indicadores de actividad se tienen rotación de cartera, periodo promedio de cobro, descuento por pronto pago, rotación de inventarios, rotación de inventarios para empresas comerciales, rotación de inventarios para empresas industriales y ciclo de efectivo.
             p.mx-4.mb-0 La rotación de proveedores consiste en evaluar el número de días que la empresa toma para pagar a los proveedores, es decir, el número de días que los proveedores aportan a la financiación de la empresa.
           .col-md-5.col-10.order-md-2.order-1
             img(src='@/assets/curso/temas/tema1/img31.png')

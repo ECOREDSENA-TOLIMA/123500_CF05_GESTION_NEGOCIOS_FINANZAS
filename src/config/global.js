@@ -164,12 +164,12 @@ export default {
     {
       termino: 'IASB',
       significado:
-        'International Accounting Standards Committee, significa Junta de Normas Internacionales de Contabilidad, es un organismo independiente del sector privado que desarrolla y aprueba las Normas Internacionales de Información Financiera.',
+        '<em>International Accounting Standards Committee</em>, significa Junta de Normas Internacionales de Contabilidad, es un organismo independiente del sector privado que desarrolla y aprueba las Normas Internacionales de Información Financiera.',
     },
     {
       termino: 'IFRS',
       significado:
-        'International Financial Reporting Standars o IAS International Accouting Standards y en conjunto se denominan IFRS. Establecen los requisitos de reconocimiento, medición, presentación e información a revelar que se refieren a las transacciones y sucesos económicos que son relevantes en los estados financieros.',
+        '<em>International Financial Reporting Standars o IAS International Accouting Standards</em> y en conjunto se denominan IFRS. Establecen los requisitos de reconocimiento, medición, presentación e información a revelar que se refieren a las transacciones y sucesos económicos que son relevantes en los estados financieros.',
     },
     {
       termino: 'NIC',
@@ -210,7 +210,7 @@ export default {
     },
     {
       referencia:
-        'Carreño, J. (2015). Importancia de las revelaciones en los estados financieros bajo NIIF para la toma de decisiones. Universidad Militar Nueva Granada..',
+        'Carreño, J. (2015). Importancia de las revelaciones en los estados financieros bajo NIIF para la toma de decisiones. Universidad Militar Nueva Granada.',
       link: 'https://repository.unimilitar.edu.co/handle/10654/7236',
     },
     {
@@ -239,6 +239,12 @@ export default {
     {
       titulo: 'CONTENIDO INSTRUCCIONAL',
       autores: [
+        // {
+        //   nombre: 'Rafael Neftalí Lizcano Reyes',
+        //   cargo: 'Asesor Metodológico y Pedagógico',
+        //   centro:
+        //     'Regional Santander - Centro Industrial del Diseño y la Manufactura',
+        // },
         {
           nombre: 'Abel Fernando Becerra Carrillo',
           cargo: 'Experto Temático',
@@ -269,24 +275,100 @@ export default {
         },
         {
           nombre: 'Leydy Jhuliana Jaramillo Mejía',
-          cargo: 'Diseñadora Instruccional',
-          centro: 'Regional Distrito Capital - Centro de Gestión Industrial',
+          cargo: 'Regional Distrito Capital - Centro de Gestión Industrial',
+          centro:
+            'Regional Norte de Santander - Centro de la Industria, la Empresa y los Servicios',
         },
         {
           nombre: 'Andrés Felipe Velandia Espitia',
           cargo: 'Asesor Metodológico',
-          centro: 'Regional Distrito Capital - Centro de Diseño y Metrología',
-        },
-        {
-          nombre: 'José Gabriel Ortiz Abella',
-          cargo: 'Corrector de Estilo',
-          centro: 'Regional Distrito Capital - Centro de Diseño y Metrología',
+          centro: 'Regional Tolima - Centro de Comercio y Servicios',
         },
       ],
     },
     {
       titulo: 'DISEÑO Y DESARROLLO DE RECURSOS EDUCATIVOS DIGITALES',
       autores: [
+        // {
+        //   nombre: 'Francisco José Lizcano Reyes',
+        //   cargo: 'Responsable del Equipo',
+        //   centro:
+        //     'Regional Santander - Centro Industrial del Diseño y la Manufactura',
+        // },
+        {
+          nombre: 'José Gabriel Ortiz Abella',
+          cargo: 'Corrector de Estilo',
+          centro: 'Regional Distrito Capital - Centro de Diseño y Metrología',
+        },
+        {
+          nombre: 'Andrés Felipe Velandia Espitia',
+          cargo: 'Evaluador Instruccional',
+          centro: 'Regional Tolima - Centro de Comercio y Servicios',
+        },
+        // {
+        //   nombre: 'Leyson Fabian Castaño Perez',
+        //   cargo: 'Soporte Organizacional',
+        //   centro: 'Regional Tolima - Centro de comercio y servicios',
+        // },
+        // {
+        //   nombre: 'María Natalia Maldonado Delgado',
+        //   cargo: 'Diseño Web',
+        //   centro:
+        //     'Regional Santander - Centro Industrial del Diseño y la Manufactura',
+        // },
+        // {
+        //   nombre: 'Diego Fernando Velasco Güiza',
+        //   cargo: 'Desarrollo Front-End',
+        //   centro:
+        //     'Regional Santander - Centro Industrial del Diseño y la Manufactura',
+        // },
+        // {
+        //   nombre: 'Zuleidy María Ruíz Torres',
+        //   cargo: 'Producción Audiovisual',
+        //   centro: 'Regional Tolima - Centro de comercio y servicios',
+        // },
+        // {
+        //   nombre: 'Wilson Andrés Arenales Cáceres',
+        //   cargo: 'Producción Audiovisual',
+        //   centro:
+        //     'Regional Santander - Centro Industrial del Diseño y la Manufactura',
+        // },
+        // {
+        //   nombre: 'Gilberto Junior Rodríguez Rodríguez',
+        //   cargo: 'Validación Audiovisual',
+        //   centro:
+        //     'Regional Santander - Centro Industrial del Diseño y la Manufactura',
+        // },
+        // {
+        //   nombre: 'María Carolina Tamayo López',
+        //   cargo: 'Locución',
+        //   centro:
+        //     'Regional Santander - Centro Industrial del Diseño y la Manufactura',
+        // },
+        // {
+        //   nombre: 'Lina Marcela Pérez Manchego',
+        //   cargo: 'Ilustración',
+        //   centro:
+        //     'Regional Santander - Centro Industrial del Diseño y la Manufactura',
+        // },
+        // {
+        //   nombre: 'Estefani Daniela Gallo Cortés',
+        //   cargo: 'Ilustración',
+        //   centro:
+        //     'Regional Santander - Centro Industrial del Diseño y la Manufactura',
+        // },
+        // {
+        //   nombre: 'Erika Viviana Sandoval Rojas',
+        //   cargo: 'Producción Audiovisua',
+        //   centro:
+        //     'Regional Santander - Centro Industrial del Diseño y la Manufactura',
+        // },
+        // {
+        //   nombre: 'Maria Camila Ovalle Ospina',
+        //   cargo: 'Validación de Diseño y Contenido',
+        //   centro:
+        //     'Regional Santander - Centro Industrial del Diseño y la Manufactura',
+        // },
         {
           nombre: 'Oscar Iván Uribe Ortiz',
           cargo: 'Diseñador de Contenidos Digitales ',
@@ -308,7 +390,7 @@ export default {
           centro: 'Regional Tolima - Centro de comercio y servicios',
         },
         {
-          nombre: 'Margarita Marcela Medrano',
+          nombre: 'Javier Mauricio Oviedo',
           cargo: 'Vinculador y Validador de Recursos Educativos Digitales LMS ',
           centro: 'Regional Tolima - Centro de comercio y servicios',
         },

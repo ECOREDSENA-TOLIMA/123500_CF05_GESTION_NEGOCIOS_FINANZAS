@@ -46,7 +46,7 @@
 
     .row.justify-content-center.mb-4(data-aos="fade-left")
       .col-12
-        p.mb-0 Dado lo anterior se recibe, entonces, como beneficio un valor adicional, lo que implica que el dinero en mención es el capital, el excedente a recibir es un beneficio y que este surge por causa de la tasa de interés.<br><br>
+        p.mb-0 Dado lo anterior, se recibe, entonces como beneficio un valor adicional, lo que implica que el dinero en mención es el capital, el excedente a recibir es un beneficio y que este surge por causa de la tasa de interés.<br><br>
         p.mb-0 De aquí la importancia de la matemática financiera en las organizaciones, pues brinda un panorama mucho más cercano a la realidad, a través de técnicas e instrumentos que permiten dilucidar el resultado de una decisión en un futuro. Para ello, se invita a observar los elementos que se integran en las matemáticas financieras para ser aplicadas: 
     
     .BG04.p-4.mb-4(data-aos="fade-left")
@@ -79,7 +79,7 @@
         .row.justify-content-center
           .col-md-5.mb-md-0.mb-2
             h4 Valor del dinero en el tiempo
-            p Se refiere a la capacidad del dinero en el tiempo de generar mayor valor al dinero, o en otras palabras, de generar riqueza. Este valor es el que nos permite hallar las matemáticas financieras a través de su fórmula de valor presente para conocer el valor del dinero hoy y de conocer el valor futuro de una inversión u obligación según fuere el caso.
+            p Se refiere a la capacidad del dinero en el tiempo de generar mayor valor al dinero o en otras palabras, de generar riqueza. Este valor es el que nos permite hallar las matemáticas financieras a través de su fórmula de valor presente para conocer el valor del dinero hoy y de conocer el valor futuro de una inversión u obligación según fuere el caso.
             p Las matemáticas financieras son útiles para trabajar anualidades, es decir, con el fin de determinar las cuotas a pagar para cubrir una inversión que se espera recuperar junto con su beneficio o tasa de interés a un término definido y una  tasa de interés específica.
           .col-md-7
             img.d-none.d-sm-none.d-md-block(src='@/assets/curso/temas/tema2/img06.svg')
@@ -96,7 +96,7 @@
 
     .row.justify-content-center.align-items-center.mb-4
       .col-md-7.col-10.order-md-1.order-2.px-lg-1
-        p El análisis es la función principal que cumple la matemática financiera, ella proporciona diferentes herramientas que hacen posible conocer escenarios desconocidos en diferentes circunstancias los cuales aportan al exitoso desempeño organizacional. Para analizar los anteriores conceptos, a continuación, se desarrolla un ejercicio de aplicación:
+        p El análisis es la función principal que cumple la matemática financiera, ella proporciona diferentes herramientas que hacen posible conocer escenarios desconocidos en diferentes circunstancias, los cuales aportan al exitoso desempeño organizacional. Para analizar los anteriores conceptos, a continuación, se desarrolla un ejercicio de aplicación:
         p.mb-0 El inversionista está programando un viaje de turismo en un año que según cotizaciones le costará $15.000.000, actualmente cuenta con dinero disponible para invertir y desea que el beneficio sumado a la inversión corresponda mínimo al valor del viaje, para esto se ha informado que la tasa de interés efectivo anual es de 27,71 %.
       .col-md-5.col-10.order-md-2.order-1.mb-md-0.mb-4
         figure.mb-5(data-aos="fade-left")
