@@ -269,26 +269,26 @@
           img(src='@/assets/curso/temas/tema3/img20.png')
         .col-11.BG16.mt-2.p-4.order-3
           p.mb-0 * Los ingresos corresponden a la venta del equipo vigente y el impuesto por pagar por la venta que deben ser incorporados en el año cero (0), porque se realiza la inversión en la compra del activo de reemplazo.
-      .row.justify-content-center(titulo="Flujo de caja incremental")
-        .col-lg-11.col-12
-          p Es pertinente anotar que para tomar decisiones de inversión en el caso del reemplazo se hace necesario comparar a través de flujo diferencial para evaluar el impacto de la decisión, este se realiza tomando los flujos de caja netos de la situación sin proyecto o en este caso sin reemplazo y debajo se ubican los flujos de caja netos de la situación con proyecto o para este caso con reemplazo lo que permite calcular las diferencias y valorar el flujo incremental el cual se construye así:
-        .col-md-5.col-11.order-1.mb-md-0.mb-4
-          img(src='@/assets/curso/temas/tema3/img21.png')
-        .col-md-6.col-11.order-2.mb-4
-          h4 Flujo de caja incremental 
-          p.mb-0 = Ingresos sujetos a impuestos*.
-          p.mb-0 + Ahorro costos.
-          p.mb-0 + Gastos no desembolsables/Depreciación.
-          p.mb-0 -	Valor en libros.
-          p.mb-0 = Utilidad antes de impuesto.
-          p.mb-0 + Impuesto.
-          p.mb-0 = Utilidad neta.
-          p.mb-0 + Depreciación.
-          p.mb-0 + Valor en libros.
-          p.mb-0 -	Inversión.
-          p.mb-0 = Flujo de caja.
-        .col-11.BG16.p-4.order-3
-          p.mb-0 * La financiación de un proyecto depende de la mejor alternativa que el inversionista debe hallar a partir de la elaboración de los flujos de costos de cada opción de financiación con el fin de elegir la más apropiada, siendo esta la que represente el menor valor actual de costos de capital.
+    .row.justify-content-center.mb-5(data-aos="zoom-down-right")
+      .col-lg-11.col-12
+        p Es pertinente anotar que para tomar decisiones de inversión en el caso del reemplazo se hace necesario comparar a través de flujo diferencial para evaluar el impacto de la decisión, este se realiza tomando los flujos de caja netos de la situación sin proyecto o en este caso sin reemplazo y debajo se ubican los flujos de caja netos de la situación con proyecto o para este caso con reemplazo lo que permite calcular las diferencias y valorar el flujo incremental el cual se construye así:
+      .col-lg-5.col-12.order-1.mb-md-0.mb-4
+        img(src='@/assets/curso/temas/tema3/img21.png')
+      .col-lg-6.col-12.order-2.mb-4
+        h4 Flujo de caja incremental 
+        p.mb-0 = Ingresos sujetos a impuestos*.
+        p.mb-0 + Ahorro costos.
+        p.mb-0 + Gastos no desembolsables/Depreciación.
+        p.mb-0 -	Valor en libros.
+        p.mb-0 = Utilidad antes de impuesto.
+        p.mb-0 + Impuesto.
+        p.mb-0 = Utilidad neta.
+        p.mb-0 + Depreciación.
+        p.mb-0 + Valor en libros.
+        p.mb-0 -	Inversión.
+        p.mb-0 = Flujo de caja.
+      .col-11.BG16.p-4.order-3
+        p.mb-0 * La financiación de un proyecto depende de la mejor alternativa que el inversionista debe hallar a partir de la elaboración de los flujos de costos de cada opción de financiación con el fin de elegir la más apropiada, siendo esta la que represente el menor valor actual de costos de capital.
 
     .h4.mb-4.mt-5(data-aos="zoom-down-right")
       span.titulo-herramientas Evaluación financiera

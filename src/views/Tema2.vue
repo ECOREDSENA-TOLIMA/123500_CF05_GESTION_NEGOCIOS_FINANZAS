@@ -46,7 +46,7 @@
 
     .row.justify-content-center.mb-4(data-aos="fade-left")
       .col-12
-        p.mb-0 Dado lo anterior, se recibe, entonces como beneficio un valor adicional, lo que implica que el dinero en mención es el capital, el excedente a recibir es un beneficio y que este surge por causa de la tasa de interés.<br><br>
+        p.mb-0 Dado lo anterior, se recibe entonces como beneficio un valor adicional, lo que implica que el dinero en mención es el capital, el excedente a recibir es un beneficio y que este surge por causa de la tasa de interés.<br><br>
         p.mb-0 De aquí la importancia de la matemática financiera en las organizaciones, pues brinda un panorama mucho más cercano a la realidad, a través de técnicas e instrumentos que permiten dilucidar el resultado de una decisión en un futuro. Para ello, se invita a observar los elementos que se integran en las matemáticas financieras para ser aplicadas: 
     
     .BG04.p-4.mb-4(data-aos="fade-left")
