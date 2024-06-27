@@ -164,12 +164,12 @@ export default {
     {
       termino: 'IASB',
       significado:
-        '<em>International Accounting Standards Committee</em>, significa Junta de Normas Internacionales de Contabilidad, es un organismo independiente del sector privado que desarrolla y aprueba las Normas Internacionales de Información Financiera.',
+        'International Accounting Standards Committee, significa Junta de Normas Internacionales de Contabilidad, es un organismo independiente del sector privado que desarrolla y aprueba las Normas Internacionales de Información Financiera.',
     },
     {
       termino: 'IFRS',
       significado:
-        '<em>International Financial Reporting Standars o IAS International Accouting Standards</em> y en conjunto se denominan IFRS. Establecen los requisitos de reconocimiento, medición, presentación e información a revelar que se refieren a las transacciones y sucesos económicos que son relevantes en los estados financieros.',
+        'International Financial Reporting Standars o IAS International Accouting Standards y en conjunto se denominan IFRS. Establecen los requisitos de reconocimiento, medición, presentación e información a revelar que se refieren a las transacciones y sucesos económicos que son relevantes en los estados financieros.',
     },
     {
       termino: 'NIC',

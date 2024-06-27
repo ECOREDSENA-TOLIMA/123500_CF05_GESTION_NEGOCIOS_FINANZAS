@@ -32,7 +32,7 @@
       .col-md-9.col-11
         p Para realizar la evaluación financiera y social el inversionista no acude a la información que le brinda los estados financieros de la situación financiera y de resultados que en un proyecto de inversión o una empresa en marcha serían proyecciones de las probabilidades de éxito que se podría alcanzar con x alternativa de inversión. En esta parte de la evaluación financiera y social, la herramienta básica para evaluar una alternativa de inversiones, el flujo de caja o de efectivo.
 
-    p Este estado financiero conocido según las NIIF como flujo de efectivo que en síntesis es la consolidación de ingresos y egresos para que la organización pueda proyectarse acerca de los ingresos que recibirá y de los costos y gastos que deberá asumir para garantizar la operatividad de la empresa. Como complemento, observe con el siguiente video los elementos a tener presente dentro de la información financiera desde el uso de las NIF en las empresas:
+    p Este estado financiero conocido según las NIIF como flujo de efectivo que en síntesis es la consolidación de ingresos y egresos para que la organización pueda proyectarse acerca de los ingresos que recibirá y de los costos y gastos que deberá asumir para garantizar la operatividad de la empresa. Como complemento, analice en el siguiente video los elementos a tener presente dentro de la información financiera desde el uso de las NIF en las empresas:
 
     figure.mb-5(data-aos="fade-right")
       .video
@@ -275,7 +275,7 @@
         .col-md-5.col-11.order-1.mb-md-0.mb-4
           img(src='@/assets/curso/temas/tema3/img21.png')
         .col-md-6.col-11.order-2.mb-4
-          //- h4 Flujo de caja incremental 
+          h4 Flujo de caja incremental 
           p.mb-0 = Ingresos sujetos a impuestos*.
           p.mb-0 + Ahorro costos.
           p.mb-0 + Gastos no desembolsables/Depreciación.
@@ -329,7 +329,7 @@
             //- h4 CAUE
             .row 
               .col-12
-                p Indica Costo Anual Uniforme Equivalente llamado también flujo final de caja y representa la cantidad de flujos de caja que el proyecto de inversión espera recibir por un número n de periodos a una tasa de interés transformando todos los ingreso y egresos en pagos uniformes o anualidades.
+                p Indica Costo Anual Uniforme Equivalente llamado también flujo final de caja y representa la cantidad de flujos de caja que el proyecto de inversión espera recibir por un número n de periodos a una tasa de interés transformando todos los ingresos y egresos en pagos uniformes o anualidades.
                 p <span style="background-color:#3AE3FE !important; font-weight: bold; padding: 5px">CAUE = - I0 +(F/(1 + i)n) + (F/(1 + i)n) + (F/(1 + i)n)… donde i = TIO</span>
                 p.mb-1 Los criterios para aceptar o rechazar un proyecto de inversión bajo este indicador es:
                 p.text-bold.mb-0 1. Si el CAUE es positivo, los ingresos son mayores que los egresos y genera beneficios y rentabilidad.
@@ -426,7 +426,7 @@
           h4 EVA
           p Quiere decir valor económico agregado, es un indicador creado para crear riqueza basado en la eficiencia y productividad de los bienes y derechos de la empresa o activos, la estructura del capital y el medio al que la empresa pertenece. Su fórmula es:
           p.text-center <span style="background-color:#3AE3FE !important; font-weight: bold; padding: 5px">EVA = UNA - (ANF x CPC)</span>
-          p.mb-0.text-bold EVA: #[em Economic Value Added] (valor económico agregado).
+          p.mb-0.text-bold EVA: Economic Value Added (valor económico agregado).
           p.mb-0.text-bold UNA: Utilidad Neta Ajustada.
           p.mb-0.text-bold ANF: Activo Neto Financiado.
           p.mb-0.text-bold CPC: Costo Promedio de Capital.

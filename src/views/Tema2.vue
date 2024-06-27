@@ -125,7 +125,7 @@
       .col-md-8.tarjeta.color-primario.p-4
         p.text-bold.text-center.mb-0 F = P(1 '+ i)<sup>n</sup>, F = 12'823.266,57(1 + 0,01315147813)<sup>12</sup>    = $15.000.000
     
-    p Se puede comprobar que el cálculo estuvo bien ejecutado, pero es importante aclarar que la cifra en decimales debe tener la totalidad de números para obtener este resultado. Observe con el siguiente video cómo se pueden realizar estas conversiones y su aporte a las finanzas:
+    p Se puede comprobar que el cálculo estuvo bien ejecutado, pero es importante aclarar que la cifra en decimales debe tener la totalidad de números para obtener este resultado. Analice en el siguiente video cómo se pueden realizar estas conversiones y su aporte a las finanzas:
 
     figure.mb-5(data-aos="fade-right")
       .video
