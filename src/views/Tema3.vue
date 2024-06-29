@@ -513,7 +513,7 @@
               td(style="background-color: #F6F6F6;").text-end 13.790.472,59
               td(style="background-color: #F6F6F6;").text-end 0
     
-    p La tabla de amortización siempre debe dar en su saldo final cero, por esa razón se utilizan todos los decimales parecer algo imperceptible, pero al tomar solo dos decimales la cuota era por $17.492.000 y al finalizar arrojaba un saldo final de $17.000, aproximadamente.
+    p La tabla de amortización siempre debe dar en su saldo final cero, por esa razón se utilizan todos los decimales, aunque parezca algo imperceptible, porque al tomar solo dos decimales la cuota era por $17.492.000 y al finalizar arrojaba un saldo final de $17.000, aproximadamente.
 
     .titulo-sexto.color-acento-contenido.mb-4(data-aos="fade-right")
       h5 Tabla 8.

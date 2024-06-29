@@ -226,7 +226,7 @@ export default {
       autores: [
         {
           nombre: 'Milady Tatiana Villamil Castellanos',
-          cargo: 'Líder Ecosistema de Recursos Educativos Digitales',
+          cargo: 'Responsable del Equipo',
           centro: 'Dirección General',
         },
         {
@@ -239,12 +239,12 @@ export default {
     {
       titulo: 'CONTENIDO INSTRUCCIONAL',
       autores: [
-        // {
-        //   nombre: 'Rafael Neftalí Lizcano Reyes',
-        //   cargo: 'Asesor Metodológico y Pedagógico',
-        //   centro:
-        //     'Regional Santander - Centro Industrial del Diseño y la Manufactura',
-        // },
+        {
+          nombre: 'Rafael Neftalí Lizcano Reyes',
+          cargo: 'Asesor Metodológico y Pedagógico',
+          centro:
+            'Regional Santander - Centro Industrial del Diseño y la Manufactura',
+        },
         {
           nombre: 'Abel Fernando Becerra Carrillo',
           cargo: 'Experto Temático',
@@ -274,27 +274,21 @@ export default {
             'Regional Norte de Santander - Centro de la Industria, la Empresa y los Servicios',
         },
         {
-          nombre: 'Leydy Jhuliana Jaramillo Mejía',
-          cargo: 'Regional Distrito Capital - Centro de Gestión Industrial',
-          centro:
-            'Regional Norte de Santander - Centro de la Industria, la Empresa y los Servicios',
-        },
-        {
           nombre: 'Andrés Felipe Velandia Espitia',
           cargo: 'Asesor Metodológico',
-          centro: 'Regional Tolima - Centro de Comercio y Servicios',
+          centro: 'Regional Distrito Capital - Centro de Diseño y Metrología',
         },
       ],
     },
     {
       titulo: 'DISEÑO Y DESARROLLO DE RECURSOS EDUCATIVOS DIGITALES',
       autores: [
-        // {
-        //   nombre: 'Francisco José Lizcano Reyes',
-        //   cargo: 'Responsable del Equipo',
-        //   centro:
-        //     'Regional Santander - Centro Industrial del Diseño y la Manufactura',
-        // },
+        {
+          nombre: 'Francisco José Lizcano Reyes',
+          cargo: 'Responsable del Equipo',
+          centro:
+            'Regional Santander - Centro Industrial del Diseño y la Manufactura',
+        },
         {
           nombre: 'José Gabriel Ortiz Abella',
           cargo: 'Corrector de Estilo',
@@ -305,70 +299,70 @@ export default {
           cargo: 'Evaluador Instruccional',
           centro: 'Regional Tolima - Centro de Comercio y Servicios',
         },
-        // {
-        //   nombre: 'Leyson Fabian Castaño Perez',
-        //   cargo: 'Soporte Organizacional',
-        //   centro: 'Regional Tolima - Centro de comercio y servicios',
-        // },
-        // {
-        //   nombre: 'María Natalia Maldonado Delgado',
-        //   cargo: 'Diseño Web',
-        //   centro:
-        //     'Regional Santander - Centro Industrial del Diseño y la Manufactura',
-        // },
-        // {
-        //   nombre: 'Diego Fernando Velasco Güiza',
-        //   cargo: 'Desarrollo Front-End',
-        //   centro:
-        //     'Regional Santander - Centro Industrial del Diseño y la Manufactura',
-        // },
-        // {
-        //   nombre: 'Zuleidy María Ruíz Torres',
-        //   cargo: 'Producción Audiovisual',
-        //   centro: 'Regional Tolima - Centro de comercio y servicios',
-        // },
-        // {
-        //   nombre: 'Wilson Andrés Arenales Cáceres',
-        //   cargo: 'Producción Audiovisual',
-        //   centro:
-        //     'Regional Santander - Centro Industrial del Diseño y la Manufactura',
-        // },
-        // {
-        //   nombre: 'Gilberto Junior Rodríguez Rodríguez',
-        //   cargo: 'Validación Audiovisual',
-        //   centro:
-        //     'Regional Santander - Centro Industrial del Diseño y la Manufactura',
-        // },
-        // {
-        //   nombre: 'María Carolina Tamayo López',
-        //   cargo: 'Locución',
-        //   centro:
-        //     'Regional Santander - Centro Industrial del Diseño y la Manufactura',
-        // },
-        // {
-        //   nombre: 'Lina Marcela Pérez Manchego',
-        //   cargo: 'Ilustración',
-        //   centro:
-        //     'Regional Santander - Centro Industrial del Diseño y la Manufactura',
-        // },
-        // {
-        //   nombre: 'Estefani Daniela Gallo Cortés',
-        //   cargo: 'Ilustración',
-        //   centro:
-        //     'Regional Santander - Centro Industrial del Diseño y la Manufactura',
-        // },
-        // {
-        //   nombre: 'Erika Viviana Sandoval Rojas',
-        //   cargo: 'Producción Audiovisua',
-        //   centro:
-        //     'Regional Santander - Centro Industrial del Diseño y la Manufactura',
-        // },
-        // {
-        //   nombre: 'Maria Camila Ovalle Ospina',
-        //   cargo: 'Validación de Diseño y Contenido',
-        //   centro:
-        //     'Regional Santander - Centro Industrial del Diseño y la Manufactura',
-        // },
+        {
+          nombre: 'Leyson Fabian Castaño Perez',
+          cargo: 'Profesional de Soporte Organizacional',
+          centro: 'Regional Tolima - Centro de comercio y servicios',
+        },
+        {
+          nombre: 'María Natalia Maldonado Delgado',
+          cargo: 'Diseñadora de Contenidos Digitales',
+          centro:
+            'Regional Santander - Centro Industrial del Diseño y la Manufactura',
+        },
+        {
+          nombre: 'Diego Fernando Velasco Güiza',
+          cargo: 'Desarrollador Front-End',
+          centro:
+            'Regional Santander - Centro Industrial del Diseño y la Manufactura',
+        },
+        {
+          nombre: 'Zuleidy María Ruíz Torres',
+          cargo: 'Productor Audiovisual',
+          centro: 'Regional Tolima - Centro de comercio y servicios',
+        },
+        {
+          nombre: 'Wilson Andrés Arenales Cáceres',
+          cargo: 'Productor Audiovisual',
+          centro:
+            'Regional Santander - Centro Industrial del Diseño y la Manufactura',
+        },
+        {
+          nombre: 'Gilberto Junior Rodríguez Rodríguez',
+          cargo: 'Validador Audiovisual',
+          centro:
+            'Regional Santander - Centro Industrial del Diseño y la Manufactura',
+        },
+        {
+          nombre: 'María Carolina Tamayo López',
+          cargo: 'Locutora',
+          centro:
+            'Regional Santander - Centro Industrial del Diseño y la Manufactura',
+        },
+        {
+          nombre: 'Lina Marcela Pérez Manchego',
+          cargo: 'Ilustradora',
+          centro:
+            'Regional Santander - Centro Industrial del Diseño y la Manufactura',
+        },
+        {
+          nombre: 'Estefani Daniela Gallo Cortés',
+          cargo: 'Ilustradora',
+          centro:
+            'Regional Santander - Centro Industrial del Diseño y la Manufactura',
+        },
+        {
+          nombre: 'Erika Viviana Sandoval Rojas',
+          cargo: 'Productora Audiovisua',
+          centro:
+            'Regional Santander - Centro Industrial del Diseño y la Manufactura',
+        },
+        {
+          nombre: 'Maria Camila Ovalle Ospina',
+          cargo: 'Validadora de Diseño y Contenido',
+          centro:
+            'Regional Santander - Centro Industrial del Diseño y la Manufactura',
+        },
         {
           nombre: 'Oscar Iván Uribe Ortiz',
           cargo: 'Diseñador de Contenidos Digitales ',
@@ -386,7 +380,7 @@ export default {
       autores: [
         {
           nombre: 'Norma Constanza Morales Cruz',
-          cargo: 'Evaluador de Contenidos Inclusivos y Accesibles',
+          cargo: 'Evaluadora de Contenidos Inclusivos y Accesibles',
           centro: 'Regional Tolima - Centro de comercio y servicios',
         },
         {
