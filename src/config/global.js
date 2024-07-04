@@ -353,7 +353,7 @@ export default {
         },
         {
           nombre: 'Erika Viviana Sandoval Rojas',
-          cargo: 'Productora Audiovisua',
+          cargo: 'Productora Audiovisual',
           centro:
             'Regional Santander - Centro Industrial del Diseño y la Manufactura',
         },

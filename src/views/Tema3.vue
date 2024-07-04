@@ -369,7 +369,7 @@
     p Se define con el fin de determinar el costo del patrimonio siendo los dueños quienes fijan la tasa de retorno superior a la fijada por los acreedores. Para calcularlo se toma el costo de cada pasivo costoso y la tasa de oportunidad (TIO) esperada por los socios, luego cada renglón se pondera por su respectiva participación del total de recursos costosos. Para calcularlo se va a tomar la información del estado de situación financiera de Saloan:
 
     .titulo-sexto.color-acento-contenido.mb-4(data-aos="fade-right")
-      h5 Tabla 6.
+      h5 Tabla 5.
       em Costo promedio de capital
     .tabla-a
       table.mb-4(data-aos="fade-right")
@@ -472,7 +472,7 @@
         img.d-block.d-md-none(src='@/assets/curso/temas/tema3/img24b.png') 
       .col-md-10.mb-4
         .titulo-sexto.color-acento-contenido.mb-4(data-aos="fade-right")
-          h5 Tabla 7.
+          h5 Tabla 6.
           em Amortización
         .tabla-b
           table.mb-4(data-aos="fade-right")
@@ -516,7 +516,7 @@
     p La tabla de amortización siempre debe dar en su saldo final cero, por esa razón se utilizan todos los decimales, aunque parezca algo imperceptible, porque al tomar solo dos decimales la cuota era por $17.492.000 y al finalizar arrojaba un saldo final de $17.000, aproximadamente.
 
     .titulo-sexto.color-acento-contenido.mb-4(data-aos="fade-right")
-      h5 Tabla 8.
+      h5 Tabla 7.
       em Flujo de caja
     .tabla-b
       table.mb-4(data-aos="fade-right")
