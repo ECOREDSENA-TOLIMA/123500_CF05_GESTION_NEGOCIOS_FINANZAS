@@ -232,7 +232,7 @@ export default {
         {
           nombre: 'Liliana Victoria Morales Gualdrón',
           cargo: 'Responsable de Línea de Producción',
-          centro: 'Regional Tolima - Centro de Comercio y Servicios ',
+          centro: 'Regional Tolima - Centro de Comercio y Servicios',
         },
       ],
     },
@@ -273,22 +273,16 @@ export default {
           centro:
             'Regional Norte de Santander - Centro de la Industria, la Empresa y los Servicios',
         },
-        {
-          nombre: 'Andrés Felipe Velandia Espitia',
-          cargo: 'Asesor Metodológico',
-          centro: 'Regional Distrito Capital - Centro de Diseño y Metrología',
-        },
+        // {
+        //   nombre: 'Andrés Felipe Velandia Espitia',
+        //   cargo: 'Asesor Metodológico',
+        //   centro: 'Regional Distrito Capital - Centro de Diseño y Metrología',
+        // },
       ],
     },
     {
       titulo: 'DISEÑO Y DESARROLLO DE RECURSOS EDUCATIVOS DIGITALES',
       autores: [
-        {
-          nombre: 'Francisco José Lizcano Reyes',
-          cargo: 'Responsable del Equipo',
-          centro:
-            'Regional Santander - Centro Industrial del Diseño y la Manufactura',
-        },
         {
           nombre: 'José Gabriel Ortiz Abella',
           cargo: 'Corrector de Estilo',
@@ -296,8 +290,14 @@ export default {
         },
         {
           nombre: 'Andrés Felipe Velandia Espitia',
-          cargo: 'Evaluador Instruccional',
+          cargo: 'Asesor Metodológico',
           centro: 'Regional Tolima - Centro de Comercio y Servicios',
+        },
+        {
+          nombre: 'Francisco José Lizcano Reyes',
+          cargo: 'Responsable del Equipo',
+          centro:
+            'Regional Santander - Centro Industrial del Diseño y la Manufactura',
         },
         {
           nombre: 'Leyson Fabian Castaño Perez',
@@ -364,7 +364,7 @@ export default {
             'Regional Santander - Centro Industrial del Diseño y la Manufactura',
         },
         {
-          nombre: 'Oscar Iván Uribe Ortiz',
+          nombre: 'Luis Fernando Botero Mendoza',
           cargo: 'Diseñador de Contenidos Digitales ',
           centro: 'Regional Tolima - Centro de comercio y servicios',
         },
